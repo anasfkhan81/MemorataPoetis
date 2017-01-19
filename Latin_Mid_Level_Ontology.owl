@@ -1,0 +1,585 @@
+@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> .
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#epitaphFor
+
+:epitaphFor rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#hasPart
+
+:hasPart rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#inherent-in
+
+:inherent-in rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#isPartOf
+
+:isPartOf rdf:type owl:ObjectProperty ;
+          
+          owl:inverseOf :hasPart .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#praises
+
+:praises rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#relates
+
+:relates rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#uses
+
+:uses rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular
+
+<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular> rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> rdf:type owl:Class ;
+                                                                                                    
+                                                                                                    rdfs:subClassOf :physical-quality ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty :inherent-in ;
+                                                                                                                      owl:someValuesFrom :Homines
+                                                                                                                    ] ;
+                                                                                                    
+                                                                                                    rdfs:comment "Qualities that can be possessed by human beings" .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia
+
+:Aedificia rdf:type owl:Class ;
+           
+           rdfs:label "Buildings"@en ,
+                      "Aedificia"@la ;
+           
+           rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones
+
+:Alimenta_et_potiones rdf:type owl:Class ;
+                      
+                      rdfs:label "Food and drink"@en ,
+                                 "Alimenta et potiones"@la ;
+                      
+                      rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia
+
+:Animalia rdf:type owl:Class ;
+          
+          rdfs:label "Animals"@en ,
+                     "Animalia"@la ;
+          
+          rdfs:subClassOf :agentive ;
+          
+          rdfs:comment "The class of animals"@en .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores
+
+:Arbores rdf:type owl:Class ;
+         
+         rdfs:label "Trees"@en ,
+                    "Arbores"@la ;
+         
+         rdfs:subClassOf :Arbores_et_Virentia .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores_et_Virentia
+
+:Arbores_et_Virentia rdf:type owl:Class ;
+                     
+                     rdfs:label "Trees and Plants"@en ,
+                                "Arbores et virentia"@la ;
+                     
+                     owl:equivalentClass [ rdf:type owl:Class ;
+                                           owl:unionOf ( :Arbores
+                                                         :Plantae
+                                                       )
+                                         ] ;
+                     
+                     rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Artes_et_disciplinae
+
+:Artes_et_disciplinae rdf:type owl:Class ;
+                      
+                      rdfs:label "Arts and disciplines"@en ,
+                                 "Artes et disciplinae"@la ;
+                      
+                      rdfs:subClassOf :Social_Object .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Bellum
+
+:Bellum rdf:type owl:Class ;
+        
+        rdfs:label "War"@en ,
+                   "Bellum"@la ;
+        
+        rdfs:subClassOf :accomplishment .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Caelum
+
+:Caelum rdf:type owl:Class ;
+        
+        rdfs:label "The Heavens"@en ,
+                   "Caelum"@la ;
+        
+        rdfs:subClassOf :Loca .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Comparison
+
+:Comparison rdf:type owl:Class ;
+			rdfs:subClassOf :relation.
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Conjunction
+
+:Conjunction rdf:type owl:Class ;
+             
+             rdfs:subClassOf :relation .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Corpus
+
+:Corpus rdf:type owl:Class ;
+        
+        rdfs:label "The Body"@en ,
+                   "Corpus"@la ;
+        
+        rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Dei_et_heroes
+
+:Dei_et_heroes rdf:type owl:Class ;
+               
+               rdfs:label "Gods and Heroes"@en ,
+                          "Dei et heroes"@la ; 
+				
+				rdfs:subClassOf :agentive.
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Facultates
+
+:Facultates rdf:type owl:Class ;
+            
+            rdfs:label "Faculties"@en ,
+                       "Facultates"@la ;
+            
+            rdfs:subClassOf :physical-quality .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores
+
+:Flores rdf:type owl:Class ;
+        
+        rdfs:label "Flowers"@en ,
+                   "Flores"@la ;
+        
+        rdfs:subClassOf :Plantae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus
+
+:Fructus rdf:type owl:Class ;
+         
+         rdfs:label "Fruit"@en ,
+                    "Fructus"@la ;
+         
+         rdfs:subClassOf :Alimenta_et_potiones .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Genera
+
+:Genera rdf:type owl:Class ;
+        
+        rdfs:subClassOf :non-physical-object .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Group
+
+:Group rdf:type owl:Class ;
+       
+       rdfs:subClassOf :non-physical-object .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Herbae
+
+:Herbae rdf:type owl:Class ;
+        
+        rdfs:label "Herbs"@en ,
+                   "Herbae"@la ;
+        
+        rdfs:subClassOf :Arbores_et_Virentia .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Homines
+
+:Homines rdf:type owl:Class ;
+         
+         rdfs:label "Men"@en ,
+                    "Homines"@la ;
+         
+         rdfs:subClassOf :agentive .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Inferi
+
+:Inferi rdf:type owl:Class ;
+        
+        rdfs:label "The Underworld"@en ,
+                   "Inferi"@la ;
+        
+        rdfs:subClassOf :Loca .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Lapides_et_metalla
+
+:Lapides_et_metalla rdf:type owl:Class ;
+                    
+                    rdfs:label "Stones and metals"@en ,
+                               "Lapides et metalla"@la ;
+                    
+                    rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Loca
+
+:Loca rdf:type owl:Class ;
+      
+      rdfs:label "Locations"@en ,
+                 "Loca"@la ;
+      
+      rdfs:subClassOf :space-region .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Maria_et_flumina
+
+:Maria_et_flumina rdf:type owl:Class ;
+                  
+                  rdfs:label "Seas and rivers"@en ,
+                             "Maria et flumina"@la ;
+                  
+                  rdfs:subClassOf :Loca .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Mulieres_clarae
+
+:Mulieres_clarae rdf:type owl:Class ;
+                 
+                 rdfs:label "Famous women"@en ,
+                            "Mulieres clarae"@la ;
+                 
+                 rdfs:subClassOf :Homines .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Plantae
+
+:Plantae rdf:type owl:Class ;
+         
+         rdfs:label "Plants"@en ,
+                    "Plantae"@la ;
+         
+         rdfs:subClassOf :Arbores_et_Virentia .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Res_domesticae
+
+:Res_domesticae rdf:type owl:Class ;
+                
+                rdfs:label "Domestic objects"@en ,
+                           "Res domesticae"@la ;
+                
+                rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Simulacra_et_signa
+
+:Simulacra_et_signa rdf:type owl:Class ;
+                    
+                    rdfs:label "Statues and images "@en ,
+                               "Simulacra et signa"@la ;
+                    
+                    rdfs:subClassOf :res .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Social_Object
+
+:Social_Object rdf:type owl:Class ;
+               
+               rdfs:subClassOf :non-physical-object .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Terra
+
+:Terra rdf:type owl:Class ;
+       
+       rdfs:label """Earth locations
+"""@en ,
+                  "Terra"@la ;
+       
+       rdfs:subClassOf :Loca .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Uses_of_things
+
+:Uses_of_things rdf:type owl:Class ;
+                
+                rdfs:subClassOf :non-physical-object .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Viri_clari
+
+:Viri_clari rdf:type owl:Class ;
+            
+            rdfs:label "Famous Men"@en ,
+                       "Viri clari"@la ;
+            
+            rdfs:subClassOf :Homines .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_animalium
+
+:Vsus_animalium rdf:type owl:Class ;
+                
+                rdfs:label "Uses of animals"@en ,
+                           "Vsus animalium"@la ;
+                
+                rdfs:subClassOf :Uses_of_things .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_arborum_herbarum_florum_et_fructuum
+
+:Vsus_arborum_herbarum_florum_et_fructuum rdf:type owl:Class ;
+                                          
+                                          rdfs:label """Uses of trees, herbs, flowers and fruit
+"""@en ,
+                                                     "Vsus arborum, herbarum, florum et fructuum"@la ;
+                                          
+                                          rdfs:subClassOf :Uses_of_things .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#abstract-quality
+
+:abstract-quality rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :quality .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment
+
+:accomplishment rdf:type owl:Class ;
+                
+                rdfs:subClassOf :perdurant .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#achievement
+
+:achievement rdf:type owl:Class ;
+             
+             rdfs:subClassOf :perdurant .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#activity
+
+:activity rdf:type owl:Class ;
+          
+          rdfs:subClassOf :perdurant .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive
+
+:agentive rdf:type owl:Class ;
+          
+          rdfs:subClassOf :physical_and_supernatural_objects .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#endurant
+
+:endurant rdf:type owl:Class ;
+          
+          rdfs:subClassOf <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object
+
+:non-physical-object rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :endurant .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant
+
+:perdurant rdf:type owl:Class ;
+           
+           rdfs:subClassOf <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#physical-quality
+
+:physical-quality rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :quality .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#physical_and_supernatural_objects
+
+:physical_and_supernatural_objects rdf:type owl:Class ;
+                                   
+                                   rdfs:subClassOf :endurant .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#position_or_placement
+
+:position_or_placement rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :physical-quality .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#quality
+
+:quality rdf:type owl:Class ;
+         
+         rdfs:subClassOf <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#relation
+
+:relation rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :relates ;
+                                owl:someValuesFrom owl:Thing
+                              ] ;
+          
+          rdfs:subClassOf :abstract-quality .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res
+
+:res rdf:type owl:Class ;
+     
+     rdfs:label "Things"@en ,
+                "'hings"@glasgow ,
+                "Res"@la ;
+     
+     rdfs:subClassOf :physical_and_supernatural_objects .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#space-region
+
+:space-region rdf:type owl:Class ;
+              
+              rdfs:subClassOf <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#state
+
+:state rdf:type owl:Class ;
+       
+       rdfs:subClassOf :perdurant .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

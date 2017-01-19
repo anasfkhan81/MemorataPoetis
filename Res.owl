@@ -1,0 +1,908 @@
+@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res> .
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res> rdf:type owl:Ontology ;
+                                                             
+                                                             owl:imports <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> .
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aes
+
+:Aes rdf:type owl:Class ;
+     
+     rdfs:label "copper"@en ,
+                "Aes"@la ;
+     
+     rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Amphitheatra
+
+:Amphitheatra rdf:type owl:Class ;
+              
+              rdfs:label "AMPHITHEATERS"@en ,
+                         "Amphitheatra"@la ;
+              
+              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Apothecae
+
+:Apothecae rdf:type owl:Class ;
+           
+           rdfs:label "WINE CELLARS"@en ,
+                      "Apothecae"@la ;
+           
+           rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aqua
+
+:Aqua rdf:type owl:Class ;
+      
+      rdfs:label "WATER"@en ,
+                 "Aqua"@la ;
+      
+      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Arena
+
+:Arena rdf:type owl:Class ;
+       
+       rdfs:label "sand"@en ,
+                  "Arena"@la ;
+       
+       rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Arenae
+
+:Arenae rdf:type owl:Class ;
+        
+        rdfs:label "ARENAS"@en ,
+                   "Arenae"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Argentum
+
+:Argentum rdf:type owl:Class ;
+          
+          rdfs:label "silver"@en ,
+                     "Argentum"@la ;
+          
+          rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Assatura
+
+:Assatura rdf:type owl:Class ;
+          
+          rdfs:label "roast beef"@en ,
+                     "Assatura"@la ;
+          
+          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aurum
+
+:Aurum rdf:type owl:Class ;
+       
+       rdfs:label "GOLD"@en ,
+                  "Aurum"@la ;
+       
+       rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Basilicae
+
+:Basilicae rdf:type owl:Class ;
+           
+           rdfs:label "BASILICAS"@en ,
+                      "Basilicae"@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Bibliothecae
+
+:Bibliothecae rdf:type owl:Class ;
+              
+              rdfs:label "libraries"@en ,
+                         "Bibliothecae"@la ;
+              
+              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Boleti
+
+:Boleti rdf:type owl:Class ;
+        
+        rdfs:label "MUSHROOMS"@en ,
+                   "Boleti"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Calceamenta
+
+:Calceamenta rdf:type owl:Class ;
+             
+             rdfs:label "SHOES"@en ,
+                        "Calceamenta"@la ;
+             
+             rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Calx
+
+:Calx rdf:type owl:Class ;
+      
+      rdfs:label "lime"@en ,
+                 "Calx"@la ;
+      
+      rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Carnes
+
+:Carnes rdf:type owl:Class ;
+        
+        rdfs:label "MEATS"@en ,
+                   "Carnes"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Casae
+
+:Casae rdf:type owl:Class ;
+       
+       rdfs:label "HUTS"@en ,
+                  "Casae"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cenotaphium
+
+:Cenotaphium rdf:type owl:Class ;
+             
+             rdfs:label "cenotaph"@en ,
+                        "Cenotaphium"@la ;
+             
+             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cerealia
+
+:Cerealia rdf:type owl:Class ;
+          
+          rdfs:label "CEREALS"@en ,
+                     "Cerealia"@la ;
+          
+          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Circi
+
+:Circi rdf:type owl:Class ;
+       
+       rdfs:label "CIRCUS"@en ,
+                  "Circi"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Condimenta_et_pimenta
+
+:Condimenta_et_pimenta rdf:type owl:Class ;
+                       
+                       rdfs:label "condiments and pimientos"@en ,
+                                  "Condimenta et pimenta"@la ;
+                       
+                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Creta
+
+:Creta rdf:type owl:Class ;
+       
+       rdfs:label "clay"@en ,
+                  "Creta"@la ;
+       
+       rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cubicula
+
+:Cubicula rdf:type owl:Class ;
+          
+          rdfs:label "bedrooms"@en ,
+                     "Cubicula"@la ;
+          
+          rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Domus
+
+:Domus rdf:type owl:Class ;
+       
+       rdfs:label "HOUSES"@en ,
+                  "Domus"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ecclesiae
+
+:Ecclesiae rdf:type owl:Class ;
+           
+           rdfs:label "churches"@en ,
+                      "Ecclesiae"@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Farta_cibaria
+
+:Farta_cibaria rdf:type owl:Class ;
+               
+               rdfs:label "stuffed foods"@en ,
+                          "Farta cibaria"@la ;
+               
+               rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ferrum
+
+:Ferrum rdf:type owl:Class ;
+        
+        rdfs:label "IRON"@en ,
+                   "Ferrum"@la ;
+        
+        rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Gemmae
+
+:Gemmae rdf:type owl:Class ;
+        
+        rdfs:label "precious stones"@en ,
+                   "Gemmae"@la ;
+        
+        rdfs:subClassOf :Lapis .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Horti
+
+:Horti rdf:type owl:Class ;
+       
+       rdfs:label "gardens"@en ,
+                  "Horti"@la ;
+       
+       rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_ad_cultum_personae
+
+:Instrumenta_ad_cultum_personae rdf:type owl:Class ;
+                                
+                                rdfs:label "things for body care "@en ,
+                                           "Instrumenta ad cultum personae"@la ;
+                                
+                                rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_ad_rem_rusticam_adhibita
+
+:Instrumenta_ad_rem_rusticam_adhibita rdf:type owl:Class ;
+                                      
+                                      rdfs:label "tools for use in farming "@en ,
+                                                 "Instrumenta ad rem rusticam adhibita"@la ;
+                                      
+                                      rdfs:subClassOf :Vtensilia .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_scriptoria
+
+:Instrumenta_scriptoria rdf:type owl:Class ;
+                        
+                        rdfs:label "writing tools"@en ,
+                                   "Instrumenta scriptoria"@la ;
+                        
+                        rdfs:subClassOf :Vtensilia .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_varia
+
+:Instrumenta_varia rdf:type owl:Class ;
+                   
+                   rdfs:label "various stuff"@en ,
+                              "Instrumenta varia"@la ;
+                   
+                   rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Isicia
+
+:Isicia rdf:type owl:Class ;
+        
+        rdfs:label "sausages"@en ,
+                   "Isicia"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lac
+
+:Lac rdf:type owl:Class ;
+     
+     rdfs:label "milk"@en ,
+                "Lac"@la ;
+     
+     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lapides_et_metalla
+
+:Lapides_et_metalla rdf:type owl:Class ;
+                    
+                    rdfs:label "Stones and Metals"@en ,
+                               """Lapides et Metalla
+"""@la ;
+                    
+                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lapis
+
+:Lapis rdf:type owl:Class ;
+       
+       rdfs:label "STONE"@en ,
+                  "Lapis"@la ;
+       
+       rdfs:subClassOf :Lapides_et_metalla .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Marmor
+
+:Marmor rdf:type owl:Class ;
+        
+        rdfs:label "marble"@en ,
+                   "Marmor"@la ;
+        
+        rdfs:subClassOf :Lapis .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Mausolea
+
+:Mausolea rdf:type owl:Class ;
+          
+          rdfs:label "mausoleums"@en ,
+                     "Mausolea"@la ;
+          
+          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Mel
+
+:Mel rdf:type owl:Class ;
+     
+     rdfs:label "honey"@en ,
+                "Mel"@la ;
+     
+     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Moenia
+
+:Moenia rdf:type owl:Class ;
+        
+        rdfs:label "fortifications"@en ,
+                   "Moenia"@la ;
+        
+        rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Olera
+
+:Olera rdf:type owl:Class ;
+       
+       rdfs:label "vegetables"@en ,
+                  "Olera"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Oleum
+
+:Oleum rdf:type owl:Class ;
+       
+       rdfs:label "OLIVE OIL"@en ,
+                  "Oleum"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ornamenta
+
+:Ornamenta rdf:type owl:Class ;
+           
+           rdfs:label "DECORATIONS"@en ,
+                      "Ornamenta"@la ;
+           
+           rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ova
+
+:Ova rdf:type owl:Class ;
+     
+     rdfs:label "EGGS"@en ,
+                "Ova"@la ;
+     
+     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Palatia
+
+:Palatia rdf:type owl:Class ;
+         
+         rdfs:label "PALACES"@en ,
+                    "Palatia"@la ;
+         
+         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Panis_et_res_pistoriae
+
+:Panis_et_res_pistoriae rdf:type owl:Class ;
+                        
+                        rdfs:label "bread and baked products"@en ,
+                                   "Panis et res pistoriae"@la ;
+                        
+                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Partes_aedificiorum_variae
+
+:Partes_aedificiorum_variae rdf:type owl:Class ;
+                            
+                            rdfs:label "various buildings's parts"@en ,
+                                       "Partes aedificiorum variae"@la ;
+                            
+                            rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Parts_of_Buildings
+
+:Parts_of_Buildings rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pilei_vel_petasi
+
+:Pilei_vel_petasi rdf:type owl:Class ;
+                  
+                  rdfs:label "pileuses or petasis"@en ,
+                             "Pilei vel petasi"@la ;
+                  
+                  rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pontes
+
+:Pontes rdf:type owl:Class ;
+        
+        rdfs:label "BRIDGES"@en ,
+                   "Pontes"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Porticus
+
+:Porticus rdf:type owl:Class ;
+          
+          rdfs:label "PORTICO"@en ,
+                     "Porticus"@la ;
+          
+          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Putei
+
+:Putei rdf:type owl:Class ;
+       
+       rdfs:label "WELLS"@en ,
+                  "Putei"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pyramides
+
+:Pyramides rdf:type owl:Class ;
+           
+           rdfs:label "pyramids"@en ,
+                      "Pyramides"@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Res_domesticae
+
+:Res_domesticae rdf:type owl:Class ;
+                
+                rdfs:label "Domestic Things"@en ,
+                           "Res Domesticae"@la ;
+                
+                rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Salutatorium_cubile
+
+:Salutatorium_cubile rdf:type owl:Class ;
+                     
+                     rdfs:label "consultation house"@en ,
+                                "Salutatorium cubile"@la ;
+                     
+                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Scalae
+
+:Scalae rdf:type owl:Class ;
+        
+        rdfs:label "STAIRS"@en ,
+                   "Scalae"@la ;
+        
+        rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Sigilla_varia
+
+:Sigilla_varia rdf:type owl:Class ;
+               
+               rdfs:label "various statuettes"@en ,
+                          "Sigilla varia"@la ;
+               
+               rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Signa_honorifica
+
+:Signa_honorifica rdf:type owl:Class ;
+                  
+                  rdfs:label "honor markings"@en ,
+                             "Signa honorifica"@la ;
+                  
+                  rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Silex
+
+:Silex rdf:type owl:Class ;
+       
+       rdfs:label "flintstone"@en ,
+                  "Silex"@la ;
+       
+       rdfs:subClassOf :Lapis .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Simulacra_et_signa
+
+:Simulacra_et_signa rdf:type owl:Class ;
+                    
+                    rdfs:label "statues and images"@en ,
+                               "Simulacra et signa"@la ;
+                    
+                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Stadium
+
+:Stadium rdf:type owl:Class ;
+         
+         rdfs:label "STADIUM"@en ,
+                    "Stadium"@la ;
+         
+         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_deorum
+
+:Statuae_deorum rdf:type owl:Class ;
+                
+                rdfs:label "statues of gods"@en ,
+                           "Statuae deorum"@la ;
+                
+                rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_heroum
+
+:Statuae_heroum rdf:type owl:Class ;
+                
+                rdfs:label "statues of heroes"@en ,
+                           "Statuae heroum"@la ;
+                
+                rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_hominum
+
+:Statuae_hominum rdf:type owl:Class ;
+                 
+                 rdfs:label "statues of men"@en ,
+                            "Statuae hominum"@la ;
+                 
+                 rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Supellex
+
+:Supellex rdf:type owl:Class ;
+          
+          rdfs:label "decorative objects"@en ,
+                     "Supellex"@la ;
+          
+          rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Tabula_picta
+
+:Tabula_picta rdf:type owl:Class ;
+              
+              rdfs:label "painting"@en ,
+                         "Tabula picta"@la ;
+              
+              rdfs:subClassOf :Simulacra_et_signa .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Templa
+
+:Templa rdf:type owl:Class ;
+        
+        rdfs:label "TEMPLES"@en ,
+                   "Templa"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Theatra
+
+:Theatra rdf:type owl:Class ;
+         
+         rdfs:label "THEATERS"@en ,
+                    "Theatra"@la ;
+         
+         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Thermae
+
+:Thermae rdf:type owl:Class ;
+         
+         rdfs:label "thermal baths"@en ,
+                    "Thermae"@la ;
+         
+         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Triclinia
+
+:Triclinia rdf:type owl:Class ;
+           
+           rdfs:label "triclinium"@en ,
+                      "Triclinia"@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Turres
+
+:Turres rdf:type owl:Class ;
+        
+        rdfs:label "TOWERS"@en ,
+                   "Turres"@la ;
+        
+        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vallum
+
+:Vallum rdf:type owl:Class ;
+        
+        rdfs:label "WALL"@en ,
+                   "Vallum"@la ;
+        
+        rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vasa_coquinaria
+
+:Vasa_coquinaria rdf:type owl:Class ;
+                 
+                 rdfs:label "culinary tools "@en ,
+                            "Vasa coquinaria"@la ;
+                 
+                 rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vehicula
+
+:Vehicula rdf:type owl:Class ;
+          
+          rdfs:label "vehicles"@en ,
+                     "Vehicula"@la ;
+          
+          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vestimenta
+
+:Vestimenta rdf:type owl:Class ;
+            
+            rdfs:label "DRESSES"@en ,
+                       "Vestimenta"@la ;
+            
+            rdfs:subClassOf :Res_domesticae .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vici
+
+:Vici rdf:type owl:Class ;
+      
+      rdfs:label "WARDS"@en ,
+                 "Vici"@la ;
+      
+      rdfs:subClassOf :Parts_of_Buildings .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vinum
+
+:Vinum rdf:type owl:Class ;
+       
+       rdfs:label "Wine"@en ,
+                  "Vinum"@la ;
+       
+       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Viridaria
+
+:Viridaria rdf:type owl:Class ;
+           
+           rdfs:label "PARKS"@en ,
+                      "Viridaria"@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vtensilia
+
+:Vtensilia rdf:type owl:Class ;
+           
+           rdfs:label "Utensils"@en ,
+                      """Vtensilia
+"""@la ;
+           
+           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vtensilia_varia
+
+:Vtensilia_varia rdf:type owl:Class ;
+                 
+                 rdfs:label "various utensils"@en ,
+                            "Vtensilia varia"@la ;
+                 
+                 rdfs:subClassOf :Vtensilia .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

@@ -1,0 +1,873 @@
+@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/untitled-ontology-133#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants> .
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants> rdf:type owl:Ontology ;
+                                                                                  
+                                                                                  owl:imports <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#epitaphFor
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#epitaphFor> rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#praises
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#praises> rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#uses
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#uses> rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Animal_deaths_as_prey_of_other_animals)
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Animal_deaths_as_prey_of_other_animals)> rdf:type owl:Class ;
+                                                                                                                           
+                                                                                                                           rdfs:label "Animal deaths as prey of other animals"@en ,
+                                                                                                                                      "Predae"@la ;
+                                                                                                                           
+                                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Animals_in_Mythology)
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Animals_in_Mythology)> rdf:type owl:Class ;
+                                                                                                         
+                                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Praise_for_the_qualities_of_animals)
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#(Praise_for_the_qualities_of_animals)> rdf:type owl:Class ;
+                                                                                                                        
+                                                                                                                        rdfs:label "Praise for the qualities of animals"@en ,
+                                                                                                                                   "Facultates"@la ;
+                                                                                                                        
+                                                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Aetates_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Aetates_animalium> rdf:type owl:Class ;
+                                                                                                    
+                                                                                                    rdfs:label "The lives of animals"@en ,
+                                                                                                               "Aetates animalium"@la ;
+                                                                                                    
+                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#state> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Amphibia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Amphibia> rdf:type owl:Class ;
+                                                                                           
+                                                                                           rdfs:label "Amphibians"@en ,
+                                                                                                      "Amphibia"@la ;
+                                                                                           
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Animalia_deis_deabusque_consecrata
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Animalia_deis_deabusque_consecrata> rdf:type owl:Class ;
+                                                                                                                     
+                                                                                                                     rdfs:label "Animals consecrated to gods and goddesses"@en ,
+                                                                                                                                "Animalia deis deabusque consecrata"@la ;
+                                                                                                                     
+                                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Animalia_tamquam_speculum_naturae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Animalia_tamquam_speculum_naturae> rdf:type owl:Class ;
+                                                                                                                    
+                                                                                                                    rdfs:label "Animals regarded as nature's mirror"@en ,
+                                                                                                                               "Animalia tamquam speculum naturae"@la ;
+                                                                                                                    
+                                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Roles> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_deis_deabusque_consecratae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_deis_deabusque_consecratae> rdf:type owl:Class ;
+                                                                                                                     
+                                                                                                                     rdfs:label "Trees consecrated to the gods and godesses"@en ,
+                                                                                                                                "Arbores deis deabusque consecratae"@la ;
+                                                                                                                     
+                                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_felices
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_felices> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "Prosperous Trees"@en ,
+                                                                                                             "Arbores felices"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_in_mythologia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_in_mythologia> rdf:type owl:Class ;
+                                                                                                        
+                                                                                                        rdfs:label """Trees featured in mythology
+"""@en ,
+                                                                                                                   "Arbores in mythologia"@la ;
+                                                                                                        
+                                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_infelices
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arbores_infelices> rdf:type owl:Class ;
+                                                                                                    
+                                                                                                    rdfs:label "Infertile Trees"@en ,
+                                                                                                               "Arbores infelices"@la ;
+                                                                                                    
+                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores> ;
+                                                                                                    
+                                                                                                    rdfs:comment "Fruits of these trees were devoted to the hellish gods. Convictes were hanged on their branches"@en .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arborum_species
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Arborum_species> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "Speicies of trees"@en ,
+                                                                                                             "Arborum species"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Genera> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Aves
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Aves> rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:label "Birds"@en ,
+                                                                                                  "Aves"@la ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Bestiolae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Bestiolae> rdf:type owl:Class ;
+                                                                                            
+                                                                                            rdfs:label "Insects"@en ,
+                                                                                                       "Bestiolae"@la ;
+                                                                                            
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Crocus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Crocus> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:label "Saffron"@en ,
+                                                                                                    "Crocus"@la ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Cruenta
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Cruenta> rdf:type owl:Class ;
+                                                                                          
+                                                                                          rdfs:label "Massacres/Exterminations"@en ,
+                                                                                                     "Cruenta"@la ;
+                                                                                          
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Epitaphia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Epitaphia> rdf:type owl:Class ;
+                                                                                            
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Epitaphia_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Epitaphia_animalium> rdf:type owl:Class ;
+                                                                                                      
+                                                                                                      rdfs:label "Animal Epitaphs"@en ,
+                                                                                                                 "Epitaphia animalium"@la ;
+                                                                                                      
+                                                                                                      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Epitaphia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fabulae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fabulae> rdf:type owl:Class ;
+                                                                                          
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fabulae_de_animalibus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fabulae_de_animalibus> rdf:type owl:Class ;
+                                                                                                        
+                                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fabulae> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ferae_bestiae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ferae_bestiae> rdf:type owl:Class ;
+                                                                                                
+                                                                                                rdfs:label "Wild Beasts"@en ,
+                                                                                                           "Ferae Bestiae"@la ;
+                                                                                                
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ferae_domitae_vel_mansuefactae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ferae_domitae_vel_mansuefactae> rdf:type owl:Class ;
+                                                                                                                 
+                                                                                                                 rdfs:label "Domesticated or Docile Beasts"@en ,
+                                                                                                                            "Ferae Domitae vel Mansuefactae"@la ;
+                                                                                                                 
+                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fetus_vel_pulli
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fetus_vel_pulli> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "New borns or babies"@en ,
+                                                                                                             "Fetus vel Pulli"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Partus_animalium> .
+
+
+
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Flores_deis_deabusque_consecrati
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Flores_deis_deabusque_consecrati> rdf:type owl:Class ;
+                                                                                                                   
+                                                                                                                   rdfs:label "Flowers consecrated to the gods and godesses"@en ,
+                                                                                                                              "Flores deis deabusque consecrati"@la ;
+                                                                                                                   
+                                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Flores_in_mythologia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Flores_in_mythologia> rdf:type owl:Class ;
+                                                                                                       
+                                                                                                       rdfs:label "Flowers featured in mythology"@en ,
+                                                                                                                  "Flores in mythologia"@la ;
+                                                                                                       
+                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fructus_carnosi
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fructus_carnosi> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "Healthy Fruits"@en ,
+                                                                                                             "Fructus carnosi"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fructus_in_mythologia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Fructus_in_mythologia> rdf:type owl:Class ;
+                                                                                                        
+                                                                                                        rdfs:label "Fruits featured in mythology"@en ,
+                                                                                                                   "Fructus in mythologia"@la ;
+                                                                                                        
+                                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Genera_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Genera_animalium> rdf:type owl:Class ;
+                                                                                                   
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Genera> .
+
+
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#achievement> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes_animalium> rdf:type owl:Class ;
+                                                                                                   
+                                                                                                   rdfs:label "Praise of animals"@en ,
+                                                                                                              "Laudes_animalium"@la ;
+                                                                                                   
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laus_de_animalium_usu
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laus_de_animalium_usu> rdf:type owl:Class ;
+                                                                                                        
+                                                                                                        rdfs:label "Laus de animalium usu"@en ,
+                                                                                                                   "Praise for the uses of animals"@en ;
+                                                                                                        
+                                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laus_florum
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laus_florum> rdf:type owl:Class ;
+                                                                                              
+                                                                                              rdfs:label "Praise of flowers"@en ,
+                                                                                                         "Laus florum"@la ;
+                                                                                              
+                                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#praises> ;
+                                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores>
+                                                                                                                  ] ;
+                                                                                              
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Laudes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Lilium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Lilium> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:label "Lily"@en ,
+                                                                                                    "Lilium"@la ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ludicra
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Ludicra> rdf:type owl:Class ;
+                                                                                          
+                                                                                          rdfs:label "Entertainments"@en ,
+                                                                                                     "Ludicra"@la ;
+                                                                                          
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mala
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mala> rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:label "Apples"@en ,
+                                                                                                  "Mala"@la ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses> rdf:type owl:Class ;
+                                                                                                
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_arbores
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_arbores> rdf:type owl:Class ;
+                                                                                                           
+                                                                                                           rdfs:label "Metamorphosis into trees"@en ,
+                                                                                                                      "Metamorphosis in arbores"@la ;
+                                                                                                           
+                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_beluas
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_beluas> rdf:type owl:Class ;
+                                                                                                          
+                                                                                                          rdfs:label "Metamorphosis into animals"@en ,
+                                                                                                                     "Metamorphosis in beluas"@la ;
+                                                                                                          
+                                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_flores
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_flores> rdf:type owl:Class ;
+                                                                                                          
+                                                                                                          rdfs:label "Metamorphosis into flowers"@en ,
+                                                                                                                     "Metamorphosis in flores"@la ;
+                                                                                                          
+                                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_fructus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphosis_in_fructus> rdf:type owl:Class ;
+                                                                                                           
+                                                                                                           rdfs:label "Metamorphosis into fruit"@en ,
+                                                                                                                      "Metamorphosis in fructus"@la ;
+                                                                                                           
+                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Metamorphoses> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mollia_Animalia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mollia_Animalia> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "Molluscs"@en ,
+                                                                                                             "Molia Animalia"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium> rdf:type owl:Class ;
+                                                                                                 
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mortes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium_in_sacris
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium_in_sacris> rdf:type owl:Class ;
+                                                                                                           
+                                                                                                           rdfs:label "Deaths of animals in religious ceremonies"@en ,
+                                                                                                                      "Mors animalium in sacris"@la ;
+                                                                                                           
+                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium_in_spectaculis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium_in_spectaculis> rdf:type owl:Class ;
+                                                                                                                
+                                                                                                                rdfs:label "Deaths of animals during shows/spectacles"@en ,
+                                                                                                                           "Mors animalium in spectaculis"@la ;
+                                                                                                                
+                                                                                                                rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_animalium> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_naturalis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mors_naturalis> rdf:type owl:Class ;
+                                                                                                 
+                                                                                                 rdfs:label "Natural deaths"@en ,
+                                                                                                            "Mors naturalis"@la ;
+                                                                                                 
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mortes> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mortes
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Mortes> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Myrtus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Myrtus> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:label "Myrtle"@en ,
+                                                                                                    "Myrtus"@la ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Plantae> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Narcissus
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Narcissus> rdf:type owl:Class ;
+                                                                                            
+                                                                                            rdfs:label "Narcissus"@en ,
+                                                                                                       "Narcissus"@la ;
+                                                                                            
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Nuces
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Nuces> rdf:type owl:Class ;
+                                                                                        
+                                                                                        rdfs:label "Nuts"@en ,
+                                                                                                   "Nuces"@la ;
+                                                                                        
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Papaver
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Papaver> rdf:type owl:Class ;
+                                                                                          
+                                                                                          rdfs:label "Poppy"@en ,
+                                                                                                     "Papaver"@la ;
+                                                                                          
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Partus_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Partus_animalium> rdf:type owl:Class ;
+                                                                                                   
+                                                                                                   rdfs:label "Animal offspring"@en ,
+                                                                                                              "Partus animalium"@la ;
+                                                                                                   
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Pisces
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Pisces> rdf:type owl:Class ;
+                                                                                         
+                                                                                         rdfs:label "Fishes"@en ,
+                                                                                                    "Pisces"@la ;
+                                                                                         
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Pomiferae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Pomiferae> rdf:type owl:Class ;
+                                                                                            
+                                                                                            rdfs:label "Fruit Trees"@en ,
+                                                                                                       "Pomiferae"@la ;
+                                                                                            
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Quadrupedes
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Quadrupedes> rdf:type owl:Class ;
+                                                                                              
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Genera> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Repentes_Bestiae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Repentes_Bestiae> rdf:type owl:Class ;
+                                                                                                   
+                                                                                                   rdfs:label "Crawling beasts"@en ,
+                                                                                                              "Repentes bestiae"@la ;
+                                                                                                   
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Rosa
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Rosa> rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:label "Rose"@en ,
+                                                                                                  "Rosa"@la ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Sata
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Sata> rdf:type owl:Class ;
+                                                                                       
+                                                                                       rdfs:label "Sowed fields"@en ,
+                                                                                                  "Sata"@la ;
+                                                                                       
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Terra> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Serta_florum
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Serta_florum> rdf:type owl:Class ;
+                                                                                               
+                                                                                               rdfs:label """Garland of flowers
+"""@en ,
+                                                                                                          "Serta florum"@la ;
+                                                                                               
+                                                                                               rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Shows_involving_animals
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Shows_involving_animals> rdf:type owl:Class ;
+                                                                                                          
+                                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Spectacula> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Spectacula
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Spectacula> rdf:type owl:Class ;
+                                                                                             
+                                                                                             rdfs:label "Shows/Spectacles"@en ,
+                                                                                                        "Spectacula"@la ;
+                                                                                             
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#activity> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Victimae_vel_hostiae
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Victimae_vel_hostiae> rdf:type owl:Class ;
+                                                                                                       
+                                                                                                       rdfs:label "Sacrificial offerings or victims"@en ,
+                                                                                                                  "Victimae vel hostiae"@la ;
+                                                                                                       
+                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Roles> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Viola
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Viola> rdf:type owl:Class ;
+                                                                                        
+                                                                                        rdfs:label """Violet
+"""@en ,
+                                                                                                   "Viola"@la ;
+                                                                                        
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Voces_animalium
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Voces_animalium> rdf:type owl:Class ;
+                                                                                                  
+                                                                                                  rdfs:label "Voices of animals"@en ,
+                                                                                                             "Voces animalium"@la ;
+                                                                                                  
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#quality> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_agri_cultura
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_agri_cultura> rdf:type owl:Class ;
+                                                                                                                 
+                                                                                                                 rdfs:label "Uses of animals in farming"@en ,
+                                                                                                                            "Vsus animalium in agri cultura"@la ;
+                                                                                                                 
+                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_arte_coquinaria
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_arte_coquinaria> rdf:type owl:Class ;
+                                                                                                                    
+                                                                                                                    rdfs:label "Uses of animals in the culinary arts"@en ,
+                                                                                                                               "Vsus animalium in arte coquinaria"@la ;
+                                                                                                                    
+                                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_artibus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_artibus_variis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_artibus_variis> rdf:type owl:Class ;
+                                                                                                                   
+                                                                                                                   rdfs:label "Uses of animals in various arts"@en ,
+                                                                                                                              "Vsus animalium in artibus variis"@la ;
+                                                                                                                   
+                                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_bello
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_bello> rdf:type owl:Class ;
+                                                                                                          
+                                                                                                          rdfs:label "Uses of animals in war"@en ,
+                                                                                                                     "Vsus animalium in bello"@la ;
+                                                                                                          
+                                                                                                          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_animalium> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_cultu_et_sacris
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_cultu_et_sacris> rdf:type owl:Class ;
+                                                                                                                    
+                                                                                                                    rdfs:label "Use of animals in religion and sacred rites"@en ,
+                                                                                                                               "Vsus animalium in cultu et sacris"@la ;
+                                                                                                                    
+                                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_medicina
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_medicina> rdf:type owl:Class ;
+                                                                                                             
+                                                                                                             rdfs:label "Uses of animals in medicine"@en ,
+                                                                                                                        "Vsus animalium in medicina"@la ;
+                                                                                                             
+                                                                                                             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_domesticis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_domesticis> rdf:type owl:Class ;
+                                                                                                                     
+                                                                                                                     rdfs:label """Uses of animals in household activities
+"""@en ,
+                                                                                                                                "Vsus animalium in rebus domesticis"@la ;
+                                                                                                                     
+                                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_animalium_in_rebus_variis> rdf:type owl:Class ;
+                                                                                                                 
+                                                                                                                 rdfs:label "Uses of animals in various things"@en ,
+                                                                                                                            "Vsus animalium in rebus variis"@la ;
+                                                                                                                 
+                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_animalium> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_artibus_variis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_artibus_variis> rdf:type owl:Class ;
+                                                                                                                     
+                                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_magia
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_magia> rdf:type owl:Class ;
+                                                                                                            
+                                                                                                            rdfs:label "Uses of trees, etc, in magic"@en ,
+                                                                                                                       "Vsus arborum etc in magia"@la ;
+                                                                                                            
+                                                                                                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_medicina
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_medicina> rdf:type owl:Class ;
+                                                                                                               
+                                                                                                               rdfs:label "Uses of trees etc in medicine"@en ,
+                                                                                                                          "Vsus arborum etc in medicina"@la ;
+                                                                                                               
+                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_domesticis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_domesticis> rdf:type owl:Class ;
+                                                                                                                       
+                                                                                                                       rdfs:label "Uses of trees etc in household activities"@en ,
+                                                                                                                                  "Vsus arborum in rebus domesticis"@la ;
+                                                                                                                       
+                                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Animals_and_Plants#Vsus_arborum_etc_in_rebus_variis> rdf:type owl:Class ;
+                                                                                                                   
+                                                                                                                   rdfs:label "Uses of trees, etc, in various things"@en ,
+                                                                                                                              "Vsus arborum etc in rebus variis"@la ;
+                                                                                                                   
+                                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_arborum_herbarum_florum_et_fructuum> .
+
+
+
+###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Roles
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Roles> rdf:type owl:Class ;
+                                                                                        
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
