@@ -1,15 +1,15 @@
-@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#> .
+﻿@prefix : <http://lari-datasets.ilc.cnr.it/Homines#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix midlevel: <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#> .
-@base <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines> .
+@prefix midlevel: <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#> .
+@base <http://lari-datasets.ilc.cnr.it/Homines> .
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines> rdf:type owl:Ontology ;
+<http://lari-datasets.ilc.cnr.it/Homines> rdf:type owl:Ontology ;
                                                                  
-                                                                 owl:imports <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_MidLevel_Ontology> .
+                                                                 owl:imports <http://lari-datasets.ilc.cnr.it/Latin_MidLevel_Ontology> .
 
 
 #################################################################
@@ -19,7 +19,7 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#role
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#role
 
 midlevel:role rdf:type owl:AnnotationProperty .
 
@@ -42,7 +42,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutio_ad_lectorem
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutio_ad_lectorem
 
 :Adlocutio_ad_lectorem rdf:type owl:Class ;
                        
@@ -53,7 +53,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutio_ad_librum
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutio_ad_librum
 
 :Adlocutio_ad_librum rdf:type owl:Class ;
                      
@@ -64,7 +64,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutio_ad_patriam
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutio_ad_patriam
 
 :Adlocutio_ad_patriam rdf:type owl:Class ;
                       
@@ -75,7 +75,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutio_ad_viatorem
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutio_ad_viatorem
 
 :Adlocutio_ad_viatorem rdf:type owl:Class ;
                        
@@ -86,7 +86,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutio_sponsalis
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutio_sponsalis
 
 :Adlocutio_sponsalis rdf:type owl:Class ;
                      
@@ -97,7 +97,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adlocutiones
+###  http://lari-datasets.ilc.cnr.it/Homines#Adlocutiones
 
 :Adlocutiones rdf:type owl:Class ;
               
@@ -108,7 +108,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adulescentia
+###  http://lari-datasets.ilc.cnr.it/Homines#Adulescentia
 
 :Adulescentia rdf:type owl:Class ;
               
@@ -119,7 +119,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adulterium
+###  http://lari-datasets.ilc.cnr.it/Homines#Adulterium
 
 :Adulterium rdf:type owl:Class ;
             
@@ -130,7 +130,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Adventus_veris
+###  http://lari-datasets.ilc.cnr.it/Homines#Adventus_veris
 
 :Adventus_veris rdf:type owl:Class ;
                 
@@ -141,7 +141,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Advocati_vel_causidici
+###  http://lari-datasets.ilc.cnr.it/Homines#Advocati_vel_causidici
 
 :Advocati_vel_causidici rdf:type owl:Class ;
                         
@@ -153,7 +153,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aediles
+###  http://lari-datasets.ilc.cnr.it/Homines#Aediles
 
 :Aediles rdf:type owl:Class ;
          
@@ -167,7 +167,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aenigmata
+###  http://lari-datasets.ilc.cnr.it/Homines#Aenigmata
 
 :Aenigmata rdf:type owl:Class ;
            
@@ -178,7 +178,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aestas
+###  http://lari-datasets.ilc.cnr.it/Homines#Aestas
 
 :Aestas rdf:type owl:Class ;
         
@@ -189,7 +189,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aetates_vitae_animalium
+###  http://lari-datasets.ilc.cnr.it/Homines#Aetates_vitae_animalium
 
 :Aetates_vitae_animalium rdf:type owl:Class ;
                          
@@ -200,7 +200,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aetates_vitae_hominum
+###  http://lari-datasets.ilc.cnr.it/Homines#Aetates_vitae_hominum
 
 :Aetates_vitae_hominum rdf:type owl:Class ;
                        
@@ -211,7 +211,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aetiologiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Aetiologiae
 
 :Aetiologiae rdf:type owl:Class ;
              
@@ -222,7 +222,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Affectus
+###  http://lari-datasets.ilc.cnr.it/Homines#Affectus
 
 :Affectus rdf:type owl:Class ;
           
@@ -233,7 +233,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Afflatus_poeticus
+###  http://lari-datasets.ilc.cnr.it/Homines#Afflatus_poeticus
 
 :Afflatus_poeticus rdf:type owl:Class ;
                    
@@ -244,7 +244,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Agentive_Social_Object
+###  http://lari-datasets.ilc.cnr.it/Homines#Agentive_Social_Object
 
 :Agentive_Social_Object rdf:type owl:Class ;
                         
@@ -252,7 +252,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Agri_cultura
+###  http://lari-datasets.ilc.cnr.it/Homines#Agri_cultura
 
 :Agri_cultura rdf:type owl:Class ;
               
@@ -263,7 +263,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Agricolae
+###  http://lari-datasets.ilc.cnr.it/Homines#Agricolae
 
 :Agricolae rdf:type owl:Class ;
            
@@ -275,7 +275,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Alphabetum
+###  http://lari-datasets.ilc.cnr.it/Homines#Alphabetum
 
 :Alphabetum rdf:type owl:Class ;
             
@@ -286,7 +286,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amans_vel_amator
+###  http://lari-datasets.ilc.cnr.it/Homines#Amans_vel_amator
 
 :Amans_vel_amator rdf:type owl:Class ;
                   
@@ -297,7 +297,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amatus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amatus
 
 :Amatus rdf:type owl:Class ;
         
@@ -308,7 +308,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amicitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Amicitia
 
 :Amicitia rdf:type owl:Class ;
           
@@ -320,7 +320,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amicitia_recens
+###  http://lari-datasets.ilc.cnr.it/Homines#Amicitia_recens
 
 :Amicitia_recens rdf:type owl:Class ;
                  
@@ -331,7 +331,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amicitia_regum
+###  http://lari-datasets.ilc.cnr.it/Homines#Amicitia_regum
 
 :Amicitia_regum rdf:type owl:Class ;
                 
@@ -342,7 +342,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amicitia_vitanda
+###  http://lari-datasets.ilc.cnr.it/Homines#Amicitia_vitanda
 
 :Amicitia_vitanda rdf:type owl:Class ;
                   
@@ -353,7 +353,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amicus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amicus
 
 :Amicus rdf:type owl:Class ;
         
@@ -364,7 +364,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor
 
 :Amor rdf:type owl:Class ;
       
@@ -375,7 +375,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_castus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_castus
 
 :Amor_castus rdf:type owl:Class ;
              
@@ -386,7 +386,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_erga_parentes_et_propinquos
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_erga_parentes_et_propinquos
 
 :Amor_erga_parentes_et_propinquos rdf:type owl:Class ;
                                   
@@ -397,7 +397,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_et_odium
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_et_odium
 
 :Amor_et_odium rdf:type owl:Class ;
                
@@ -408,7 +408,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_et_vinum
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_et_vinum
 
 :Amor_et_vinum rdf:type owl:Class ;
                
@@ -419,7 +419,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_furtivus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_furtivus
 
 :Amor_furtivus rdf:type owl:Class ;
                
@@ -430,7 +430,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_gloriae
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_gloriae
 
 :Amor_gloriae rdf:type owl:Class ;
               
@@ -441,7 +441,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_incestus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_incestus
 
 :Amor_incestus rdf:type owl:Class ;
                
@@ -452,7 +452,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_qui_fieri_non_potest
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_qui_fieri_non_potest
 
 :Amor_qui_fieri_non_potest rdf:type owl:Class ;
                            
@@ -463,7 +463,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_saevus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_saevus
 
 :Amor_saevus rdf:type owl:Class ;
              
@@ -474,7 +474,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amor_tamquam_morbus_et_dolor
+###  http://lari-datasets.ilc.cnr.it/Homines#Amor_tamquam_morbus_et_dolor
 
 :Amor_tamquam_morbus_et_dolor rdf:type owl:Class ;
                               
@@ -485,7 +485,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amplexus_cum_animalibus
+###  http://lari-datasets.ilc.cnr.it/Homines#Amplexus_cum_animalibus
 
 :Amplexus_cum_animalibus rdf:type owl:Class ;
                          
@@ -496,7 +496,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amplexus_tamquam_pugna
+###  http://lari-datasets.ilc.cnr.it/Homines#Amplexus_tamquam_pugna
 
 :Amplexus_tamquam_pugna rdf:type owl:Class ;
                         
@@ -507,7 +507,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Amplexus_varii
+###  http://lari-datasets.ilc.cnr.it/Homines#Amplexus_varii
 
 :Amplexus_varii rdf:type owl:Class ;
                 
@@ -518,7 +518,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Anima
+###  http://lari-datasets.ilc.cnr.it/Homines#Anima
 
 :Anima rdf:type owl:Class ;
        
@@ -529,7 +529,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Animus_aequus
+###  http://lari-datasets.ilc.cnr.it/Homines#Animus_aequus
 
 :Animus_aequus rdf:type owl:Class ;
                
@@ -540,7 +540,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Animus_cunctans
+###  http://lari-datasets.ilc.cnr.it/Homines#Animus_cunctans
 
 :Animus_cunctans rdf:type owl:Class ;
                  
@@ -551,7 +551,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Animus_felix
+###  http://lari-datasets.ilc.cnr.it/Homines#Animus_felix
 
 :Animus_felix rdf:type owl:Class ;
               
@@ -562,7 +562,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Animus_infelix
+###  http://lari-datasets.ilc.cnr.it/Homines#Animus_infelix
 
 :Animus_infelix rdf:type owl:Class ;
                 
@@ -573,7 +573,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Animus_trepidans
+###  http://lari-datasets.ilc.cnr.it/Homines#Animus_trepidans
 
 :Animus_trepidans rdf:type owl:Class ;
                   
@@ -584,7 +584,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Annua_conversio
+###  http://lari-datasets.ilc.cnr.it/Homines#Annua_conversio
 
 :Annua_conversio rdf:type owl:Class ;
                  
@@ -595,7 +595,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Annus
+###  http://lari-datasets.ilc.cnr.it/Homines#Annus
 
 :Annus rdf:type owl:Class ;
        
@@ -606,7 +606,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Antonomasiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Antonomasiae
 
 :Antonomasiae rdf:type owl:Class ;
               
@@ -617,7 +617,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Anus
+###  http://lari-datasets.ilc.cnr.it/Homines#Anus
 
 :Anus rdf:type owl:Class ;
       
@@ -629,7 +629,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aprilis
+###  http://lari-datasets.ilc.cnr.it/Homines#Aprilis
 
 :Aprilis rdf:type owl:Class ;
          
@@ -640,7 +640,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Architectura
+###  http://lari-datasets.ilc.cnr.it/Homines#Architectura
 
 :Architectura rdf:type owl:Class ;
               
@@ -651,18 +651,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Arcus_pharetra_sagittae_Amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Arcus_pharetra_sagittae_Amoris
 
 :Arcus_pharetra_sagittae_Amoris rdf:type owl:Class ;
                                 
-                                rdfs:label "Cupid’s weapons (bow, quiver, arrows)"@en ,
+                                rdfs:label "Cupidâ€™s weapons (bow, quiver, arrows)"@en ,
                                            "Arcus, pharetra, sagittae Amoris"@la ;
                                 
                                 rdfs:subClassOf :phrase .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Arena
+###  http://lari-datasets.ilc.cnr.it/Homines#Arena
 
 :Arena rdf:type owl:Class ;
        
@@ -673,7 +673,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Argumenta
+###  http://lari-datasets.ilc.cnr.it/Homines#Argumenta
 
 :Argumenta rdf:type owl:Class ;
            
@@ -684,7 +684,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_coquinaria
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_coquinaria
 
 :Ars_coquinaria rdf:type owl:Class ;
                 
@@ -695,7 +695,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_fingendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_fingendi
 
 :Ars_fingendi rdf:type owl:Class ;
               
@@ -706,7 +706,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_grammatica
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_grammatica
 
 :Ars_grammatica rdf:type owl:Class ;
                 
@@ -717,7 +717,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_medica
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_medica
 
 :Ars_medica rdf:type owl:Class ;
             
@@ -728,7 +728,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_militaris
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_militaris
 
 :Ars_militaris rdf:type owl:Class ;
                
@@ -739,7 +739,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_navigandi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_navigandi
 
 :Ars_navigandi rdf:type owl:Class ;
                
@@ -750,7 +750,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_pingendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_pingendi
 
 :Ars_pingendi rdf:type owl:Class ;
               
@@ -761,7 +761,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_piscandi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_piscandi
 
 :Ars_piscandi rdf:type owl:Class ;
               
@@ -772,7 +772,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_poetica
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_poetica
 
 :Ars_poetica rdf:type owl:Class ;
              
@@ -783,7 +783,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_rhetorica
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_rhetorica
 
 :Ars_rhetorica rdf:type owl:Class ;
                
@@ -794,7 +794,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_saltandi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_saltandi
 
 :Ars_saltandi rdf:type owl:Class ;
               
@@ -805,7 +805,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ars_venandi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ars_venandi
 
 :Ars_venandi rdf:type owl:Class ;
              
@@ -816,7 +816,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Artus
+###  http://lari-datasets.ilc.cnr.it/Homines#Artus
 
 :Artus rdf:type owl:Class ;
        
@@ -827,7 +827,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Astrologia_et_astronomia
+###  http://lari-datasets.ilc.cnr.it/Homines#Astrologia_et_astronomia
 
 :Astrologia_et_astronomia rdf:type owl:Class ;
                           
@@ -838,7 +838,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Auctores
+###  http://lari-datasets.ilc.cnr.it/Homines#Auctores
 
 :Auctores rdf:type owl:Class ;
           
@@ -849,7 +849,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Augustus
+###  http://lari-datasets.ilc.cnr.it/Homines#Augustus
 
 :Augustus rdf:type owl:Class ;
           
@@ -863,7 +863,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aurea_mediocritas
+###  http://lari-datasets.ilc.cnr.it/Homines#Aurea_mediocritas
 
 :Aurea_mediocritas rdf:type owl:Class ;
                    
@@ -874,7 +874,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aures
+###  http://lari-datasets.ilc.cnr.it/Homines#Aures
 
 :Aures rdf:type owl:Class ;
        
@@ -886,7 +886,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aurigae
+###  http://lari-datasets.ilc.cnr.it/Homines#Aurigae
 
 :Aurigae rdf:type owl:Class ;
          
@@ -897,7 +897,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Autumnus
+###  http://lari-datasets.ilc.cnr.it/Homines#Autumnus
 
 :Autumnus rdf:type owl:Class ;
           
@@ -908,18 +908,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aviditas
+###  http://lari-datasets.ilc.cnr.it/Homines#Aviditas
 
 :Aviditas rdf:type owl:Class ;
           
           rdfs:label "avidity"@en ,
                      "Aviditas"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Barba
+###  http://lari-datasets.ilc.cnr.it/Homines#Barba
 
 :Barba rdf:type owl:Class ;
        
@@ -931,7 +931,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Basia_et_oscula
+###  http://lari-datasets.ilc.cnr.it/Homines#Basia_et_oscula
 
 :Basia_et_oscula rdf:type owl:Class ;
                  
@@ -942,7 +942,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bella_in_Persas
+###  http://lari-datasets.ilc.cnr.it/Homines#Bella_in_Persas
 
 :Bella_in_Persas rdf:type owl:Class ;
                  
@@ -953,7 +953,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bellum_civile
+###  http://lari-datasets.ilc.cnr.it/Homines#Bellum_civile
 
 :Bellum_civile rdf:type owl:Class ;
                
@@ -964,7 +964,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bellum_navale
+###  http://lari-datasets.ilc.cnr.it/Homines#Bellum_navale
 
 :Bellum_navale rdf:type owl:Class ;
                
@@ -975,7 +975,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bene_vivere
+###  http://lari-datasets.ilc.cnr.it/Homines#Bene_vivere
 
 :Bene_vivere rdf:type owl:Class ;
              
@@ -986,7 +986,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Beneficium
+###  http://lari-datasets.ilc.cnr.it/Homines#Beneficium
 
 :Beneficium rdf:type owl:Class ;
             
@@ -997,7 +997,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Benignitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Benignitas
 
 :Benignitas rdf:type owl:Class ;
             
@@ -1008,7 +1008,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Body_Part
+###  http://lari-datasets.ilc.cnr.it/Homines#Body_Part
 
 :Body_Part rdf:type owl:Class ;
            
@@ -1021,7 +1021,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Brevitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Brevitas
 
 :Brevitas rdf:type owl:Class ;
           
@@ -1032,7 +1032,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bubulci
+###  http://lari-datasets.ilc.cnr.it/Homines#Bubulci
 
 :Bubulci rdf:type owl:Class ;
          
@@ -1044,7 +1044,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Calendarium
+###  http://lari-datasets.ilc.cnr.it/Homines#Calendarium
 
 :Calendarium rdf:type owl:Class ;
              
@@ -1055,7 +1055,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cani
+###  http://lari-datasets.ilc.cnr.it/Homines#Cani
 
 :Cani rdf:type owl:Class ;
       
@@ -1067,7 +1067,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Caprarii
+###  http://lari-datasets.ilc.cnr.it/Homines#Caprarii
 
 :Caprarii rdf:type owl:Class ;
           
@@ -1079,7 +1079,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Captatio_benevolentiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Captatio_benevolentiae
 
 :Captatio_benevolentiae rdf:type owl:Class ;
                         
@@ -1090,7 +1090,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Captivi
+###  http://lari-datasets.ilc.cnr.it/Homines#Captivi
 
 :Captivi rdf:type owl:Class ;
          
@@ -1101,7 +1101,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Caput
+###  http://lari-datasets.ilc.cnr.it/Homines#Caput
 
 :Caput rdf:type owl:Class ;
        
@@ -1113,7 +1113,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Carmina
+###  http://lari-datasets.ilc.cnr.it/Homines#Carmina
 
 :Carmina rdf:type owl:Class ;
          
@@ -1124,7 +1124,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Carmina_convivalia
+###  http://lari-datasets.ilc.cnr.it/Homines#Carmina_convivalia
 
 :Carmina_convivalia rdf:type owl:Class ;
                     
@@ -1136,7 +1136,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Carmina_figurata
+###  http://lari-datasets.ilc.cnr.it/Homines#Carmina_figurata
 
 :Carmina_figurata rdf:type owl:Class ;
                   
@@ -1147,7 +1147,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Carpe_diem
+###  http://lari-datasets.ilc.cnr.it/Homines#Carpe_diem
 
 :Carpe_diem rdf:type owl:Class ;
             
@@ -1158,7 +1158,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Castellani
+###  http://lari-datasets.ilc.cnr.it/Homines#Castellani
 
 :Castellani rdf:type owl:Class ;
             
@@ -1169,7 +1169,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Castitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Castitas
 
 :Castitas rdf:type owl:Class ;
           
@@ -1180,7 +1180,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Casus_belli
+###  http://lari-datasets.ilc.cnr.it/Homines#Casus_belli
 
 :Casus_belli rdf:type owl:Class ;
              
@@ -1191,7 +1191,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Causae_mortis_variae
+###  http://lari-datasets.ilc.cnr.it/Homines#Causae_mortis_variae
 
 :Causae_mortis_variae rdf:type owl:Class ;
                       
@@ -1202,7 +1202,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Censores
+###  http://lari-datasets.ilc.cnr.it/Homines#Censores
 
 :Censores rdf:type owl:Class ;
           
@@ -1213,7 +1213,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Censura_belli
+###  http://lari-datasets.ilc.cnr.it/Homines#Censura_belli
 
 :Censura_belli rdf:type owl:Class ;
                
@@ -1224,7 +1224,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Censura_medicaminum_faciei
+###  http://lari-datasets.ilc.cnr.it/Homines#Censura_medicaminum_faciei
 
 :Censura_medicaminum_faciei rdf:type owl:Class ;
                             
@@ -1235,7 +1235,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Censura_poetarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Censura_poetarum
 
 :Censura_poetarum rdf:type owl:Class ;
                   
@@ -1246,7 +1246,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Census
+###  http://lari-datasets.ilc.cnr.it/Homines#Census
 
 :Census rdf:type owl:Class ;
         
@@ -1257,7 +1257,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cilia_vel_supercilia
+###  http://lari-datasets.ilc.cnr.it/Homines#Cilia_vel_supercilia
 
 :Cilia_vel_supercilia rdf:type owl:Class ;
                       
@@ -1269,7 +1269,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Circus
+###  http://lari-datasets.ilc.cnr.it/Homines#Circus
 
 :Circus rdf:type owl:Class ;
         
@@ -1280,7 +1280,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Citharoedi
+###  http://lari-datasets.ilc.cnr.it/Homines#Citharoedi
 
 :Citharoedi rdf:type owl:Class ;
             
@@ -1292,7 +1292,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Clementia
+###  http://lari-datasets.ilc.cnr.it/Homines#Clementia
 
 :Clementia rdf:type owl:Class ;
            
@@ -1303,7 +1303,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Clientes_et_patroni
+###  http://lari-datasets.ilc.cnr.it/Homines#Clientes_et_patroni
 
 :Clientes_et_patroni rdf:type owl:Class ;
                      
@@ -1314,7 +1314,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Coci_et_pistores
+###  http://lari-datasets.ilc.cnr.it/Homines#Coci_et_pistores
 
 :Coci_et_pistores rdf:type owl:Class ;
                   
@@ -1326,7 +1326,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Collum
+###  http://lari-datasets.ilc.cnr.it/Homines#Collum
 
 :Collum rdf:type owl:Class ;
         
@@ -1338,7 +1338,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Color_cutis
+###  http://lari-datasets.ilc.cnr.it/Homines#Color_cutis
 
 :Color_cutis rdf:type owl:Class ;
              
@@ -1350,7 +1350,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Comicus_poeta
+###  http://lari-datasets.ilc.cnr.it/Homines#Comicus_poeta
 
 :Comicus_poeta rdf:type owl:Class ;
                
@@ -1362,7 +1362,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Comoedi
+###  http://lari-datasets.ilc.cnr.it/Homines#Comoedi
 
 :Comoedi rdf:type owl:Class ;
          
@@ -1373,18 +1373,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Comparatio_poetarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Comparatio_poetarum
 
 :Comparatio_poetarum rdf:type owl:Class ;
                      
                      rdfs:label "poets competence"@en ,
                                 "Comparatio poetarum"@la ;
                      
-                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+                     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Comptum_caput
+###  http://lari-datasets.ilc.cnr.it/Homines#Comptum_caput
 
 :Comptum_caput rdf:type owl:Class ;
                
@@ -1395,7 +1395,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Concordia_ordinum_et_civium
+###  http://lari-datasets.ilc.cnr.it/Homines#Concordia_ordinum_et_civium
 
 :Concordia_ordinum_et_civium rdf:type owl:Class ;
                              
@@ -1406,7 +1406,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Conflagratio_mundi
+###  http://lari-datasets.ilc.cnr.it/Homines#Conflagratio_mundi
 
 :Conflagratio_mundi rdf:type owl:Class ;
                     
@@ -1417,7 +1417,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Consules
+###  http://lari-datasets.ilc.cnr.it/Homines#Consules
 
 :Consules rdf:type owl:Class ;
           
@@ -1428,7 +1428,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Contemptus_cupiditatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Contemptus_cupiditatis
 
 :Contemptus_cupiditatis rdf:type owl:Class ;
                         
@@ -1439,7 +1439,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Conviva
+###  http://lari-datasets.ilc.cnr.it/Homines#Conviva
 
 :Conviva rdf:type owl:Class ;
          
@@ -1450,7 +1450,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Convivae_et_sodales
+###  http://lari-datasets.ilc.cnr.it/Homines#Convivae_et_sodales
 
 :Convivae_et_sodales rdf:type owl:Class ;
                      
@@ -1462,7 +1462,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Convivia_barbara
+###  http://lari-datasets.ilc.cnr.it/Homines#Convivia_barbara
 
 :Convivia_barbara rdf:type owl:Class ;
                   
@@ -1475,7 +1475,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Convivia_deorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Convivia_deorum
 
 :Convivia_deorum rdf:type owl:Class ;
                  
@@ -1487,7 +1487,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Convivium
+###  http://lari-datasets.ilc.cnr.it/Homines#Convivium
 
 :Convivium rdf:type owl:Class ;
            
@@ -1498,7 +1498,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cor
+###  http://lari-datasets.ilc.cnr.it/Homines#Cor
 
 :Cor rdf:type owl:Class ;
      
@@ -1510,7 +1510,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Corporis_perturbatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Corporis_perturbatio
 
 :Corporis_perturbatio rdf:type owl:Class ;
                       
@@ -1521,7 +1521,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Crapula
+###  http://lari-datasets.ilc.cnr.it/Homines#Crapula
 
 :Crapula rdf:type owl:Class ;
          
@@ -1532,7 +1532,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Crimen
+###  http://lari-datasets.ilc.cnr.it/Homines#Crimen
 
 :Crimen rdf:type owl:Class ;
         
@@ -1543,7 +1543,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Crines
+###  http://lari-datasets.ilc.cnr.it/Homines#Crines
 
 :Crines rdf:type owl:Class ;
         
@@ -1555,7 +1555,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Crura
+###  http://lari-datasets.ilc.cnr.it/Homines#Crura
 
 :Crura rdf:type owl:Class ;
        
@@ -1567,7 +1567,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Culus
+###  http://lari-datasets.ilc.cnr.it/Homines#Culus
 
 :Culus rdf:type owl:Class ;
        
@@ -1579,7 +1579,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cunnilinguus
+###  http://lari-datasets.ilc.cnr.it/Homines#Cunnilinguus
 
 :Cunnilinguus rdf:type owl:Class ;
               
@@ -1590,7 +1590,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cupiditas
+###  http://lari-datasets.ilc.cnr.it/Homines#Cupiditas
 
 :Cupiditas rdf:type owl:Class ;
            
@@ -1601,7 +1601,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cupiditas_moriendi_in_amplexu
+###  http://lari-datasets.ilc.cnr.it/Homines#Cupiditas_moriendi_in_amplexu
 
 :Cupiditas_moriendi_in_amplexu rdf:type owl:Class ;
                                
@@ -1612,7 +1612,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cupiditas_ulciscendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Cupiditas_ulciscendi
 
 :Cupiditas_ulciscendi rdf:type owl:Class ;
                       
@@ -1623,7 +1623,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cura
+###  http://lari-datasets.ilc.cnr.it/Homines#Cura
 
 :Cura rdf:type owl:Class ;
       
@@ -1634,7 +1634,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cursus_honorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Cursus_honorum
 
 :Cursus_honorum rdf:type owl:Class ;
                 
@@ -1645,7 +1645,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Damnatio_ad_bestias
+###  http://lari-datasets.ilc.cnr.it/Homines#Damnatio_ad_bestias
 
 :Damnatio_ad_bestias rdf:type owl:Class ;
                      
@@ -1656,7 +1656,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#December
+###  http://lari-datasets.ilc.cnr.it/Homines#December
 
 :December rdf:type owl:Class ;
           
@@ -1667,7 +1667,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Deficere_animo
+###  http://lari-datasets.ilc.cnr.it/Homines#Deficere_animo
 
 :Deficere_animo rdf:type owl:Class ;
                 
@@ -1678,7 +1678,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Deformitas_et_foeditas
+###  http://lari-datasets.ilc.cnr.it/Homines#Deformitas_et_foeditas
 
 :Deformitas_et_foeditas rdf:type owl:Class ;
                         
@@ -1690,7 +1690,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dei_inferi
+###  http://lari-datasets.ilc.cnr.it/Homines#Dei_inferi
 
 :Dei_inferi rdf:type owl:Class ;
             
@@ -1701,18 +1701,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Depravatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Depravatio
 
 :Depravatio rdf:type owl:Class ;
             
             rdfs:label "depravation"@en ,
                        "Depravatio"@la ;
             
-            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Designatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Designatores
 
 :Designatores rdf:type owl:Class ;
               
@@ -1724,7 +1724,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dictatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Dictatores
 
 :Dictatores rdf:type owl:Class ;
             
@@ -1735,7 +1735,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies
+###  http://lari-datasets.ilc.cnr.it/Homines#Dies
 
 :Dies rdf:type owl:Class ;
       
@@ -1746,7 +1746,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies_Aegyptiaci_vel_dies_fatales
+###  http://lari-datasets.ilc.cnr.it/Homines#Dies_Aegyptiaci_vel_dies_fatales
 
 :Dies_Aegyptiaci_vel_dies_fatales rdf:type owl:Class ;
                                   
@@ -1757,7 +1757,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies_fatalis
+###  http://lari-datasets.ilc.cnr.it/Homines#Dies_fatalis
 
 :Dies_fatalis rdf:type owl:Class ;
               
@@ -1768,7 +1768,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies_noctesque
+###  http://lari-datasets.ilc.cnr.it/Homines#Dies_noctesque
 
 :Dies_noctesque rdf:type owl:Class ;
                 
@@ -1779,7 +1779,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Digiti
+###  http://lari-datasets.ilc.cnr.it/Homines#Digiti
 
 :Digiti rdf:type owl:Class ;
         
@@ -1791,7 +1791,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dirae
+###  http://lari-datasets.ilc.cnr.it/Homines#Dirae
 
 :Dirae rdf:type owl:Class ;
        
@@ -1802,7 +1802,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Discidium
+###  http://lari-datasets.ilc.cnr.it/Homines#Discidium
 
 :Discidium rdf:type owl:Class ;
            
@@ -1813,7 +1813,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Divitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Divitiae
 
 :Divitiae rdf:type owl:Class ;
           
@@ -1824,7 +1824,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dolor
+###  http://lari-datasets.ilc.cnr.it/Homines#Dolor
 
 :Dolor rdf:type owl:Class ;
        
@@ -1836,7 +1836,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Domitores
+###  http://lari-datasets.ilc.cnr.it/Homines#Domitores
 
 :Domitores rdf:type owl:Class ;
            
@@ -1847,7 +1847,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dona_et_pignora
+###  http://lari-datasets.ilc.cnr.it/Homines#Dona_et_pignora
 
 :Dona_et_pignora rdf:type owl:Class ;
                  
@@ -1858,7 +1858,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Duces
+###  http://lari-datasets.ilc.cnr.it/Homines#Duces
 
 :Duces rdf:type owl:Class ;
        
@@ -1871,7 +1871,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ebrietas
+###  http://lari-datasets.ilc.cnr.it/Homines#Ebrietas
 
 :Ebrietas rdf:type owl:Class ;
           
@@ -1882,7 +1882,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ekphrasis_locorum_vel_topographia
+###  http://lari-datasets.ilc.cnr.it/Homines#Ekphrasis_locorum_vel_topographia
 
 :Ekphrasis_locorum_vel_topographia rdf:type owl:Class ;
                                    
@@ -1893,7 +1893,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ekphrasis_mulierum_vel_personarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Ekphrasis_mulierum_vel_personarum
 
 :Ekphrasis_mulierum_vel_personarum rdf:type owl:Class ;
                                    
@@ -1904,7 +1904,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ekphrasis_rerum_vel_operum
+###  http://lari-datasets.ilc.cnr.it/Homines#Ekphrasis_rerum_vel_operum
 
 :Ekphrasis_rerum_vel_operum rdf:type owl:Class ;
                             
@@ -1915,7 +1915,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Episcopi
+###  http://lari-datasets.ilc.cnr.it/Homines#Episcopi
 
 :Episcopi rdf:type owl:Class ;
           
@@ -1929,7 +1929,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Equites
+###  http://lari-datasets.ilc.cnr.it/Homines#Equites
 
 :Equites rdf:type owl:Class ;
          
@@ -1940,7 +1940,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Evocationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Evocationes
 
 :Evocationes rdf:type owl:Class ;
              
@@ -1951,7 +1951,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Exempla_de_amicitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Exempla_de_amicitia
 
 :Exempla_de_amicitia rdf:type owl:Class ;
                      
@@ -1962,7 +1962,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Exercitus
+###  http://lari-datasets.ilc.cnr.it/Homines#Exercitus
 
 :Exercitus rdf:type owl:Class ;
            
@@ -1973,7 +1973,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Exilium
+###  http://lari-datasets.ilc.cnr.it/Homines#Exilium
 
 :Exilium rdf:type owl:Class ;
          
@@ -1984,7 +1984,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Exilium_tamquam_mors
+###  http://lari-datasets.ilc.cnr.it/Homines#Exilium_tamquam_mors
 
 :Exilium_tamquam_mors rdf:type owl:Class ;
                       
@@ -1995,7 +1995,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Exitus_virorum_illustrium
+###  http://lari-datasets.ilc.cnr.it/Homines#Exitus_virorum_illustrium
 
 :Exitus_virorum_illustrium rdf:type owl:Class ;
                            
@@ -2006,7 +2006,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fama_et_gloria
+###  http://lari-datasets.ilc.cnr.it/Homines#Fama_et_gloria
 
 :Fama_et_gloria rdf:type owl:Class ;
                 
@@ -2017,7 +2017,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fama_poetica
+###  http://lari-datasets.ilc.cnr.it/Homines#Fama_poetica
 
 :Fama_poetica rdf:type owl:Class ;
               
@@ -2028,7 +2028,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Familia
+###  http://lari-datasets.ilc.cnr.it/Homines#Familia
 
 :Familia rdf:type owl:Class ;
          
@@ -2036,7 +2036,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Famuli
+###  http://lari-datasets.ilc.cnr.it/Homines#Famuli
 
 :Famuli rdf:type owl:Class ;
         
@@ -2048,7 +2048,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fascinum
+###  http://lari-datasets.ilc.cnr.it/Homines#Fascinum
 
 :Fascinum rdf:type owl:Class ;
           
@@ -2059,7 +2059,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fata
+###  http://lari-datasets.ilc.cnr.it/Homines#Fata
 
 :Fata rdf:type owl:Class ;
       
@@ -2070,7 +2070,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fauces_vel_guttur
+###  http://lari-datasets.ilc.cnr.it/Homines#Fauces_vel_guttur
 
 :Fauces_vel_guttur rdf:type owl:Class ;
                    
@@ -2082,7 +2082,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Februarius
+###  http://lari-datasets.ilc.cnr.it/Homines#Februarius
 
 :Februarius rdf:type owl:Class ;
             
@@ -2093,7 +2093,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fellatio_et_irrumatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Fellatio_et_irrumatio
 
 :Fellatio_et_irrumatio rdf:type owl:Class ;
                        
@@ -2104,7 +2104,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fides
+###  http://lari-datasets.ilc.cnr.it/Homines#Fides
 
 :Fides rdf:type owl:Class ;
        
@@ -2116,7 +2116,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fides_et_foedus_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Fides_et_foedus_amoris
 
 :Fides_et_foedus_amoris rdf:type owl:Class ;
                         
@@ -2127,7 +2127,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Figura_etymologica
+###  http://lari-datasets.ilc.cnr.it/Homines#Figura_etymologica
 
 :Figura_etymologica rdf:type owl:Class ;
                     
@@ -2138,7 +2138,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Filii_certi_et_incerti
+###  http://lari-datasets.ilc.cnr.it/Homines#Filii_certi_et_incerti
 
 :Filii_certi_et_incerti rdf:type owl:Class ;
                         
@@ -2150,7 +2150,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Finis_mundi
+###  http://lari-datasets.ilc.cnr.it/Homines#Finis_mundi
 
 :Finis_mundi rdf:type owl:Class ;
              
@@ -2161,7 +2161,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Finis_vitae
+###  http://lari-datasets.ilc.cnr.it/Homines#Finis_vitae
 
 :Finis_vitae rdf:type owl:Class ;
              
@@ -2172,7 +2172,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fiscus_et_vectigalia
+###  http://lari-datasets.ilc.cnr.it/Homines#Fiscus_et_vectigalia
 
 :Fiscus_et_vectigalia rdf:type owl:Class ;
                       
@@ -2183,7 +2183,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Flamma_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Flamma_amoris
 
 :Flamma_amoris rdf:type owl:Class ;
                
@@ -2194,7 +2194,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fletus_vel_ploratus
+###  http://lari-datasets.ilc.cnr.it/Homines#Fletus_vel_ploratus
 
 :Fletus_vel_ploratus rdf:type owl:Class ;
                      
@@ -2205,7 +2205,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Flos_aetatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Flos_aetatis
 
 :Flos_aetatis rdf:type owl:Class ;
               
@@ -2216,7 +2216,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Forensia
+###  http://lari-datasets.ilc.cnr.it/Homines#Forensia
 
 :Forensia rdf:type owl:Class ;
           
@@ -2227,7 +2227,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Formula_humilitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Formula_humilitatis
 
 :Formula_humilitatis rdf:type owl:Class ;
                      
@@ -2238,7 +2238,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fortitudo
+###  http://lari-datasets.ilc.cnr.it/Homines#Fortitudo
 
 :Fortitudo rdf:type owl:Class ;
            
@@ -2249,7 +2249,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fortuna
+###  http://lari-datasets.ilc.cnr.it/Homines#Fortuna
 
 :Fortuna rdf:type owl:Class ;
          
@@ -2260,7 +2260,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fortuna_casus_et_fatum
+###  http://lari-datasets.ilc.cnr.it/Homines#Fortuna_casus_et_fatum
 
 :Fortuna_casus_et_fatum rdf:type owl:Class ;
                         
@@ -2268,7 +2268,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fortuna_omnes_aequans
+###  http://lari-datasets.ilc.cnr.it/Homines#Fortuna_omnes_aequans
 
 :Fortuna_omnes_aequans rdf:type owl:Class ;
                        
@@ -2279,7 +2279,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fratres
+###  http://lari-datasets.ilc.cnr.it/Homines#Fratres
 
 :Fratres rdf:type owl:Class ;
          
@@ -2290,7 +2290,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Fructus_temporum_quattuor
+###  http://lari-datasets.ilc.cnr.it/Homines#Fructus_temporum_quattuor
 
 :Fructus_temporum_quattuor rdf:type owl:Class ;
                            
@@ -2301,7 +2301,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Funambuli
+###  http://lari-datasets.ilc.cnr.it/Homines#Funambuli
 
 :Funambuli rdf:type owl:Class ;
            
@@ -2313,7 +2313,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Furor
+###  http://lari-datasets.ilc.cnr.it/Homines#Furor
 
 :Furor rdf:type owl:Class ;
        
@@ -2325,7 +2325,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Furor_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Furor_amoris
 
 :Furor_amoris rdf:type owl:Class ;
               
@@ -2336,7 +2336,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Furta_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Furta_amoris
 
 :Furta_amoris rdf:type owl:Class ;
               
@@ -2347,7 +2347,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Gemini
+###  http://lari-datasets.ilc.cnr.it/Homines#Gemini
 
 :Gemini rdf:type owl:Class ;
         
@@ -2358,7 +2358,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Genae
+###  http://lari-datasets.ilc.cnr.it/Homines#Genae
 
 :Genae rdf:type owl:Class ;
        
@@ -2370,7 +2370,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Gladiatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Gladiatores
 
 :Gladiatores rdf:type owl:Class ;
              
@@ -2381,7 +2381,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Grammatici_et_magistri
+###  http://lari-datasets.ilc.cnr.it/Homines#Grammatici_et_magistri
 
 :Grammatici_et_magistri rdf:type owl:Class ;
                         
@@ -2393,7 +2393,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hereditas
+###  http://lari-datasets.ilc.cnr.it/Homines#Hereditas
 
 :Hereditas rdf:type owl:Class ;
            
@@ -2404,7 +2404,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hiems
+###  http://lari-datasets.ilc.cnr.it/Homines#Hiems
 
 :Hiems rdf:type owl:Class ;
        
@@ -2415,7 +2415,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Holonomastica_holorhematica_et_similia
+###  http://lari-datasets.ilc.cnr.it/Homines#Holonomastica_holorhematica_et_similia
 
 :Holonomastica_holorhematica_et_similia rdf:type owl:Class ;
                                         
@@ -2426,7 +2426,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Honores_ordines_et_professiones_mortuorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Honores_ordines_et_professiones_mortuorum
 
 :Honores_ordines_et_professiones_mortuorum rdf:type owl:Class ;
                                            
@@ -2437,7 +2437,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hora_et_dies_fatales
+###  http://lari-datasets.ilc.cnr.it/Homines#Hora_et_dies_fatales
 
 :Hora_et_dies_fatales rdf:type owl:Class ;
                       
@@ -2448,7 +2448,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Horae
+###  http://lari-datasets.ilc.cnr.it/Homines#Horae
 
 :Horae rdf:type owl:Class ;
        
@@ -2459,7 +2459,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Horologia
+###  http://lari-datasets.ilc.cnr.it/Homines#Horologia
 
 :Horologia rdf:type owl:Class ;
            
@@ -2470,7 +2470,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hospitalitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Hospitalitas
 
 :Hospitalitas rdf:type owl:Class ;
               
@@ -2481,7 +2481,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ianuarius
+###  http://lari-datasets.ilc.cnr.it/Homines#Ianuarius
 
 :Ianuarius rdf:type owl:Class ;
            
@@ -2492,7 +2492,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Idus
+###  http://lari-datasets.ilc.cnr.it/Homines#Idus
 
 :Idus rdf:type owl:Class ;
       
@@ -2503,7 +2503,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imagines
+###  http://lari-datasets.ilc.cnr.it/Homines#Imagines
 
 :Imagines rdf:type owl:Class ;
           
@@ -2515,7 +2515,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imagines_variae_et_visiones
+###  http://lari-datasets.ilc.cnr.it/Homines#Imagines_variae_et_visiones
 
 :Imagines_variae_et_visiones rdf:type owl:Class ;
                              
@@ -2526,7 +2526,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imago_amantis
+###  http://lari-datasets.ilc.cnr.it/Homines#Imago_amantis
 
 :Imago_amantis rdf:type owl:Class ;
                
@@ -2537,7 +2537,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imitatio_et_aemulatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Imitatio_et_aemulatio
 
 :Imitatio_et_aemulatio rdf:type owl:Class ;
                        
@@ -2548,7 +2548,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imminutio_puellae
+###  http://lari-datasets.ilc.cnr.it/Homines#Imminutio_puellae
 
 :Imminutio_puellae rdf:type owl:Class ;
                    
@@ -2559,7 +2559,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imperium_et_principatus
+###  http://lari-datasets.ilc.cnr.it/Homines#Imperium_et_principatus
 
 :Imperium_et_principatus rdf:type owl:Class ;
                          
@@ -2570,7 +2570,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Imperium_militare
+###  http://lari-datasets.ilc.cnr.it/Homines#Imperium_militare
 
 :Imperium_militare rdf:type owl:Class ;
                    
@@ -2581,7 +2581,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Impossibilia
+###  http://lari-datasets.ilc.cnr.it/Homines#Impossibilia
 
 :Impossibilia rdf:type owl:Class ;
               
@@ -2592,7 +2592,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Improbitas_animi
+###  http://lari-datasets.ilc.cnr.it/Homines#Improbitas_animi
 
 :Improbitas_animi rdf:type owl:Class ;
                   
@@ -2603,18 +2603,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Impudicitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Impudicitia
 
 :Impudicitia rdf:type owl:Class ;
              
              rdfs:label "WICKEDNESS"@en ,
                         "Impudicitia"@la ;
              
-             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+             rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Inconstantia_amantis
+###  http://lari-datasets.ilc.cnr.it/Homines#Inconstantia_amantis
 
 :Inconstantia_amantis rdf:type owl:Class ;
                       
@@ -2625,7 +2625,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Indictio_belli
+###  http://lari-datasets.ilc.cnr.it/Homines#Indictio_belli
 
 :Indictio_belli rdf:type owl:Class ;
                 
@@ -2636,7 +2636,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Industria
+###  http://lari-datasets.ilc.cnr.it/Homines#Industria
 
 :Industria rdf:type owl:Class ;
            
@@ -2647,7 +2647,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Infantia
+###  http://lari-datasets.ilc.cnr.it/Homines#Infantia
 
 :Infantia rdf:type owl:Class ;
           
@@ -2658,7 +2658,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Initium_et_finis_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Initium_et_finis_amoris
 
 :Initium_et_finis_amoris rdf:type owl:Class ;
                          
@@ -2669,18 +2669,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Inscitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Inscitia
 
 :Inscitia rdf:type owl:Class ;
           
           rdfs:label "ignorance"@en ,
                      "Inscitia"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Interitus_urbium
+###  http://lari-datasets.ilc.cnr.it/Homines#Interitus_urbium
 
 :Interitus_urbium rdf:type owl:Class ;
                   
@@ -2691,7 +2691,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Invidia
+###  http://lari-datasets.ilc.cnr.it/Homines#Invidia
 
 :Invidia rdf:type owl:Class ;
          
@@ -2704,7 +2704,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio
 
 :Irrisio_et_vituperatio rdf:type owl:Class ;
                         
@@ -2715,7 +2715,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_aviditatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_aviditatis
 
 :Irrisio_et_vituperatio_aviditatis rdf:type owl:Class ;
                                    
@@ -2727,7 +2727,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_benignitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_benignitatis
 
 :Irrisio_et_vituperatio_benignitatis rdf:type owl:Class ;
                                      
@@ -2739,7 +2739,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_castitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_castitatis
 
 :Irrisio_et_vituperatio_castitatis rdf:type owl:Class ;
                                    
@@ -2751,7 +2751,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_crapulae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_crapulae
 
 :Irrisio_et_vituperatio_crapulae rdf:type owl:Class ;
                                  
@@ -2763,7 +2763,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_cultus
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_cultus
 
 :Irrisio_et_vituperatio_cultus rdf:type owl:Class ;
                                
@@ -2775,7 +2775,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_deformitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_deformitatis
 
 :Irrisio_et_vituperatio_deformitatis rdf:type owl:Class ;
                                      
@@ -2787,7 +2787,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_depravationis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_depravationis
 
 :Irrisio_et_vituperatio_depravationis rdf:type owl:Class ;
                                       
@@ -2799,7 +2799,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_ebrietatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_ebrietatis
 
 :Irrisio_et_vituperatio_ebrietatis rdf:type owl:Class ;
                                    
@@ -2811,7 +2811,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_foeditatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_foeditatis
 
 :Irrisio_et_vituperatio_foeditatis rdf:type owl:Class ;
                                    
@@ -2823,7 +2823,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_furoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_furoris
 
 :Irrisio_et_vituperatio_furoris rdf:type owl:Class ;
                                 
@@ -2835,7 +2835,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_ignaviae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_ignaviae
 
 :Irrisio_et_vituperatio_ignaviae rdf:type owl:Class ;
                                  
@@ -2847,7 +2847,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_impotentiae_coeundi_et_generandi
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_impotentiae_coeundi_et_generandi
 
 :Irrisio_et_vituperatio_impotentiae_coeundi_et_generandi rdf:type owl:Class ;
                                                          
@@ -2859,7 +2859,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_improbitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_improbitatis
 
 :Irrisio_et_vituperatio_improbitatis rdf:type owl:Class ;
                                      
@@ -2871,7 +2871,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_impudicitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_impudicitiae
 
 :Irrisio_et_vituperatio_impudicitiae rdf:type owl:Class ;
                                      
@@ -2883,7 +2883,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_indigentiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_indigentiae
 
 :Irrisio_et_vituperatio_indigentiae rdf:type owl:Class ;
                                     
@@ -2895,7 +2895,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_inscitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_inscitiae
 
 :Irrisio_et_vituperatio_inscitiae rdf:type owl:Class ;
                                   
@@ -2907,7 +2907,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_invidiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_invidiae
 
 :Irrisio_et_vituperatio_invidiae rdf:type owl:Class ;
                                  
@@ -2919,7 +2919,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_latrocinii
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_latrocinii
 
 :Irrisio_et_vituperatio_latrocinii rdf:type owl:Class ;
                                    
@@ -2931,7 +2931,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_lenocinii
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_lenocinii
 
 :Irrisio_et_vituperatio_lenocinii rdf:type owl:Class ;
                                   
@@ -2943,7 +2943,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_libidinis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_libidinis
 
 :Irrisio_et_vituperatio_libidinis rdf:type owl:Class ;
                                   
@@ -2955,7 +2955,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_loquacitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_loquacitatis
 
 :Irrisio_et_vituperatio_loquacitatis rdf:type owl:Class ;
                                      
@@ -2967,7 +2967,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_luxuriae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_luxuriae
 
 :Irrisio_et_vituperatio_luxuriae rdf:type owl:Class ;
                                  
@@ -2979,7 +2979,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_malignitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_malignitatis
 
 :Irrisio_et_vituperatio_malignitatis rdf:type owl:Class ;
                                      
@@ -2991,7 +2991,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_mollitiei
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_mollitiei
 
 :Irrisio_et_vituperatio_mollitiei rdf:type owl:Class ;
                                   
@@ -3003,7 +3003,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_morborum
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_morborum
 
 :Irrisio_et_vituperatio_morborum rdf:type owl:Class ;
                                  
@@ -3015,7 +3015,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_morositatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_morositatis
 
 :Irrisio_et_vituperatio_morositatis rdf:type owl:Class ;
                                     
@@ -3027,7 +3027,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_perfidiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_perfidiae
 
 :Irrisio_et_vituperatio_perfidiae rdf:type owl:Class ;
                                   
@@ -3039,7 +3039,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_pinguedinis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_pinguedinis
 
 :Irrisio_et_vituperatio_pinguedinis rdf:type owl:Class ;
                                     
@@ -3051,7 +3051,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_regum_et_magistratuum
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_regum_et_magistratuum
 
 :Irrisio_et_vituperatio_regum_et_magistratuum rdf:type owl:Class ;
                                               
@@ -3063,7 +3063,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_saevitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_saevitiae
 
 :Irrisio_et_vituperatio_saevitiae rdf:type owl:Class ;
                                   
@@ -3075,7 +3075,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_senectutis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_senectutis
 
 :Irrisio_et_vituperatio_senectutis rdf:type owl:Class ;
                                    
@@ -3087,7 +3087,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_turbae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_turbae
 
 :Irrisio_et_vituperatio_turbae rdf:type owl:Class ;
                                
@@ -3099,7 +3099,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_vanitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_vanitatis
 
 :Irrisio_et_vituperatio_vanitatis rdf:type owl:Class ;
                                   
@@ -3111,7 +3111,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Irrisio_et_vituperatio_zelotypiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Irrisio_et_vituperatio_zelotypiae
 
 :Irrisio_et_vituperatio_zelotypiae rdf:type owl:Class ;
                                    
@@ -3123,7 +3123,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Itineraria
+###  http://lari-datasets.ilc.cnr.it/Homines#Itineraria
 
 :Itineraria rdf:type owl:Class ;
             
@@ -3134,7 +3134,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Itineraria_et_peregrinationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Itineraria_et_peregrinationes
 
 :Itineraria_et_peregrinationes rdf:type owl:Class ;
                                
@@ -3145,7 +3145,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iudices
+###  http://lari-datasets.ilc.cnr.it/Homines#Iudices
 
 :Iudices rdf:type owl:Class ;
          
@@ -3157,7 +3157,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iulius
+###  http://lari-datasets.ilc.cnr.it/Homines#Iulius
 
 :Iulius rdf:type owl:Class ;
         
@@ -3168,7 +3168,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iunius
+###  http://lari-datasets.ilc.cnr.it/Homines#Iunius
 
 :Iunius rdf:type owl:Class ;
         
@@ -3179,7 +3179,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iura_et_negotia
+###  http://lari-datasets.ilc.cnr.it/Homines#Iura_et_negotia
 
 :Iura_et_negotia rdf:type owl:Class ;
                  
@@ -3192,7 +3192,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iurgia_amantum
+###  http://lari-datasets.ilc.cnr.it/Homines#Iurgia_amantum
 
 :Iurgia_amantum rdf:type owl:Class ;
                 
@@ -3203,7 +3203,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ius_familiare
+###  http://lari-datasets.ilc.cnr.it/Homines#Ius_familiare
 
 :Ius_familiare rdf:type owl:Class ;
                
@@ -3214,7 +3214,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Iuventus
+###  http://lari-datasets.ilc.cnr.it/Homines#Iuventus
 
 :Iuventus rdf:type owl:Class ;
           
@@ -3225,7 +3225,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Kalendae
+###  http://lari-datasets.ilc.cnr.it/Homines#Kalendae
 
 :Kalendae rdf:type owl:Class ;
           
@@ -3236,7 +3236,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Labor_limae
+###  http://lari-datasets.ilc.cnr.it/Homines#Labor_limae
 
 :Labor_limae rdf:type owl:Class ;
              
@@ -3247,7 +3247,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio
 
 :Laudatio rdf:type owl:Class ;
           
@@ -3258,7 +3258,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_Christi
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_Christi
 
 :Laudatio_Christi rdf:type owl:Class ;
                   
@@ -3269,7 +3269,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_amicitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_amicitiae
 
 :Laudatio_amicitiae rdf:type owl:Class ;
                     
@@ -3280,7 +3280,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_artium
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_artium
 
 :Laudatio_artium rdf:type owl:Class ;
                  
@@ -3291,7 +3291,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_benevolentiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_benevolentiae
 
 :Laudatio_benevolentiae rdf:type owl:Class ;
                         
@@ -3302,7 +3302,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_castitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_castitatis
 
 :Laudatio_castitatis rdf:type owl:Class ;
                      
@@ -3313,7 +3313,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_circensium
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_circensium
 
 :Laudatio_circensium rdf:type owl:Class ;
                      
@@ -3324,7 +3324,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_clementiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_clementiae
 
 :Laudatio_clementiae rdf:type owl:Class ;
                      
@@ -3335,7 +3335,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_constantiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_constantiae
 
 :Laudatio_constantiae rdf:type owl:Class ;
                       
@@ -3346,7 +3346,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_ducum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_ducum
 
 :Laudatio_ducum rdf:type owl:Class ;
                 
@@ -3357,7 +3357,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_eloquentiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_eloquentiae
 
 :Laudatio_eloquentiae rdf:type owl:Class ;
                       
@@ -3368,7 +3368,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_fidei
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_fidei
 
 :Laudatio_fidei rdf:type owl:Class ;
                 
@@ -3379,7 +3379,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_florum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_florum
 
 :Laudatio_florum rdf:type owl:Class ;
                  
@@ -3390,7 +3390,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_formae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_formae
 
 :Laudatio_formae rdf:type owl:Class ;
                  
@@ -3401,7 +3401,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_funebris
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_funebris
 
 :Laudatio_funebris rdf:type owl:Class ;
                    
@@ -3413,7 +3413,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_horti
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_horti
 
 :Laudatio_horti rdf:type owl:Class ;
                 
@@ -3424,7 +3424,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_industriae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_industriae
 
 :Laudatio_industriae rdf:type owl:Class ;
                      
@@ -3435,7 +3435,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_liberalitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_liberalitatis
 
 :Laudatio_liberalitatis rdf:type owl:Class ;
                         
@@ -3446,7 +3446,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_litterarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_litterarum
 
 :Laudatio_litterarum rdf:type owl:Class ;
                      
@@ -3457,7 +3457,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_maiorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_maiorum
 
 :Laudatio_maiorum rdf:type owl:Class ;
                   
@@ -3468,7 +3468,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_militum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_militum
 
 :Laudatio_militum rdf:type owl:Class ;
                   
@@ -3479,7 +3479,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_modestiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_modestiae
 
 :Laudatio_modestiae rdf:type owl:Class ;
                     
@@ -3490,7 +3490,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_otii
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_otii
 
 :Laudatio_otii rdf:type owl:Class ;
                
@@ -3501,7 +3501,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_per_enallagen
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_per_enallagen
 
 :Laudatio_per_enallagen rdf:type owl:Class ;
                         
@@ -3512,7 +3512,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_pietatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_pietatis
 
 :Laudatio_pietatis rdf:type owl:Class ;
                    
@@ -3523,7 +3523,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_poetarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_poetarum
 
 :Laudatio_poetarum rdf:type owl:Class ;
                    
@@ -3534,7 +3534,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_probitatis
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_probitatis
 
 :Laudatio_probitatis rdf:type owl:Class ;
                      
@@ -3545,7 +3545,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_pudoris_vel_pudicitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_pudoris_vel_pudicitiae
 
 :Laudatio_pudoris_vel_pudicitiae rdf:type owl:Class ;
                                  
@@ -3556,7 +3556,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_regum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_regum
 
 :Laudatio_regum rdf:type owl:Class ;
                 
@@ -3567,7 +3567,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_ruris
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_ruris
 
 :Laudatio_ruris rdf:type owl:Class ;
                 
@@ -3578,7 +3578,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_sapientiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_sapientiae
 
 :Laudatio_sapientiae rdf:type owl:Class ;
                      
@@ -3589,7 +3589,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_spectaculorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_spectaculorum
 
 :Laudatio_spectaculorum rdf:type owl:Class ;
                         
@@ -3600,7 +3600,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laudatio_urbium
+###  http://lari-datasets.ilc.cnr.it/Homines#Laudatio_urbium
 
 :Laudatio_urbium rdf:type owl:Class ;
                  
@@ -3611,7 +3611,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_amicitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_amicitiae
 
 :Laus_amicitiae rdf:type owl:Class ;
                 
@@ -3622,7 +3622,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_artium
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_artium
 
 :Laus_artium rdf:type owl:Class ;
              
@@ -3633,7 +3633,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_ducum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_ducum
 
 :Laus_ducum rdf:type owl:Class ;
             
@@ -3644,7 +3644,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_militum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_militum
 
 :Laus_militum rdf:type owl:Class ;
               
@@ -3655,7 +3655,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_otii
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_otii
 
 :Laus_otii rdf:type owl:Class ;
            
@@ -3666,7 +3666,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Laus_poetarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Laus_poetarum
 
 :Laus_poetarum rdf:type owl:Class ;
                
@@ -3677,7 +3677,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Leges
+###  http://lari-datasets.ilc.cnr.it/Homines#Leges
 
 :Leges rdf:type owl:Class ;
        
@@ -3688,7 +3688,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Leges_mundi
+###  http://lari-datasets.ilc.cnr.it/Homines#Leges_mundi
 
 :Leges_mundi rdf:type owl:Class ;
              
@@ -3699,7 +3699,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lenones
+###  http://lari-datasets.ilc.cnr.it/Homines#Lenones
 
 :Lenones rdf:type owl:Class ;
          
@@ -3711,7 +3711,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lex_mortis
+###  http://lari-datasets.ilc.cnr.it/Homines#Lex_mortis
 
 :Lex_mortis rdf:type owl:Class ;
             
@@ -3722,7 +3722,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Liberalitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Liberalitas
 
 :Liberalitas rdf:type owl:Class ;
              
@@ -3733,7 +3733,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Libertas
+###  http://lari-datasets.ilc.cnr.it/Homines#Libertas
 
 :Libertas rdf:type owl:Class ;
           
@@ -3744,7 +3744,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Liberti
+###  http://lari-datasets.ilc.cnr.it/Homines#Liberti
 
 :Liberti rdf:type owl:Class ;
          
@@ -3756,7 +3756,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Libido
+###  http://lari-datasets.ilc.cnr.it/Homines#Libido
 
 :Libido rdf:type owl:Class ;
         
@@ -3764,11 +3764,11 @@ midlevel:role rdf:type owl:AnnotationProperty .
                    "sexual desire"@en ,
                    "Libido"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Litis_compositio
+###  http://lari-datasets.ilc.cnr.it/Homines#Litis_compositio
 
 :Litis_compositio rdf:type owl:Class ;
                   
@@ -3779,7 +3779,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Loca_exploranda
+###  http://lari-datasets.ilc.cnr.it/Homines#Loca_exploranda
 
 :Loca_exploranda rdf:type owl:Class ;
                  
@@ -3790,7 +3790,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Loca_mortis
+###  http://lari-datasets.ilc.cnr.it/Homines#Loca_mortis
 
 :Loca_mortis rdf:type owl:Class ;
              
@@ -3801,7 +3801,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Locus_amoenus
+###  http://lari-datasets.ilc.cnr.it/Homines#Locus_amoenus
 
 :Locus_amoenus rdf:type owl:Class ;
                
@@ -3812,7 +3812,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Locus_horridus
+###  http://lari-datasets.ilc.cnr.it/Homines#Locus_horridus
 
 :Locus_horridus rdf:type owl:Class ;
                 
@@ -3823,18 +3823,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Loquacitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Loquacitas
 
 :Loquacitas rdf:type owl:Class ;
             
             rdfs:label "talkativeness"@en ,
                        "Loquacitas"@la ;
             
-            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Luctus
+###  http://lari-datasets.ilc.cnr.it/Homines#Luctus
 
 :Luctus rdf:type owl:Class ;
         
@@ -3845,7 +3845,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ludi
+###  http://lari-datasets.ilc.cnr.it/Homines#Ludi
 
 :Ludi rdf:type owl:Class ;
       
@@ -3856,7 +3856,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lumina
+###  http://lari-datasets.ilc.cnr.it/Homines#Lumina
 
 :Lumina rdf:type owl:Class ;
         
@@ -3868,7 +3868,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lumina_amantis
+###  http://lari-datasets.ilc.cnr.it/Homines#Lumina_amantis
 
 :Lumina_amantis rdf:type owl:Class ;
                 
@@ -3879,7 +3879,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lusus_verborum_et_lenocinia
+###  http://lari-datasets.ilc.cnr.it/Homines#Lusus_verborum_et_lenocinia
 
 :Lusus_verborum_et_lenocinia rdf:type owl:Class ;
                              
@@ -3890,7 +3890,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Luxuria
+###  http://lari-datasets.ilc.cnr.it/Homines#Luxuria
 
 :Luxuria rdf:type owl:Class ;
          
@@ -3901,7 +3901,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Macies
+###  http://lari-datasets.ilc.cnr.it/Homines#Macies
 
 :Macies rdf:type owl:Class ;
         
@@ -3913,7 +3913,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Magia
+###  http://lari-datasets.ilc.cnr.it/Homines#Magia
 
 :Magia rdf:type owl:Class ;
        
@@ -3924,7 +3924,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Magister_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Magister_amoris
 
 :Magister_amoris rdf:type owl:Class ;
                  
@@ -3935,7 +3935,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Magistri
+###  http://lari-datasets.ilc.cnr.it/Homines#Magistri
 
 :Magistri rdf:type owl:Class ;
           
@@ -3947,7 +3947,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Magnanimitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Magnanimitas
 
 :Magnanimitas rdf:type owl:Class ;
               
@@ -3958,7 +3958,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Maius
+###  http://lari-datasets.ilc.cnr.it/Homines#Maius
 
 :Maius rdf:type owl:Class ;
        
@@ -3969,7 +3969,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Manumissio
+###  http://lari-datasets.ilc.cnr.it/Homines#Manumissio
 
 :Manumissio rdf:type owl:Class ;
             
@@ -3980,7 +3980,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Manus
+###  http://lari-datasets.ilc.cnr.it/Homines#Manus
 
 :Manus rdf:type owl:Class ;
        
@@ -3992,7 +3992,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Margaritarii
+###  http://lari-datasets.ilc.cnr.it/Homines#Margaritarii
 
 :Margaritarii rdf:type owl:Class ;
               
@@ -4004,7 +4004,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Maritus_et_uxor
+###  http://lari-datasets.ilc.cnr.it/Homines#Maritus_et_uxor
 
 :Maritus_et_uxor rdf:type owl:Class ;
                  
@@ -4015,7 +4015,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Martius
+###  http://lari-datasets.ilc.cnr.it/Homines#Martius
 
 :Martius rdf:type owl:Class ;
          
@@ -4026,7 +4026,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Masturbatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Masturbatio
 
 :Masturbatio rdf:type owl:Class ;
              
@@ -4037,7 +4037,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mathematica
+###  http://lari-datasets.ilc.cnr.it/Homines#Mathematica
 
 :Mathematica rdf:type owl:Class ;
              
@@ -4048,7 +4048,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Matronae
+###  http://lari-datasets.ilc.cnr.it/Homines#Matronae
 
 :Matronae rdf:type owl:Class ;
           
@@ -4060,7 +4060,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Medicamina_faciei
+###  http://lari-datasets.ilc.cnr.it/Homines#Medicamina_faciei
 
 :Medicamina_faciei rdf:type owl:Class ;
                    
@@ -4072,7 +4072,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Medici
+###  http://lari-datasets.ilc.cnr.it/Homines#Medici
 
 :Medici rdf:type owl:Class ;
         
@@ -4084,7 +4084,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Meditatio_mortis
+###  http://lari-datasets.ilc.cnr.it/Homines#Meditatio_mortis
 
 :Meditatio_mortis rdf:type owl:Class ;
                   
@@ -4095,7 +4095,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Membra_disiecta
+###  http://lari-datasets.ilc.cnr.it/Homines#Membra_disiecta
 
 :Membra_disiecta rdf:type owl:Class ;
                  
@@ -4106,7 +4106,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Menses
+###  http://lari-datasets.ilc.cnr.it/Homines#Menses
 
 :Menses rdf:type owl:Class ;
         
@@ -4117,7 +4117,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mental_Object
+###  http://lari-datasets.ilc.cnr.it/Homines#Mental_Object
 
 :Mental_Object rdf:type owl:Class ;
                
@@ -4125,7 +4125,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mercatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Mercatores
 
 :Mercatores rdf:type owl:Class ;
             
@@ -4136,7 +4136,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mercatura
+###  http://lari-datasets.ilc.cnr.it/Homines#Mercatura
 
 :Mercatura rdf:type owl:Class ;
            
@@ -4147,7 +4147,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Meretrices
+###  http://lari-datasets.ilc.cnr.it/Homines#Meretrices
 
 :Meretrices rdf:type owl:Class ;
             
@@ -4159,7 +4159,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Meretricium
+###  http://lari-datasets.ilc.cnr.it/Homines#Meretricium
 
 :Meretricium rdf:type owl:Class ;
              
@@ -4170,7 +4170,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Metaphorae
+###  http://lari-datasets.ilc.cnr.it/Homines#Metaphorae
 
 :Metaphorae rdf:type owl:Class ;
             
@@ -4183,7 +4183,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Metaphorae_de_amicitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Metaphorae_de_amicitia
 
 :Metaphorae_de_amicitia rdf:type owl:Class ;
                         
@@ -4194,7 +4194,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Metaphorae_vel_Allegoriae
+###  http://lari-datasets.ilc.cnr.it/Homines#Metaphorae_vel_Allegoriae
 
 :Metaphorae_vel_Allegoriae rdf:type owl:Class ;
                            
@@ -4205,7 +4205,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Metra_et_rhythmi
+###  http://lari-datasets.ilc.cnr.it/Homines#Metra_et_rhythmi
 
 :Metra_et_rhythmi rdf:type owl:Class ;
                   
@@ -4216,7 +4216,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Metus
+###  http://lari-datasets.ilc.cnr.it/Homines#Metus
 
 :Metus rdf:type owl:Class ;
        
@@ -4227,7 +4227,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Milites
+###  http://lari-datasets.ilc.cnr.it/Homines#Milites
 
 :Milites rdf:type owl:Class ;
          
@@ -4239,7 +4239,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Militia_vel_servitium_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Militia_vel_servitium_amoris
 
 :Militia_vel_servitium_amoris rdf:type owl:Class ;
                               
@@ -4250,7 +4250,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mimi
+###  http://lari-datasets.ilc.cnr.it/Homines#Mimi
 
 :Mimi rdf:type owl:Class ;
       
@@ -4261,7 +4261,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mimi_et_pantomimi
+###  http://lari-datasets.ilc.cnr.it/Homines#Mimi_et_pantomimi
 
 :Mimi_et_pantomimi rdf:type owl:Class ;
                    
@@ -4273,7 +4273,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ministri_regis_et_magistratus
+###  http://lari-datasets.ilc.cnr.it/Homines#Ministri_regis_et_magistratus
 
 :Ministri_regis_et_magistratus rdf:type owl:Class ;
                                
@@ -4285,7 +4285,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mirabilia_mundi
+###  http://lari-datasets.ilc.cnr.it/Homines#Mirabilia_mundi
 
 :Mirabilia_mundi rdf:type owl:Class ;
                  
@@ -4296,7 +4296,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Modus
+###  http://lari-datasets.ilc.cnr.it/Homines#Modus
 
 :Modus rdf:type owl:Class ;
        
@@ -4307,7 +4307,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Modus_vivendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Modus_vivendi
 
 :Modus_vivendi rdf:type owl:Class ;
                
@@ -4318,18 +4318,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mollities
+###  http://lari-datasets.ilc.cnr.it/Homines#Mollities
 
 :Mollities rdf:type owl:Class ;
            
            rdfs:label "SOFTNESS"@en ,
                       "Mollities"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Monstra
+###  http://lari-datasets.ilc.cnr.it/Homines#Monstra
 
 :Monstra rdf:type owl:Class ;
          
@@ -4340,7 +4340,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mores
+###  http://lari-datasets.ilc.cnr.it/Homines#Mores
 
 :Mores rdf:type owl:Class ;
        
@@ -4352,7 +4352,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors
 
 :Mors rdf:type owl:Class ;
       
@@ -4364,7 +4364,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_amicorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_amicorum
 
 :Mors_amicorum rdf:type owl:Class ;
                
@@ -4375,7 +4375,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_de_vi
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_de_vi
 
 :Mors_de_vi rdf:type owl:Class ;
             
@@ -4386,7 +4386,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_decora
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_decora
 
 :Mors_decora rdf:type owl:Class ;
              
@@ -4397,7 +4397,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_deorum_invidia_parta
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_deorum_invidia_parta
 
 :Mors_deorum_invidia_parta rdf:type owl:Class ;
                            
@@ -4408,7 +4408,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_fortuita
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_fortuita
 
 :Mors_fortuita rdf:type owl:Class ;
                
@@ -4419,7 +4419,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_immatura
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_immatura
 
 :Mors_immatura rdf:type owl:Class ;
                
@@ -4430,7 +4430,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_in_bello
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_in_bello
 
 :Mors_in_bello rdf:type owl:Class ;
                
@@ -4441,7 +4441,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_incumbens
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_incumbens
 
 :Mors_incumbens rdf:type owl:Class ;
                 
@@ -4452,7 +4452,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_indecora
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_indecora
 
 :Mors_indecora rdf:type owl:Class ;
                
@@ -4463,7 +4463,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_naturalis
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_naturalis
 
 :Mors_naturalis rdf:type owl:Class ;
                 
@@ -4474,7 +4474,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_omnes_aequans
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_omnes_aequans
 
 :Mors_omnes_aequans rdf:type owl:Class ;
                     
@@ -4485,7 +4485,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_peregrina
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_peregrina
 
 :Mors_peregrina rdf:type owl:Class ;
                 
@@ -4496,7 +4496,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_repentina
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_repentina
 
 :Mors_repentina rdf:type owl:Class ;
                 
@@ -4507,7 +4507,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_tamquam_curarum_medela_et_quies
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_tamquam_curarum_medela_et_quies
 
 :Mors_tamquam_curarum_medela_et_quies rdf:type owl:Class ;
                                       
@@ -4518,7 +4518,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_tamquam_piaculum
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_tamquam_piaculum
 
 :Mors_tamquam_piaculum rdf:type owl:Class ;
                        
@@ -4529,7 +4529,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mors_voluntaria
+###  http://lari-datasets.ilc.cnr.it/Homines#Mors_voluntaria
 
 :Mors_voluntaria rdf:type owl:Class ;
                  
@@ -4541,7 +4541,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mos_maiorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Mos_maiorum
 
 :Mos_maiorum rdf:type owl:Class ;
              
@@ -4552,7 +4552,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mulier
+###  http://lari-datasets.ilc.cnr.it/Homines#Mulier
 
 :Mulier rdf:type owl:Class ;
         
@@ -4563,7 +4563,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mulier_lanifica
+###  http://lari-datasets.ilc.cnr.it/Homines#Mulier_lanifica
 
 :Mulier_lanifica rdf:type owl:Class ;
                  
@@ -4574,7 +4574,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mulieres_humiles
+###  http://lari-datasets.ilc.cnr.it/Homines#Mulieres_humiles
 
 :Mulieres_humiles rdf:type owl:Class ;
                   
@@ -4586,7 +4586,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Munus_amicitiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Munus_amicitiae
 
 :Munus_amicitiae rdf:type owl:Class ;
                  
@@ -4597,7 +4597,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Musa_iocosa
+###  http://lari-datasets.ilc.cnr.it/Homines#Musa_iocosa
 
 :Musa_iocosa rdf:type owl:Class ;
              
@@ -4608,7 +4608,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Musa_severa
+###  http://lari-datasets.ilc.cnr.it/Homines#Musa_severa
 
 :Musa_severa rdf:type owl:Class ;
              
@@ -4619,7 +4619,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Musa_tenuis
+###  http://lari-datasets.ilc.cnr.it/Homines#Musa_tenuis
 
 :Musa_tenuis rdf:type owl:Class ;
              
@@ -4630,7 +4630,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Musae_variae
+###  http://lari-datasets.ilc.cnr.it/Homines#Musae_variae
 
 :Musae_variae rdf:type owl:Class ;
               
@@ -4641,7 +4641,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Musica
+###  http://lari-datasets.ilc.cnr.it/Homines#Musica
 
 :Musica rdf:type owl:Class ;
         
@@ -4652,7 +4652,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mutatio_affectuum
+###  http://lari-datasets.ilc.cnr.it/Homines#Mutatio_affectuum
 
 :Mutatio_affectuum rdf:type owl:Class ;
                    
@@ -4663,7 +4663,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mutatio_animorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Mutatio_animorum
 
 :Mutatio_animorum rdf:type owl:Class ;
                   
@@ -4674,7 +4674,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nares
+###  http://lari-datasets.ilc.cnr.it/Homines#Nares
 
 :Nares rdf:type owl:Class ;
        
@@ -4686,7 +4686,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Natationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Natationes
 
 :Natationes rdf:type owl:Class ;
             
@@ -4697,7 +4697,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nates
+###  http://lari-datasets.ilc.cnr.it/Homines#Nates
 
 :Nates rdf:type owl:Class ;
        
@@ -4709,7 +4709,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Natura
+###  http://lari-datasets.ilc.cnr.it/Homines#Natura
 
 :Natura rdf:type owl:Class ;
         
@@ -4720,7 +4720,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Naufragium
+###  http://lari-datasets.ilc.cnr.it/Homines#Naufragium
 
 :Naufragium rdf:type owl:Class ;
             
@@ -4731,7 +4731,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Naufragus_in_pelago_Amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Naufragus_in_pelago_Amoris
 
 :Naufragus_in_pelago_Amoris rdf:type owl:Class ;
                             
@@ -4742,7 +4742,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nautae
+###  http://lari-datasets.ilc.cnr.it/Homines#Nautae
 
 :Nautae rdf:type owl:Class ;
         
@@ -4754,7 +4754,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nobiles
+###  http://lari-datasets.ilc.cnr.it/Homines#Nobiles
 
 :Nobiles rdf:type owl:Class ;
          
@@ -4766,7 +4766,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nomina_ficta
+###  http://lari-datasets.ilc.cnr.it/Homines#Nomina_ficta
 
 :Nomina_ficta rdf:type owl:Class ;
               
@@ -4777,7 +4777,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Non_Agentive_Social_Object
+###  http://lari-datasets.ilc.cnr.it/Homines#Non_Agentive_Social_Object
 
 :Non_Agentive_Social_Object rdf:type owl:Class ;
                             
@@ -4785,7 +4785,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nonae
+###  http://lari-datasets.ilc.cnr.it/Homines#Nonae
 
 :Nonae rdf:type owl:Class ;
        
@@ -4796,7 +4796,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nosce_te_ipsum
+###  http://lari-datasets.ilc.cnr.it/Homines#Nosce_te_ipsum
 
 :Nosce_te_ipsum rdf:type owl:Class ;
                 
@@ -4807,7 +4807,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#November
+###  http://lari-datasets.ilc.cnr.it/Homines#November
 
 :November rdf:type owl:Class ;
           
@@ -4818,7 +4818,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Noverca
+###  http://lari-datasets.ilc.cnr.it/Homines#Noverca
 
 :Noverca rdf:type owl:Class ;
          
@@ -4829,7 +4829,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Novissima_verba
+###  http://lari-datasets.ilc.cnr.it/Homines#Novissima_verba
 
 :Novissima_verba rdf:type owl:Class ;
                  
@@ -4840,7 +4840,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nox
+###  http://lari-datasets.ilc.cnr.it/Homines#Nox
 
 :Nox rdf:type owl:Class ;
      
@@ -4851,7 +4851,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nuptiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Nuptiae
 
 :Nuptiae rdf:type owl:Class ;
          
@@ -4862,7 +4862,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Obscena
+###  http://lari-datasets.ilc.cnr.it/Homines#Obscena
 
 :Obscena rdf:type owl:Class ;
          
@@ -4870,7 +4870,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#October
+###  http://lari-datasets.ilc.cnr.it/Homines#October
 
 :October rdf:type owl:Class ;
          
@@ -4881,7 +4881,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Odium
+###  http://lari-datasets.ilc.cnr.it/Homines#Odium
 
 :Odium rdf:type owl:Class ;
        
@@ -4892,7 +4892,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Officia_temporum_quattuor
+###  http://lari-datasets.ilc.cnr.it/Homines#Officia_temporum_quattuor
 
 :Officia_temporum_quattuor rdf:type owl:Class ;
                            
@@ -4903,7 +4903,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Omina
+###  http://lari-datasets.ilc.cnr.it/Homines#Omina
 
 :Omina rdf:type owl:Class ;
        
@@ -4914,7 +4914,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ordines_varii
+###  http://lari-datasets.ilc.cnr.it/Homines#Ordines_varii
 
 :Ordines_varii rdf:type owl:Class ;
                
@@ -4925,7 +4925,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Origines
+###  http://lari-datasets.ilc.cnr.it/Homines#Origines
 
 :Origines rdf:type owl:Class ;
           
@@ -4936,7 +4936,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Os
+###  http://lari-datasets.ilc.cnr.it/Homines#Os
 
 :Os rdf:type owl:Class ;
     
@@ -4948,7 +4948,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ossa
+###  http://lari-datasets.ilc.cnr.it/Homines#Ossa
 
 :Ossa rdf:type owl:Class ;
       
@@ -4960,7 +4960,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Otium_decorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Otium_decorum
 
 :Otium_decorum rdf:type owl:Class ;
                
@@ -4971,18 +4971,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Otium_indecorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Otium_indecorum
 
 :Otium_indecorum rdf:type owl:Class ;
                  
                  rdfs:label "degrading laziness"@en ,
                             "Otium indecorum"@la ;
                  
-                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+                 rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Paedicatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Paedicatores
 
 :Paedicatores rdf:type owl:Class ;
               
@@ -4994,7 +4994,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Palaestritae
+###  http://lari-datasets.ilc.cnr.it/Homines#Palaestritae
 
 :Palaestritae rdf:type owl:Class ;
               
@@ -5005,7 +5005,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pantomimi
+###  http://lari-datasets.ilc.cnr.it/Homines#Pantomimi
 
 :Pantomimi rdf:type owl:Class ;
            
@@ -5017,7 +5017,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Parentes
+###  http://lari-datasets.ilc.cnr.it/Homines#Parentes
 
 :Parentes rdf:type owl:Class ;
           
@@ -5028,7 +5028,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Partitio_bonorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Partitio_bonorum
 
 :Partitio_bonorum rdf:type owl:Class ;
                   
@@ -5039,7 +5039,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Partus
+###  http://lari-datasets.ilc.cnr.it/Homines#Partus
 
 :Partus rdf:type owl:Class ;
         
@@ -5050,7 +5050,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Patria
+###  http://lari-datasets.ilc.cnr.it/Homines#Patria
 
 :Patria rdf:type owl:Class ;
         
@@ -5061,7 +5061,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Paupertas
+###  http://lari-datasets.ilc.cnr.it/Homines#Paupertas
 
 :Paupertas rdf:type owl:Class ;
            
@@ -5072,7 +5072,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pax
+###  http://lari-datasets.ilc.cnr.it/Homines#Pax
 
 :Pax rdf:type owl:Class ;
      
@@ -5084,7 +5084,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pectus
+###  http://lari-datasets.ilc.cnr.it/Homines#Pectus
 
 :Pectus rdf:type owl:Class ;
         
@@ -5096,7 +5096,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pecunia
+###  http://lari-datasets.ilc.cnr.it/Homines#Pecunia
 
 :Pecunia rdf:type owl:Class ;
          
@@ -5107,7 +5107,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pedes
+###  http://lari-datasets.ilc.cnr.it/Homines#Pedes
 
 :Pedes rdf:type owl:Class ;
        
@@ -5119,7 +5119,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pelagus_Amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Pelagus_Amoris
 
 :Pelagus_Amoris rdf:type owl:Class ;
                 
@@ -5130,7 +5130,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Peregrinationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Peregrinationes
 
 :Peregrinationes rdf:type owl:Class ;
                  
@@ -5141,7 +5141,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Peregrinationes_ad_loca_sacra
+###  http://lari-datasets.ilc.cnr.it/Homines#Peregrinationes_ad_loca_sacra
 
 :Peregrinationes_ad_loca_sacra rdf:type owl:Class ;
                                
@@ -5152,7 +5152,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Peregrinationes_deorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Peregrinationes_deorum
 
 :Peregrinationes_deorum rdf:type owl:Class ;
                         
@@ -5163,7 +5163,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Perfidia
+###  http://lari-datasets.ilc.cnr.it/Homines#Perfidia
 
 :Perfidia rdf:type owl:Class ;
           
@@ -5174,18 +5174,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pertinacia
+###  http://lari-datasets.ilc.cnr.it/Homines#Pertinacia
 
 :Pertinacia rdf:type owl:Class ;
             
             rdfs:label "OBSTINACY"@en ,
                        "Pertinacia"@la ;
             
-            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Petitio_amplexus
+###  http://lari-datasets.ilc.cnr.it/Homines#Petitio_amplexus
 
 :Petitio_amplexus rdf:type owl:Class ;
                   
@@ -5196,7 +5196,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Philosophi
+###  http://lari-datasets.ilc.cnr.it/Homines#Philosophi
 
 :Philosophi rdf:type owl:Class ;
             
@@ -5207,7 +5207,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Philosophia
+###  http://lari-datasets.ilc.cnr.it/Homines#Philosophia
 
 :Philosophia rdf:type owl:Class ;
              
@@ -5218,7 +5218,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Philosophia_et_politica
+###  http://lari-datasets.ilc.cnr.it/Homines#Philosophia_et_politica
 
 :Philosophia_et_politica rdf:type owl:Class ;
                          
@@ -5229,7 +5229,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pictores
+###  http://lari-datasets.ilc.cnr.it/Homines#Pictores
 
 :Pictores rdf:type owl:Class ;
           
@@ -5241,7 +5241,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pietas
+###  http://lari-datasets.ilc.cnr.it/Homines#Pietas
 
 :Pietas rdf:type owl:Class ;
         
@@ -5250,11 +5250,11 @@ midlevel:role rdf:type owl:AnnotationProperty .
                    "Pietas"@la ;
         
         rdfs:subClassOf :Affectus ,
-                        <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+                        <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pili
+###  http://lari-datasets.ilc.cnr.it/Homines#Pili
 
 :Pili rdf:type owl:Class ;
       
@@ -5266,7 +5266,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pinguedo
+###  http://lari-datasets.ilc.cnr.it/Homines#Pinguedo
 
 :Pinguedo rdf:type owl:Class ;
           
@@ -5278,7 +5278,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Piscatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Piscatores
 
 :Piscatores rdf:type owl:Class ;
             
@@ -5290,7 +5290,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Poema_cyclicum
+###  http://lari-datasets.ilc.cnr.it/Homines#Poema_cyclicum
 
 :Poema_cyclicum rdf:type owl:Class ;
                 
@@ -5301,7 +5301,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Poesis
+###  http://lari-datasets.ilc.cnr.it/Homines#Poesis
 
 :Poesis rdf:type owl:Class ;
         
@@ -5313,7 +5313,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Poetae
+###  http://lari-datasets.ilc.cnr.it/Homines#Poetae
 
 :Poetae rdf:type owl:Class ;
         
@@ -5325,7 +5325,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Populus
+###  http://lari-datasets.ilc.cnr.it/Homines#Populus
 
 :Populus rdf:type owl:Class ;
          
@@ -5337,7 +5337,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Post_mortem
+###  http://lari-datasets.ilc.cnr.it/Homines#Post_mortem
 
 :Post_mortem rdf:type owl:Class ;
              
@@ -5348,7 +5348,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Postulatio_muneris
+###  http://lari-datasets.ilc.cnr.it/Homines#Postulatio_muneris
 
 :Postulatio_muneris rdf:type owl:Class ;
                     
@@ -5359,7 +5359,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Potiones
+###  http://lari-datasets.ilc.cnr.it/Homines#Potiones
 
 :Potiones rdf:type owl:Class ;
           
@@ -5370,7 +5370,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Praecepta_ad_formam_tuendam
+###  http://lari-datasets.ilc.cnr.it/Homines#Praecepta_ad_formam_tuendam
 
 :Praecepta_ad_formam_tuendam rdf:type owl:Class ;
                              
@@ -5381,7 +5381,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Praecepta_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Praecepta_amoris
 
 :Praecepta_amoris rdf:type owl:Class ;
                   
@@ -5392,7 +5392,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Praecones
+###  http://lari-datasets.ilc.cnr.it/Homines#Praecones
 
 :Praecones rdf:type owl:Class ;
            
@@ -5404,7 +5404,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Praesagia
+###  http://lari-datasets.ilc.cnr.it/Homines#Praesagia
 
 :Praesagia rdf:type owl:Class ;
            
@@ -5415,7 +5415,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Priapea
+###  http://lari-datasets.ilc.cnr.it/Homines#Priapea
 
 :Priapea rdf:type owl:Class ;
          
@@ -5429,7 +5429,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Primiscriniarii
+###  http://lari-datasets.ilc.cnr.it/Homines#Primiscriniarii
 
 :Primiscriniarii rdf:type owl:Class ;
                  
@@ -5441,7 +5441,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Principes
+###  http://lari-datasets.ilc.cnr.it/Homines#Principes
 
 :Principes rdf:type owl:Class ;
            
@@ -5452,7 +5452,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Probitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Probitas
 
 :Probitas rdf:type owl:Class ;
           
@@ -5463,7 +5463,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Propagatio_finium_imperii
+###  http://lari-datasets.ilc.cnr.it/Homines#Propagatio_finium_imperii
 
 :Propagatio_finium_imperii rdf:type owl:Class ;
                            
@@ -5474,7 +5474,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Properties_of_Wine
+###  http://lari-datasets.ilc.cnr.it/Homines#Properties_of_Wine
 
 :Properties_of_Wine rdf:type owl:Class ;
                     
@@ -5482,7 +5482,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Prosopopoeiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Prosopopoeiae
 
 :Prosopopoeiae rdf:type owl:Class ;
                
@@ -5493,7 +5493,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Provinciae
+###  http://lari-datasets.ilc.cnr.it/Homines#Provinciae
 
 :Provinciae rdf:type owl:Class ;
             
@@ -5504,7 +5504,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pudenda
+###  http://lari-datasets.ilc.cnr.it/Homines#Pudenda
 
 :Pudenda rdf:type owl:Class ;
          
@@ -5517,7 +5517,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pudor_vel_pudicitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Pudor_vel_pudicitia
 
 :Pudor_vel_pudicitia rdf:type owl:Class ;
                      
@@ -5529,7 +5529,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Puella
+###  http://lari-datasets.ilc.cnr.it/Homines#Puella
 
 :Puella rdf:type owl:Class ;
         
@@ -5540,7 +5540,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Puer
+###  http://lari-datasets.ilc.cnr.it/Homines#Puer
 
 :Puer rdf:type owl:Class ;
       
@@ -5551,7 +5551,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pulchritudo
+###  http://lari-datasets.ilc.cnr.it/Homines#Pulchritudo
 
 :Pulchritudo rdf:type owl:Class ;
              
@@ -5563,7 +5563,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pulvis
+###  http://lari-datasets.ilc.cnr.it/Homines#Pulvis
 
 :Pulvis rdf:type owl:Class ;
         
@@ -5574,7 +5574,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Querella
+###  http://lari-datasets.ilc.cnr.it/Homines#Querella
 
 :Querella rdf:type owl:Class ;
           
@@ -5585,7 +5585,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Recusatio
+###  http://lari-datasets.ilc.cnr.it/Homines#Recusatio
 
 :Recusatio rdf:type owl:Class ;
            
@@ -5596,7 +5596,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Reges
+###  http://lari-datasets.ilc.cnr.it/Homines#Reges
 
 :Reges rdf:type owl:Class ;
        
@@ -5609,7 +5609,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Reginae
+###  http://lari-datasets.ilc.cnr.it/Homines#Reginae
 
 :Reginae rdf:type owl:Class ;
          
@@ -5620,7 +5620,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Renovatio_mundi
+###  http://lari-datasets.ilc.cnr.it/Homines#Renovatio_mundi
 
 :Renovatio_mundi rdf:type owl:Class ;
                  
@@ -5631,7 +5631,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Res_familiares
+###  http://lari-datasets.ilc.cnr.it/Homines#Res_familiares
 
 :Res_familiares rdf:type owl:Class ;
                 
@@ -5643,7 +5643,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Res_gestae
+###  http://lari-datasets.ilc.cnr.it/Homines#Res_gestae
 
 :Res_gestae rdf:type owl:Class ;
             
@@ -5654,7 +5654,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Res_publicae
+###  http://lari-datasets.ilc.cnr.it/Homines#Res_publicae
 
 :Res_publicae rdf:type owl:Class ;
               
@@ -5662,7 +5662,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Rhetores
+###  http://lari-datasets.ilc.cnr.it/Homines#Rhetores
 
 :Rhetores rdf:type owl:Class ;
           
@@ -5673,7 +5673,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Risus
+###  http://lari-datasets.ilc.cnr.it/Homines#Risus
 
 :Risus rdf:type owl:Class ;
        
@@ -5684,7 +5684,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sacerdotes
+###  http://lari-datasets.ilc.cnr.it/Homines#Sacerdotes
 
 :Sacerdotes rdf:type owl:Class ;
             
@@ -5696,7 +5696,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sacra_et_ritus_in_variis_mensibus
+###  http://lari-datasets.ilc.cnr.it/Homines#Sacra_et_ritus_in_variis_mensibus
 
 :Sacra_et_ritus_in_variis_mensibus rdf:type owl:Class ;
                                    
@@ -5707,18 +5707,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Saevitia
+###  http://lari-datasets.ilc.cnr.it/Homines#Saevitia
 
 :Saevitia rdf:type owl:Class ;
           
           rdfs:label "CRUELTY"@en ,
                      "Saevitia"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Saevitia_hominum
+###  http://lari-datasets.ilc.cnr.it/Homines#Saevitia_hominum
 
 :Saevitia_hominum rdf:type owl:Class ;
                   
@@ -5729,7 +5729,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sagae_et_venefici
+###  http://lari-datasets.ilc.cnr.it/Homines#Sagae_et_venefici
 
 :Sagae_et_venefici rdf:type owl:Class ;
                    
@@ -5740,7 +5740,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sales
+###  http://lari-datasets.ilc.cnr.it/Homines#Sales
 
 :Sales rdf:type owl:Class ;
        
@@ -5751,7 +5751,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Saltationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Saltationes
 
 :Saltationes rdf:type owl:Class ;
              
@@ -5762,7 +5762,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Schemata_et_figurae
+###  http://lari-datasets.ilc.cnr.it/Homines#Schemata_et_figurae
 
 :Schemata_et_figurae rdf:type owl:Class ;
                      
@@ -5773,7 +5773,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Scholae_philosophorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Scholae_philosophorum
 
 :Scholae_philosophorum rdf:type owl:Class ;
                        
@@ -5784,7 +5784,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Scientia_iuris
+###  http://lari-datasets.ilc.cnr.it/Homines#Scientia_iuris
 
 :Scientia_iuris rdf:type owl:Class ;
                 
@@ -5795,7 +5795,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Secreta_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Secreta_amoris
 
 :Secreta_amoris rdf:type owl:Class ;
                 
@@ -5806,7 +5806,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sedes_convivii
+###  http://lari-datasets.ilc.cnr.it/Homines#Sedes_convivii
 
 :Sedes_convivii rdf:type owl:Class ;
                 
@@ -5818,7 +5818,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sedes_otii
+###  http://lari-datasets.ilc.cnr.it/Homines#Sedes_otii
 
 :Sedes_otii rdf:type owl:Class ;
             
@@ -5829,7 +5829,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Semina_rerum
+###  http://lari-datasets.ilc.cnr.it/Homines#Semina_rerum
 
 :Semina_rerum rdf:type owl:Class ;
               
@@ -5840,7 +5840,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Senatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Senatores
 
 :Senatores rdf:type owl:Class ;
            
@@ -5851,7 +5851,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Senectus
+###  http://lari-datasets.ilc.cnr.it/Homines#Senectus
 
 :Senectus rdf:type owl:Class ;
           
@@ -5862,7 +5862,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sensus
+###  http://lari-datasets.ilc.cnr.it/Homines#Sensus
 
 :Sensus rdf:type owl:Class ;
         
@@ -5874,7 +5874,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sententiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Sententiae
 
 :Sententiae rdf:type owl:Class ;
             
@@ -5885,7 +5885,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sententiae_de_hominum_genere_et_habitu
+###  http://lari-datasets.ilc.cnr.it/Homines#Sententiae_de_hominum_genere_et_habitu
 
 :Sententiae_de_hominum_genere_et_habitu rdf:type owl:Class ;
                                         
@@ -5896,7 +5896,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sententiae_philosophorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Sententiae_philosophorum
 
 :Sententiae_philosophorum rdf:type owl:Class ;
                           
@@ -5909,7 +5909,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#September
+###  http://lari-datasets.ilc.cnr.it/Homines#September
 
 :September rdf:type owl:Class ;
            
@@ -5920,7 +5920,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Servi
+###  http://lari-datasets.ilc.cnr.it/Homines#Servi
 
 :Servi rdf:type owl:Class ;
        
@@ -5932,7 +5932,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Servitus
+###  http://lari-datasets.ilc.cnr.it/Homines#Servitus
 
 :Servitus rdf:type owl:Class ;
           
@@ -5943,7 +5943,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Signa_honorum
+###  http://lari-datasets.ilc.cnr.it/Homines#Signa_honorum
 
 :Signa_honorum rdf:type owl:Class ;
                
@@ -5954,7 +5954,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Simplicitas_muliebris
+###  http://lari-datasets.ilc.cnr.it/Homines#Simplicitas_muliebris
 
 :Simplicitas_muliebris rdf:type owl:Class ;
                        
@@ -5965,18 +5965,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sobrietas
+###  http://lari-datasets.ilc.cnr.it/Homines#Sobrietas
 
 :Sobrietas rdf:type owl:Class ;
            
            rdfs:label "SIMPLICITY"@en ,
                       "Sobrietas"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Social_Agent
+###  http://lari-datasets.ilc.cnr.it/Homines#Social_Agent
 
 :Social_Agent rdf:type owl:Class ;
               
@@ -5984,7 +5984,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Societas
+###  http://lari-datasets.ilc.cnr.it/Homines#Societas
 
 :Societas rdf:type owl:Class ;
           
@@ -5996,7 +5996,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Society
+###  http://lari-datasets.ilc.cnr.it/Homines#Society
 
 :Society rdf:type owl:Class ;
          
@@ -6004,7 +6004,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Socii
+###  http://lari-datasets.ilc.cnr.it/Homines#Socii
 
 :Socii rdf:type owl:Class ;
        
@@ -6015,7 +6015,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sodalitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Sodalitas
 
 :Sodalitas rdf:type owl:Class ;
            
@@ -6026,7 +6026,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Solamen
+###  http://lari-datasets.ilc.cnr.it/Homines#Solamen
 
 :Solamen rdf:type owl:Class ;
          
@@ -6037,7 +6037,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Somnia
+###  http://lari-datasets.ilc.cnr.it/Homines#Somnia
 
 :Somnia rdf:type owl:Class ;
         
@@ -6048,7 +6048,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Spado
+###  http://lari-datasets.ilc.cnr.it/Homines#Spado
 
 :Spado rdf:type owl:Class ;
        
@@ -6060,7 +6060,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Spectacula
+###  http://lari-datasets.ilc.cnr.it/Homines#Spectacula
 
 :Spectacula rdf:type owl:Class ;
             
@@ -6071,7 +6071,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Spectatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Spectatores
 
 :Spectatores rdf:type owl:Class ;
              
@@ -6082,7 +6082,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Speech_Acts
+###  http://lari-datasets.ilc.cnr.it/Homines#Speech_Acts
 
 :Speech_Acts rdf:type owl:Class ;
              
@@ -6090,7 +6090,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Spes
+###  http://lari-datasets.ilc.cnr.it/Homines#Spes
 
 :Spes rdf:type owl:Class ;
       
@@ -6101,7 +6101,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Studium_cognoscendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Studium_cognoscendi
 
 :Studium_cognoscendi rdf:type owl:Class ;
                      
@@ -6112,7 +6112,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempora_dolendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempora_dolendi
 
 :Tempora_dolendi rdf:type owl:Class ;
                  
@@ -6123,7 +6123,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempora_gaudendi
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempora_gaudendi
 
 :Tempora_gaudendi rdf:type owl:Class ;
                   
@@ -6134,7 +6134,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempora_mortis
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempora_mortis
 
 :Tempora_mortis rdf:type owl:Class ;
                 
@@ -6145,7 +6145,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempora_quattuor
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempora_quattuor
 
 :Tempora_quattuor rdf:type owl:Class ;
                   
@@ -6156,7 +6156,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempora_vitae
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempora_vitae
 
 :Tempora_vitae rdf:type owl:Class ;
                
@@ -6167,7 +6167,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempus
 
 :Tempus rdf:type owl:Class ;
         
@@ -6179,7 +6179,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus_edax
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempus_edax
 
 :Tempus_edax rdf:type owl:Class ;
              
@@ -6190,7 +6190,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus_fugiens_et_irreparabile
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempus_fugiens_et_irreparabile
 
 :Tempus_fugiens_et_irreparabile rdf:type owl:Class ;
                                 
@@ -6201,7 +6201,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus_in_amatoriis_variis
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempus_in_amatoriis_variis
 
 :Tempus_in_amatoriis_variis rdf:type owl:Class ;
                             
@@ -6212,7 +6212,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Terror
+###  http://lari-datasets.ilc.cnr.it/Homines#Terror
 
 :Terror rdf:type owl:Class ;
         
@@ -6223,7 +6223,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Testamentum
+###  http://lari-datasets.ilc.cnr.it/Homines#Testamentum
 
 :Testamentum rdf:type owl:Class ;
              
@@ -6234,7 +6234,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tibicen
+###  http://lari-datasets.ilc.cnr.it/Homines#Tibicen
 
 :Tibicen rdf:type owl:Class ;
          
@@ -6246,7 +6246,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tormenta
+###  http://lari-datasets.ilc.cnr.it/Homines#Tormenta
 
 :Tormenta rdf:type owl:Class ;
           
@@ -6257,7 +6257,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tragoedi
+###  http://lari-datasets.ilc.cnr.it/Homines#Tragoedi
 
 :Tragoedi rdf:type owl:Class ;
           
@@ -6268,7 +6268,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tranquillitas_vitae
+###  http://lari-datasets.ilc.cnr.it/Homines#Tranquillitas_vitae
 
 :Tranquillitas_vitae rdf:type owl:Class ;
                      
@@ -6278,7 +6278,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Triumphus
+###  http://lari-datasets.ilc.cnr.it/Homines#Triumphus
 
 :Triumphus rdf:type owl:Class ;
            
@@ -6289,7 +6289,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_magnus
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_magnus
 
 :Tumulus_magnus rdf:type owl:Class ;
                 
@@ -6300,7 +6300,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_monumentum_non_profanandum
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_monumentum_non_profanandum
 
 :Tumulus_monumentum_non_profanandum rdf:type owl:Class ;
                                     
@@ -6311,7 +6311,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_mortuus_vel_sepulcrum_adloquuntur
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_mortuus_vel_sepulcrum_adloquuntur
 
 :Tumulus_mortuus_vel_sepulcrum_adloquuntur rdf:type owl:Class ;
                                            
@@ -6322,7 +6322,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_parvus
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_parvus
 
 :Tumulus_parvus rdf:type owl:Class ;
                 
@@ -6333,7 +6333,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_sit_tibi_terra_levis
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_sit_tibi_terra_levis
 
 :Tumulus_sit_tibi_terra_levis rdf:type owl:Class ;
                               
@@ -6344,7 +6344,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tumulus_supulcrum_tamquam_sedes_aeterna
+###  http://lari-datasets.ilc.cnr.it/Homines#Tumulus_supulcrum_tamquam_sedes_aeterna
 
 :Tumulus_supulcrum_tamquam_sedes_aeterna rdf:type owl:Class ;
                                          
@@ -6355,7 +6355,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tyranni
+###  http://lari-datasets.ilc.cnr.it/Homines#Tyranni
 
 :Tyranni rdf:type owl:Class ;
          
@@ -6366,7 +6366,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tyrannis
+###  http://lari-datasets.ilc.cnr.it/Homines#Tyrannis
 
 :Tyrannis rdf:type owl:Class ;
           
@@ -6377,18 +6377,18 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vanitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Vanitas
 
 :Vanitas rdf:type owl:Class ;
          
          rdfs:label "VANITY"@en ,
                     "Vanitas"@la ;
          
-         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Variae
+###  http://lari-datasets.ilc.cnr.it/Homines#Variae
 
 :Variae rdf:type owl:Class ;
         
@@ -6400,7 +6400,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Varietas_fortunae
+###  http://lari-datasets.ilc.cnr.it/Homines#Varietas_fortunae
 
 :Varietas_fortunae rdf:type owl:Class ;
                    
@@ -6411,7 +6411,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vates
+###  http://lari-datasets.ilc.cnr.it/Homines#Vates
 
 :Vates rdf:type owl:Class ;
        
@@ -6423,7 +6423,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Venationes
+###  http://lari-datasets.ilc.cnr.it/Homines#Venationes
 
 :Venationes rdf:type owl:Class ;
             
@@ -6434,7 +6434,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Venatores
+###  http://lari-datasets.ilc.cnr.it/Homines#Venatores
 
 :Venatores rdf:type owl:Class ;
            
@@ -6446,7 +6446,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Venter
+###  http://lari-datasets.ilc.cnr.it/Homines#Venter
 
 :Venter rdf:type owl:Class ;
         
@@ -6458,7 +6458,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ver
+###  http://lari-datasets.ilc.cnr.it/Homines#Ver
 
 :Ver rdf:type owl:Class ;
      
@@ -6469,7 +6469,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Verba_palindroma
+###  http://lari-datasets.ilc.cnr.it/Homines#Verba_palindroma
 
 :Verba_palindroma rdf:type owl:Class ;
                   
@@ -6480,7 +6480,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Verborum_differentiae_et_varietates
+###  http://lari-datasets.ilc.cnr.it/Homines#Verborum_differentiae_et_varietates
 
 :Verborum_differentiae_et_varietates rdf:type owl:Class ;
                                      
@@ -6491,7 +6491,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Versus_intexti
+###  http://lari-datasets.ilc.cnr.it/Homines#Versus_intexti
 
 :Versus_intexti rdf:type owl:Class ;
                 
@@ -6502,7 +6502,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Victi_et_victores
+###  http://lari-datasets.ilc.cnr.it/Homines#Victi_et_victores
 
 :Victi_et_victores rdf:type owl:Class ;
                    
@@ -6513,7 +6513,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Victoria
+###  http://lari-datasets.ilc.cnr.it/Homines#Victoria
 
 :Victoria rdf:type owl:Class ;
           
@@ -6524,7 +6524,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vidua
+###  http://lari-datasets.ilc.cnr.it/Homines#Vidua
 
 :Vidua rdf:type owl:Class ;
        
@@ -6535,7 +6535,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vinum_curis_remedium
+###  http://lari-datasets.ilc.cnr.it/Homines#Vinum_curis_remedium
 
 :Vinum_curis_remedium rdf:type owl:Class ;
                       
@@ -6547,7 +6547,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vinum_et_ebrietas
+###  http://lari-datasets.ilc.cnr.it/Homines#Vinum_et_ebrietas
 
 :Vinum_et_ebrietas rdf:type owl:Class ;
                    
@@ -6559,7 +6559,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virgines
+###  http://lari-datasets.ilc.cnr.it/Homines#Virgines
 
 :Virgines rdf:type owl:Class ;
           
@@ -6571,7 +6571,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virginitas
+###  http://lari-datasets.ilc.cnr.it/Homines#Virginitas
 
 :Virginitas rdf:type owl:Class ;
             
@@ -6582,7 +6582,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Viri_clari_insepulti
+###  http://lari-datasets.ilc.cnr.it/Homines#Viri_clari_insepulti
 
 :Viri_clari_insepulti rdf:type owl:Class ;
                       
@@ -6593,7 +6593,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Viri_humiles
+###  http://lari-datasets.ilc.cnr.it/Homines#Viri_humiles
 
 :Viri_humiles rdf:type owl:Class ;
               
@@ -6605,7 +6605,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Viri_illustres
+###  http://lari-datasets.ilc.cnr.it/Homines#Viri_illustres
 
 :Viri_illustres rdf:type owl:Class ;
                 
@@ -6616,7 +6616,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virtus
+###  http://lari-datasets.ilc.cnr.it/Homines#Virtus
 
 :Virtus rdf:type owl:Class ;
         
@@ -6624,7 +6624,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virtus_bellica
+###  http://lari-datasets.ilc.cnr.it/Homines#Virtus_bellica
 
 :Virtus_bellica rdf:type owl:Class ;
                 
@@ -6635,7 +6635,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virtutes_muliebres
+###  http://lari-datasets.ilc.cnr.it/Homines#Virtutes_muliebres
 
 :Virtutes_muliebres rdf:type owl:Class ;
                     
@@ -6646,7 +6646,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virtutes_variae
+###  http://lari-datasets.ilc.cnr.it/Homines#Virtutes_variae
 
 :Virtutes_variae rdf:type owl:Class ;
                  
@@ -6657,7 +6657,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Virtutes_viriles
+###  http://lari-datasets.ilc.cnr.it/Homines#Virtutes_viriles
 
 :Virtutes_viriles rdf:type owl:Class ;
                   
@@ -6668,7 +6668,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vis_temporis
+###  http://lari-datasets.ilc.cnr.it/Homines#Vis_temporis
 
 :Vis_temporis rdf:type owl:Class ;
               
@@ -6680,7 +6680,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Visiones
+###  http://lari-datasets.ilc.cnr.it/Homines#Visiones
 
 :Visiones rdf:type owl:Class ;
           
@@ -6691,7 +6691,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vispilli
+###  http://lari-datasets.ilc.cnr.it/Homines#Vispilli
 
 :Vispilli rdf:type owl:Class ;
           
@@ -6703,7 +6703,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita
 
 :Vita rdf:type owl:Class ;
       
@@ -6715,7 +6715,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_agrestis
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_agrestis
 
 :Vita_agrestis rdf:type owl:Class ;
                
@@ -6726,7 +6726,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_cotidiana
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_cotidiana
 
 :Vita_cotidiana rdf:type owl:Class ;
                 
@@ -6737,7 +6737,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_et_mors
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_et_mors
 
 :Vita_et_mors rdf:type owl:Class ;
               
@@ -6748,7 +6748,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_honesta
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_honesta
 
 :Vita_honesta rdf:type owl:Class ;
               
@@ -6759,7 +6759,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_humilis
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_humilis
 
 :Vita_humilis rdf:type owl:Class ;
               
@@ -6770,7 +6770,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_militis
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_militis
 
 :Vita_militis rdf:type owl:Class ;
               
@@ -6781,7 +6781,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vita_publica
+###  http://lari-datasets.ilc.cnr.it/Homines#Vita_publica
 
 :Vita_publica rdf:type owl:Class ;
               
@@ -6792,7 +6792,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vitae_electio
+###  http://lari-datasets.ilc.cnr.it/Homines#Vitae_electio
 
 :Vitae_electio rdf:type owl:Class ;
                
@@ -6803,7 +6803,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vitae_poetarum
+###  http://lari-datasets.ilc.cnr.it/Homines#Vitae_poetarum
 
 :Vitae_poetarum rdf:type owl:Class ;
                 
@@ -6814,7 +6814,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vivere_sibi
+###  http://lari-datasets.ilc.cnr.it/Homines#Vivere_sibi
 
 :Vivere_sibi rdf:type owl:Class ;
              
@@ -6825,7 +6825,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vmbrae
+###  http://lari-datasets.ilc.cnr.it/Homines#Vmbrae
 
 :Vmbrae rdf:type owl:Class ;
         
@@ -6836,7 +6836,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vmbrae_mortuorum_vel_absentium
+###  http://lari-datasets.ilc.cnr.it/Homines#Vmbrae_mortuorum_vel_absentium
 
 :Vmbrae_mortuorum_vel_absentium rdf:type owl:Class ;
                                 
@@ -6847,7 +6847,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vnguenta
+###  http://lari-datasets.ilc.cnr.it/Homines#Vnguenta
 
 :Vnguenta rdf:type owl:Class ;
           
@@ -6858,7 +6858,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Voluptas
+###  http://lari-datasets.ilc.cnr.it/Homines#Voluptas
 
 :Voluptas rdf:type owl:Class ;
           
@@ -6869,7 +6869,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vsus_temporis
+###  http://lari-datasets.ilc.cnr.it/Homines#Vsus_temporis
 
 :Vsus_temporis rdf:type owl:Class ;
                
@@ -6880,7 +6880,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vulnus_amoris
+###  http://lari-datasets.ilc.cnr.it/Homines#Vulnus_amoris
 
 :Vulnus_amoris rdf:type owl:Class ;
                
@@ -6891,7 +6891,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Zelotypia
+###  http://lari-datasets.ilc.cnr.it/Homines#Zelotypia
 
 :Zelotypia rdf:type owl:Class ;
            
@@ -6902,7 +6902,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#de_morte
+###  http://lari-datasets.ilc.cnr.it/Homines#de_morte
 
 :de_morte rdf:type owl:Class ;
           
@@ -6913,7 +6913,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#de_religione
+###  http://lari-datasets.ilc.cnr.it/Homines#de_religione
 
 :de_religione rdf:type owl:Class ;
               
@@ -6924,7 +6924,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#de_tempore
+###  http://lari-datasets.ilc.cnr.it/Homines#de_tempore
 
 :de_tempore rdf:type owl:Class ;
             
@@ -6935,7 +6935,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#description
+###  http://lari-datasets.ilc.cnr.it/Homines#description
 
 :description rdf:type owl:Class ;
              
@@ -6943,15 +6943,15 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#habits_or_proclivities
+###  http://lari-datasets.ilc.cnr.it/Homines#habits_or_proclivities
 
 :habits_or_proclivities rdf:type owl:Class ;
                         
-                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+                        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#obligations
+###  http://lari-datasets.ilc.cnr.it/Homines#obligations
 
 :obligations rdf:type owl:Class ;
              
@@ -6959,7 +6959,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#phrase
+###  http://lari-datasets.ilc.cnr.it/Homines#phrase
 
 :phrase rdf:type owl:Class ;
         
@@ -6967,7 +6967,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#role
+###  http://lari-datasets.ilc.cnr.it/Homines#role
 
 :role rdf:type owl:Class ;
       
@@ -6975,7 +6975,7 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#social-role
+###  http://lari-datasets.ilc.cnr.it/Homines#social-role
 
 :social-role rdf:type owl:Class ;
              
@@ -6983,31 +6983,31 @@ midlevel:role rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Artes_et_disciplinae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Artes_et_disciplinae
 
 midlevel:Artes_et_disciplinae rdfs:subClassOf :Non_Agentive_Social_Object .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Comparison
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Comparison
 
 midlevel:Comparison rdfs:subClassOf :description .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Group
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Group
 
 midlevel:Group rdfs:subClassOf :Agentive_Social_Object .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Homines
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Homines
 
 midlevel:Homines rdfs:subClassOf :Populus .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Ordines_et_professiones
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Ordines_et_professiones
 
 midlevel:Ordines_et_professiones rdf:type owl:Class ;
                                  
@@ -7024,7 +7024,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aeneis
+###  http://lari-datasets.ilc.cnr.it/Homines#Aeneis
 
 :Aeneis rdf:type :Poesis ,
                  owl:NamedIndividual ;
@@ -7034,7 +7034,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aeschylus
+###  http://lari-datasets.ilc.cnr.it/Homines#Aeschylus
 
 :Aeschylus rdf:type midlevel:Homines ,
                     owl:NamedIndividual ;
@@ -7046,14 +7046,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Alcmena
+###  http://lari-datasets.ilc.cnr.it/Homines#Alcmena
 
 :Alcmena rdf:type midlevel:Homines ,
                   owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Alexander
+###  http://lari-datasets.ilc.cnr.it/Homines#Alexander
 
 :Alexander rdf:type midlevel:Homines ,
                     owl:NamedIndividual ;
@@ -7065,7 +7065,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ambrosius
+###  http://lari-datasets.ilc.cnr.it/Homines#Ambrosius
 
 :Ambrosius rdf:type midlevel:Homines ,
                     owl:NamedIndividual ;
@@ -7077,7 +7077,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Antonius
+###  http://lari-datasets.ilc.cnr.it/Homines#Antonius
 
 :Antonius rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7089,7 +7089,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aratus
+###  http://lari-datasets.ilc.cnr.it/Homines#Aratus
 
 :Aratus rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;
@@ -7101,14 +7101,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ariadna
+###  http://lari-datasets.ilc.cnr.it/Homines#Ariadna
 
 :Ariadna rdf:type midlevel:Homines ,
                   owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Aristoteles
+###  http://lari-datasets.ilc.cnr.it/Homines#Aristoteles
 
 :Aristoteles rdf:type midlevel:Homines ,
                       owl:NamedIndividual ;
@@ -7120,7 +7120,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Augustinus
+###  http://lari-datasets.ilc.cnr.it/Homines#Augustinus
 
 :Augustinus rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7132,14 +7132,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Augustus
+###  http://lari-datasets.ilc.cnr.it/Homines#Augustus
 
 :Augustus rdf:type midlevel:Homines ,
                    owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bellum_Actiacum
+###  http://lari-datasets.ilc.cnr.it/Homines#Bellum_Actiacum
 
 :Bellum_Actiacum rdf:type midlevel:Bellum ,
                           owl:NamedIndividual ;
@@ -7149,7 +7149,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Bellum_Troiae
+###  http://lari-datasets.ilc.cnr.it/Homines#Bellum_Troiae
 
 :Bellum_Troiae rdf:type midlevel:Bellum ,
                         owl:NamedIndividual ;
@@ -7159,7 +7159,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Boethius
+###  http://lari-datasets.ilc.cnr.it/Homines#Boethius
 
 :Boethius rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7171,7 +7171,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Caesar
+###  http://lari-datasets.ilc.cnr.it/Homines#Caesar
 
 :Caesar rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;
@@ -7183,7 +7183,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cato_Maior
+###  http://lari-datasets.ilc.cnr.it/Homines#Cato_Maior
 
 :Cato_Maior rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7195,7 +7195,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cato_Minor
+###  http://lari-datasets.ilc.cnr.it/Homines#Cato_Minor
 
 :Cato_Minor rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7207,7 +7207,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cicero
+###  http://lari-datasets.ilc.cnr.it/Homines#Cicero
 
 :Cicero rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;
@@ -7219,14 +7219,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cleopatra
+###  http://lari-datasets.ilc.cnr.it/Homines#Cleopatra
 
 :Cleopatra rdf:type midlevel:Homines ,
                     owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Constantinus
+###  http://lari-datasets.ilc.cnr.it/Homines#Constantinus
 
 :Constantinus rdf:type midlevel:Homines ,
                        owl:NamedIndividual ;
@@ -7238,7 +7238,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Cyrus
+###  http://lari-datasets.ilc.cnr.it/Homines#Cyrus
 
 :Cyrus rdf:type midlevel:Homines ,
                 owl:NamedIndividual ;
@@ -7250,7 +7250,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Diogenes
+###  http://lari-datasets.ilc.cnr.it/Homines#Diogenes
 
 :Diogenes rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7262,7 +7262,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Endymion
+###  http://lari-datasets.ilc.cnr.it/Homines#Endymion
 
 :Endymion rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7274,14 +7274,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Episcopi
+###  http://lari-datasets.ilc.cnr.it/Homines#Episcopi
 
 :Episcopi rdf:type midlevel:Homines ,
                    owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Georgica
+###  http://lari-datasets.ilc.cnr.it/Homines#Georgica
 
 :Georgica rdf:type :Poesis ,
                    owl:NamedIndividual ;
@@ -7291,7 +7291,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Germanicus
+###  http://lari-datasets.ilc.cnr.it/Homines#Germanicus
 
 :Germanicus rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7303,7 +7303,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Graecia_capta
+###  http://lari-datasets.ilc.cnr.it/Homines#Graecia_capta
 
 :Graecia_capta rdf:type owl:NamedIndividual ;
                
@@ -7312,7 +7312,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hannibal
+###  http://lari-datasets.ilc.cnr.it/Homines#Hannibal
 
 :Hannibal rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7324,7 +7324,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hesiodus
+###  http://lari-datasets.ilc.cnr.it/Homines#Hesiodus
 
 :Hesiodus rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7336,7 +7336,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Homerus
+###  http://lari-datasets.ilc.cnr.it/Homines#Homerus
 
 :Homerus rdf:type midlevel:Homines ,
                   owl:NamedIndividual ;
@@ -7348,7 +7348,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Horatius
+###  http://lari-datasets.ilc.cnr.it/Homines#Horatius
 
 :Horatius rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7360,7 +7360,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ilias
+###  http://lari-datasets.ilc.cnr.it/Homines#Ilias
 
 :Ilias rdf:type :Poesis ,
                 owl:NamedIndividual ;
@@ -7370,7 +7370,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lucanus
+###  http://lari-datasets.ilc.cnr.it/Homines#Lucanus
 
 :Lucanus rdf:type midlevel:Homines ,
                   owl:NamedIndividual ;
@@ -7382,14 +7382,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Lucretia
+###  http://lari-datasets.ilc.cnr.it/Homines#Lucretia
 
 :Lucretia rdf:type midlevel:Homines ,
                    owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Machaon
+###  http://lari-datasets.ilc.cnr.it/Homines#Machaon
 
 :Machaon rdf:type midlevel:Homines ,
                   owl:NamedIndividual ;
@@ -7401,7 +7401,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Marius
+###  http://lari-datasets.ilc.cnr.it/Homines#Marius
 
 :Marius rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;
@@ -7413,7 +7413,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Meleager
+###  http://lari-datasets.ilc.cnr.it/Homines#Meleager
 
 :Meleager rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7425,7 +7425,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Menander
+###  http://lari-datasets.ilc.cnr.it/Homines#Menander
 
 :Menander rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7437,7 +7437,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Nero
+###  http://lari-datasets.ilc.cnr.it/Homines#Nero
 
 :Nero rdf:type midlevel:Homines ,
                owl:NamedIndividual ;
@@ -7449,7 +7449,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ninus
+###  http://lari-datasets.ilc.cnr.it/Homines#Ninus
 
 :Ninus rdf:type midlevel:Homines ,
                 owl:NamedIndividual ;
@@ -7461,7 +7461,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Odyssea
+###  http://lari-datasets.ilc.cnr.it/Homines#Odyssea
 
 :Odyssea rdf:type :Poesis ,
                   owl:NamedIndividual ;
@@ -7471,7 +7471,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Ovidius
+###  http://lari-datasets.ilc.cnr.it/Homines#Ovidius
 
 :Ovidius rdf:type midlevel:Homines ,
                   owl:NamedIndividual ;
@@ -7483,7 +7483,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Petronius
+###  http://lari-datasets.ilc.cnr.it/Homines#Petronius
 
 :Petronius rdf:type midlevel:Homines ,
                     owl:NamedIndividual ;
@@ -7495,7 +7495,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Plato
+###  http://lari-datasets.ilc.cnr.it/Homines#Plato
 
 :Plato rdf:type midlevel:Homines ,
                 owl:NamedIndividual ;
@@ -7507,7 +7507,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pompeius_Magnus
+###  http://lari-datasets.ilc.cnr.it/Homines#Pompeius_Magnus
 
 :Pompeius_Magnus rdf:type midlevel:Homines ,
                           owl:NamedIndividual ;
@@ -7519,7 +7519,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Praxiteles
+###  http://lari-datasets.ilc.cnr.it/Homines#Praxiteles
 
 :Praxiteles rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7531,7 +7531,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pyrrhus
+###  http://lari-datasets.ilc.cnr.it/Homines#Pyrrhus
 
 :Pyrrhus rdf:type midlevel:Homines ,
                   owl:NamedIndividual ;
@@ -7543,7 +7543,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Pythagoras
+###  http://lari-datasets.ilc.cnr.it/Homines#Pythagoras
 
 :Pythagoras rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7555,14 +7555,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sapphus
+###  http://lari-datasets.ilc.cnr.it/Homines#Sapphus
 
 :Sapphus rdf:type midlevel:Homines ,
                   owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Scaevola
+###  http://lari-datasets.ilc.cnr.it/Homines#Scaevola
 
 :Scaevola rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7574,7 +7574,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Scipio
+###  http://lari-datasets.ilc.cnr.it/Homines#Scipio
 
 :Scipio rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;
@@ -7586,14 +7586,14 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Semiramis
+###  http://lari-datasets.ilc.cnr.it/Homines#Semiramis
 
 :Semiramis rdf:type midlevel:Homines ,
                     owl:NamedIndividual .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Seneca_philosophus
+###  http://lari-datasets.ilc.cnr.it/Homines#Seneca_philosophus
 
 :Seneca_philosophus rdf:type midlevel:Homines ,
                              owl:NamedIndividual ;
@@ -7605,7 +7605,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Septem_Sapientes
+###  http://lari-datasets.ilc.cnr.it/Homines#Septem_Sapientes
 
 :Septem_Sapientes rdf:type midlevel:Homines ,
                            owl:NamedIndividual ;
@@ -7617,7 +7617,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Sextus_Tarquinius
+###  http://lari-datasets.ilc.cnr.it/Homines#Sextus_Tarquinius
 
 :Sextus_Tarquinius rdf:type midlevel:Homines ,
                             owl:NamedIndividual ;
@@ -7629,7 +7629,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Telephus
+###  http://lari-datasets.ilc.cnr.it/Homines#Telephus
 
 :Telephus rdf:type midlevel:Homines ,
                    owl:NamedIndividual ;
@@ -7641,7 +7641,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Theocritus
+###  http://lari-datasets.ilc.cnr.it/Homines#Theocritus
 
 :Theocritus rdf:type midlevel:Homines ,
                      owl:NamedIndividual ;
@@ -7653,7 +7653,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Thrasamundus
+###  http://lari-datasets.ilc.cnr.it/Homines#Thrasamundus
 
 :Thrasamundus rdf:type midlevel:Homines ,
                        owl:NamedIndividual ;
@@ -7665,7 +7665,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Vergilius
+###  http://lari-datasets.ilc.cnr.it/Homines#Vergilius
 
 :Vergilius rdf:type midlevel:Homines ,
                     owl:NamedIndividual ;
@@ -7677,7 +7677,7 @@ midlevel:Ordines_et_professiones rdf:type owl:Class ;
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Xerxes
+###  http://lari-datasets.ilc.cnr.it/Homines#Xerxes
 
 :Xerxes rdf:type midlevel:Homines ,
                  owl:NamedIndividual ;

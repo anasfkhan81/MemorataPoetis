@@ -1,14 +1,14 @@
-@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#> .
+﻿@prefix : <http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes> .
+@base <http://lari-datasets.ilc.cnr.it/Dei_et_Heroes> .
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes> rdf:type owl:Ontology ;
+<http://lari-datasets.ilc.cnr.it/Dei_et_Heroes> rdf:type owl:Ontology ;
                                                                        
-                                                                       owl:imports <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines> , <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology>.
+                                                                       owl:imports <http://lari-datasets.ilc.cnr.it/Homines> , <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology>.
 
 
 #################################################################
@@ -18,252 +18,252 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies_noctesque
+###  http://lari-datasets.ilc.cnr.it/Homines#Dies_noctesque
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies_noctesque> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Conjunction> .
-
-
-
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hora_et_dies_fatales
-
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Hora_et_dies_fatales> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Conjunction> .
+<http://lari-datasets.ilc.cnr.it/Homines#Dies_noctesque> rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Conjunction> .
 
 
 
+###  http://lari-datasets.ilc.cnr.it/Homines#Hora_et_dies_fatales
 
-
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus_in_amatoriis_variis
-
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tempus_in_amatoriis_variis> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant> .
-
-
-
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tranquillitas_vitae
-
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Tranquillitas_vitae> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#physical-quality> .
+<http://lari-datasets.ilc.cnr.it/Homines#Hora_et_dies_fatales> rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Conjunction> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#law
-
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#law> rdf:type owl:Class .
 
 
+###  http://lari-datasets.ilc.cnr.it/Homines#Tempus_in_amatoriis_variis
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Dei_et_heroes
-
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Dei_et_heroes> rdfs:subClassOf :Mythological_Figures .
+<http://lari-datasets.ilc.cnr.it/Homines#Tempus_in_amatoriis_variis> rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#perdurant> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Absentia_Dei
+###  http://lari-datasets.ilc.cnr.it/Homines#Tranquillitas_vitae
+
+<http://lari-datasets.ilc.cnr.it/Homines#Tranquillitas_vitae> rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#physical-quality> .
+
+
+
+###  http://lari-datasets.ilc.cnr.it/Homines#law
+
+<http://lari-datasets.ilc.cnr.it/Homines#law> rdf:type owl:Class .
+
+
+
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Dei_et_heroes
+
+<http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Dei_et_heroes> rdfs:subClassOf :Mythological_Figures .
+
+
+
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Absentia_Dei
 
 :Absentia_Dei rdf:type owl:Class ;
               
               rdfs:label "no Gods"@en ,
                          "Absentia Dei"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Philosophia> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Philosophia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Angelicae_potestates
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Angelicae_potestates
 
 :Angelicae_potestates rdf:type owl:Class ;
                       
                       rdfs:label "angels's power"@en ,
                                  "Angelicae potestates"@la ;
                       
-                      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+                      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Anima
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Anima
 
 :Anima rdf:type owl:Class ;
        
        rdfs:label "SOUL"@en ,
                   "Anima"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Bonum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Bonum
 
 :Bonum rdf:type owl:Class ;
        
        rdfs:label "GOOD DEED"@en ,
                   "Bonum"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#accomplishment> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Censura_paganorum_cultuum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Censura_paganorum_cultuum
 
 :Censura_paganorum_cultuum rdf:type owl:Class ;
                            
                            rdfs:label "censorship of pagan worships"@en ,
                                       "Censura paganorum cultuum"@la ;
                            
-                           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment> .
+                           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#accomplishment> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Concordia_deorum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Concordia_deorum
 
 :Concordia_deorum rdf:type owl:Class ;
                   
                   rdfs:label "Harmony between the Gods"@en ,
                              "Concordia deorum"@la ;
                   
-                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#state> .
+                  rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#state> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Concubitus_deorum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Concubitus_deorum
 
 :Concubitus_deorum rdf:type owl:Class ;
                    
                    rdfs:label "sexual intercourse between gods"@en ,
                               "Concubitus deorum"@la ;
                    
-                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#activity> .
+                   rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#activity> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Conscientia
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Conscientia
 
 :Conscientia rdf:type owl:Class ;
              
              rdfs:label "CONSCIENCE"@en ,
                         "Conscientia"@la ;
              
-             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Facultates> .
+             rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Facultates> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Contra_Iudaeos
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Contra_Iudaeos
 
 :Contra_Iudaeos rdf:type owl:Class ;
                 
-				rdfs:subClassOf  <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#quality> ;
+				rdfs:subClassOf  <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#quality> ;
                 rdfs:label "against the jews"@en ,
                            "Contra Iudaeos"@la .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Contra_paganos
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Contra_paganos
 
 :Contra_paganos rdf:type owl:Class ;
                 
-				rdfs:subClassOf  <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#quality> ;
+				rdfs:subClassOf  <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#quality> ;
                 rdfs:label "against the heathens"@en ,
                            "Contra paganos"@la .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Conversiones_ad_fidem
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Conversiones_ad_fidem
 
 :Conversiones_ad_fidem rdf:type owl:Class ;
                        
                        rdfs:label "changes in religious beliefs"@en ,
                                   "Conversiones ad fidem"@la ;
                        
-                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#achievement> .
+                       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#achievement> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Crux
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Crux
 
 :Crux rdf:type owl:Class ;
       
       rdfs:label "cross"@en ,
                  "Crux"@la ;
       
-      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Damnatio_aeterna
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Damnatio_aeterna
 
 :Damnatio_aeterna rdf:type owl:Class ;
                   
                   rdfs:label "eternal punishment"@en ,
                              "Damnatio aeterna"@la ;
                   
-                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#activity> .
+                  rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#activity> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Deus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Deus
 
 :Deus rdf:type owl:Class ;
       
       rdfs:label "God"@en ,
                  "Deus"@la ;
       
-      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive> .
+      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Diabolus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Diabolus
 
 :Diabolus rdf:type owl:Class ;
           
           rdfs:label "Devil"@en ,
                      "Diabolus"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Doctrina_apostolica
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Doctrina_apostolica
 
 :Doctrina_apostolica rdf:type owl:Class ;
                      
                      rdfs:label "apostles's creed"@en ,
                                 "Doctrina apostolica"@la ;
                      
-                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Non_Agentive_Social_Object> .
+                     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Non_Agentive_Social_Object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Dogmata_Catholica
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Dogmata_Catholica
 
 :Dogmata_Catholica rdf:type owl:Class ;
                    
                    rdfs:label "catholic dogma"@en ,
                               "Dogmata Catholica"@la ;
                    
-                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+                   rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Dona
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Dona
 
 :Dona rdf:type owl:Class ;
       
       rdfs:label "GIFTS"@en ,
                  "Dona"@la ;
       
-      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Social_Object> .
+      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Social_Object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Ecclesia
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Ecclesia
 
 :Ecclesia rdf:type owl:Class ;
           
           rdfs:label "christian church"@en ,
                      "Ecclesia"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Episcopi
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Episcopi
 
 :Episcopi rdf:type owl:Class ;
           
@@ -272,143 +272,143 @@
           
           owl:equivalentClass :Sacerdotes ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Ordines_et_professiones> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Ordines_et_professiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Fides
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Fides
 
 :Fides rdf:type owl:Class ;
        
        rdfs:label "christian faith"@en ,
                   "Fides"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Homines_cum_deis_comparati
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Homines_cum_deis_comparati
 
 :Homines_cum_deis_comparati rdf:type owl:Class ;
                             
                             rdfs:label "Men likened to Gods"@en ,
                                        "Homines cum deis comparati"@la ;
                             
-                            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Comparison> .
+                            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Comparison> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Imitatio_Dei
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Imitatio_Dei
 
 :Imitatio_Dei rdf:type owl:Class ;
               
               rdfs:label "God's imitation"@en ,
                          "Imitatio Dei"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Improbi_et_impii
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Improbi_et_impii
 
 :Improbi_et_impii rdf:type owl:Class ;
                   
                   rdfs:label "crooks and traitors"@en ,
                              "Improbi et impii"@la ;
                   
-                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#social-role> .
+                  rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#social-role> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Investigatio_Dei
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Investigatio_Dei
 
 :Investigatio_Dei rdf:type owl:Class ;
                   
                   rdfs:label "God's research"@en ,
                              "Investigatio Dei"@la ;
                   
-                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+                  rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Iustitia_divina
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Iustitia_divina
 
 :Iustitia_divina rdf:type owl:Class ;
                  
                  rdfs:label "divine justice"@en ,
                             "Iustitia divina"@la ;
                  
-                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+                 rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Laudatio_Dei
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Laudatio_Dei
 
 :Laudatio_Dei rdf:type owl:Class ;
               
               rdfs:label "God's prayers"@en ,
                          "Laudatio Dei"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Lex_divina
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Lex_divina
 
 :Lex_divina rdf:type owl:Class ;
             
             rdfs:label "divine law"@en ,
                        "Lex divina"@la ;
             
-            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#law> .
+            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#law> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Libertas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Libertas
 
 :Libertas rdf:type owl:Class ;
           
           rdfs:label "FREEDOM"@en ,
                      "Libertas"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#state> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#state> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Malum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Malum
 
 :Malum rdf:type owl:Class ;
        
        rdfs:label "EVIL"@en ,
                   "Malum"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Martyres
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Martyres
 
 :Martyres rdf:type owl:Class ;
           
           rdfs:label "martyrs"@en ,
                      "Martyres"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#social-role> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#social-role> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Miracula
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Miracula
 
 :Miracula rdf:type owl:Class ;
           
           rdfs:label "miracles"@en ,
                      "Miracula"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#perdurant> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Mores_Christianorum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Mores_Christianorum
 
 :Mores_Christianorum rdf:type owl:Class ;
                      
@@ -416,166 +416,166 @@
 """@en ,
                                 "Mores Christianorum"@la ;
                      
-                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Mores> .
+                     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Mores> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Mythological_Figures
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Mythological_Figures
 
 :Mythological_Figures rdf:type owl:Class ;
                       
-                      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive> .
+                      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Natura_et_actio_Dei
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Natura_et_actio_Dei
 
 :Natura_et_actio_Dei rdf:type owl:Class ;
                      
                      rdfs:label "nature and divin acts"@en ,
                                 "Natura et actio Dei"@la ;
                      
-                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Conjunction> .
+                     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Conjunction> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Peccatum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Peccatum
 
 :Peccatum rdf:type owl:Class ;
           
           rdfs:label "sin"@en ,
                      "Peccatum"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pii_et_probi
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pii_et_probi
 
 :Pii_et_probi rdf:type owl:Class ;
               
               rdfs:label "devoted and honest"@en ,
                          "Pii et probi"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Regnum_caelorum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Regnum_caelorum
 
 :Regnum_caelorum rdf:type owl:Class ;
                  
                  rdfs:label "heavenly kindom"@en ,
                             "Regnum caelorum"@la ;
                  
-                 rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Caelum> .
+                 rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Caelum> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Religio_Christiana
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Religio_Christiana
 
 :Religio_Christiana rdf:type owl:Class ;
                     
-                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Non_Agentive_Social_Object> .
+                    rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Non_Agentive_Social_Object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Res_ad_Biblia_et_Euangelium_pertinentes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Res_ad_Biblia_et_Euangelium_pertinentes
 
 :Res_ad_Biblia_et_Euangelium_pertinentes rdf:type owl:Class ;
                                          
                                          rdfs:label "theme pertinent to the bible and to the gospel"@en ,
                                                     "Res ad Biblia et Euangelium pertinentes"@la ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+                                         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sacerdotes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sacerdotes
 
 :Sacerdotes rdf:type owl:Class ;
             
             rdfs:label "bishops"@en ,
                        "Sacerdotes"@la ;
             
-            rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#social-role> .
+            rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#social-role> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sacra_et_sollemnia
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sacra_et_sollemnia
 
 :Sacra_et_sollemnia rdf:type owl:Class ;
                     
                     rdfs:label "religious ceremony and feast days"@en ,
                                "Sacra et sollemnia"@la ;
                     
-                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Dies> .
+                    rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Dies> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sacrilegium
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sacrilegium
 
 :Sacrilegium rdf:type owl:Class ;
              
              rdfs:label "PROFANATION"@en ,
                         "Sacrilegium"@la ;
              
-             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#Non_Agentive_Social_Object> .
+             rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#Non_Agentive_Social_Object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sancti_et_Sanctae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sancti_et_Sanctae
 
 :Sancti_et_Sanctae rdf:type owl:Class ;
                    
                    rdfs:label "saints"@en ,
                               "Sancti et Sanctae"@la ;
                    
-                   rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#social-role> .
+                   rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#social-role> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Spiritus_Sanctus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Spiritus_Sanctus
 
 :Spiritus_Sanctus rdf:type owl:Class ;
                   
                   rdfs:label "holy spirit"@en ,
                              "Spiritus Sanctus"@la ;
                   
-                  rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive> .
+                  rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Trinitas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Trinitas
 
 :Trinitas rdf:type owl:Class ;
           
           rdfs:label "trinity"@en ,
                      "Trinitas"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Vita_aeterna
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Vita_aeterna
 
 :Vita_aeterna rdf:type owl:Class ;
               
               rdfs:label "eternal life"@en ,
                          "Vita aeterna"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#accomplishment> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Vota
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Vota
 
 :Vota rdf:type owl:Class ;
       
       rdfs:label "vows"@en ,
                  "Vota"@la ;
       
-      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Homines#obligations> .
+      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Homines#obligations> .
 
 
 
@@ -588,7 +588,7 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Achilles
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Achilles
 
 :Achilles rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -598,7 +598,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Admetus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Admetus
 
 :Admetus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -608,7 +608,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Adon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Adon
 
 :Adon rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -618,7 +618,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Aegyptus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Aegyptus
 
 :Aegyptus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -628,7 +628,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Aeneas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Aeneas
 
 :Aeneas rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -638,7 +638,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Aeolus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Aeolus
 
 :Aeolus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -648,7 +648,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Agamemnon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Agamemnon
 
 :Agamemnon rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -658,7 +658,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Agave
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Agave
 
 :Agave rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -668,7 +668,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Agenor
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Agenor
 
 :Agenor rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -678,7 +678,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Aiax
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Aiax
 
 :Aiax rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -688,7 +688,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Alcestis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Alcestis
 
 :Alcestis rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -698,7 +698,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Amor
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Amor
 
 :Amor rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -708,7 +708,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Anchises
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Anchises
 
 :Anchises rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -718,7 +718,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Andromacha
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Andromacha
 
 :Andromacha rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -728,7 +728,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Andromeda
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Andromeda
 
 :Andromeda rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -738,7 +738,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Antaeus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Antaeus
 
 :Antaeus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -748,7 +748,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Apollo
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Apollo
 
 :Apollo rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -758,7 +758,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Archemorus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Archemorus
 
 :Archemorus rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -768,7 +768,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Argus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Argus
 
 :Argus rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -778,7 +778,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Asclepius
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Asclepius
 
 :Asclepius rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -788,7 +788,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Atargatis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Atargatis
 
 :Atargatis rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -798,7 +798,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Aurora
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Aurora
 
 :Aurora rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -808,7 +808,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Bacchus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Bacchus
 
 :Bacchus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -818,7 +818,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Bellerophon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Bellerophon
 
 :Bellerophon rdf:type :Mythological_Figures ,
                       owl:NamedIndividual ;
@@ -828,7 +828,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Caesar
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Caesar
 
 :Caesar rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -838,7 +838,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Caesares
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Caesares
 
 :Caesares rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -848,7 +848,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Calliope
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Calliope
 
 :Calliope rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -858,7 +858,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Calypso
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Calypso
 
 :Calypso rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -868,7 +868,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Castor_et_Pollux
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Castor_et_Pollux
 
 :Castor_et_Pollux rdf:type :Mythological_Figures ,
                            owl:NamedIndividual ;
@@ -878,7 +878,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Cerberus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Cerberus
 
 :Cerberus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -888,7 +888,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Ceres
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Ceres
 
 :Ceres rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -898,7 +898,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Chaos
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Chaos
 
 :Chaos rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -908,7 +908,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Charon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Charon
 
 :Charon rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -918,7 +918,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Chimaera
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Chimaera
 
 :Chimaera rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -928,7 +928,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Clytaemnestra
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Clytaemnestra
 
 :Clytaemnestra rdf:type :Mythological_Figures ,
                         owl:NamedIndividual ;
@@ -938,7 +938,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Concilium_deorum
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Concilium_deorum
 
 :Concilium_deorum rdf:type :Mythological_Figures ,
                            owl:NamedIndividual ;
@@ -948,7 +948,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Creon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Creon
 
 :Creon rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -958,7 +958,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Creusa
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Creusa
 
 :Creusa rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -968,7 +968,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Cupidines
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Cupidines
 
 :Cupidines rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -978,7 +978,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Cybele
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Cybele
 
 :Cybele rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -988,7 +988,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Cyclops
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Cyclops
 
 :Cyclops rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -998,7 +998,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Daedalus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Daedalus
 
 :Daedalus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1008,7 +1008,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Danae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Danae
 
 :Danae rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1018,7 +1018,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Danaus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Danaus
 
 :Danaus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1028,7 +1028,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Deidamia
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Deidamia
 
 :Deidamia rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1038,7 +1038,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Demophoon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Demophoon
 
 :Demophoon rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1048,7 +1048,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Diana
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Diana
 
 :Diana rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1058,7 +1058,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Dido
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Dido
 
 :Dido rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1068,7 +1068,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Dike
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Dike
 
 :Dike rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1078,7 +1078,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Diomedes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Diomedes
 
 :Diomedes rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1088,7 +1088,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Dolon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Dolon
 
 :Dolon rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1098,7 +1098,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Equus_Troianus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Equus_Troianus
 
 :Equus_Troianus rdf:type :Mythological_Figures ,
                          owl:NamedIndividual ;
@@ -1108,7 +1108,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Eteocles
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Eteocles
 
 :Eteocles rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1118,7 +1118,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Europa
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Europa
 
 :Europa rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1128,7 +1128,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Euryalus_et_Nisus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Euryalus_et_Nisus
 
 :Euryalus_et_Nisus rdf:type :Mythological_Figures ,
                             owl:NamedIndividual ;
@@ -1138,7 +1138,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Fama
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Fama
 
 :Fama rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1148,7 +1148,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Fatus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Fatus
 
 :Fatus rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1158,7 +1158,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Felicitas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Felicitas
 
 :Felicitas rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1168,7 +1168,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Furta_amoris
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Furta_amoris
 
 :Furta_amoris rdf:type :Mythological_Figures ,
                        owl:NamedIndividual ;
@@ -1178,7 +1178,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Galatea
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Galatea
 
 :Galatea rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1188,7 +1188,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Ganymedes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Ganymedes
 
 :Ganymedes rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1198,7 +1198,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Glaucus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Glaucus
 
 :Glaucus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1208,7 +1208,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Grannus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Grannus
 
 :Grannus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1218,7 +1218,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Gratiae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Gratiae
 
 :Gratiae rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1228,7 +1228,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hector
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hector
 
 :Hector rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1238,7 +1238,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hecuba
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hecuba
 
 :Hecuba rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1248,7 +1248,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Helena
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Helena
 
 :Helena rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1258,7 +1258,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hercules
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hercules
 
 :Hercules rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1268,7 +1268,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hermione
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hermione
 
 :Hermione rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1278,7 +1278,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hero_et_Leander
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hero_et_Leander
 
 :Hero_et_Leander rdf:type :Mythological_Figures ,
                           owl:NamedIndividual ;
@@ -1288,7 +1288,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Horae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Horae
 
 :Horae rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1298,7 +1298,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hyacinthus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hyacinthus
 
 :Hyacinthus rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -1308,7 +1308,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hylas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hylas
 
 :Hylas rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1318,7 +1318,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hymenaeus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hymenaeus
 
 :Hymenaeus rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1328,7 +1328,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hypermestre
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hypermestre
 
 :Hypermestre rdf:type :Mythological_Figures ,
                       owl:NamedIndividual ;
@@ -1338,7 +1338,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Hyppolytus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Hyppolytus
 
 :Hyppolytus rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -1348,7 +1348,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Ianus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Ianus
 
 :Ianus rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1358,7 +1358,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Iason
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Iason
 
 :Iason rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1368,7 +1368,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Icarus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Icarus
 
 :Icarus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1378,7 +1378,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Io
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Io
 
 :Io rdf:type :Mythological_Figures ,
              owl:NamedIndividual ;
@@ -1388,7 +1388,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Iocasta
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Iocasta
 
 :Iocasta rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1398,7 +1398,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Isis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Isis
 
 :Isis rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1408,7 +1408,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Itys
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Itys
 
 :Itys rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1418,7 +1418,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Iuno
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Iuno
 
 :Iuno rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1428,7 +1428,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Iuppiter
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Iuppiter
 
 :Iuppiter rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1438,7 +1438,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Laocoon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Laocoon
 
 :Laocoon rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1448,7 +1448,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Laodamia
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Laodamia
 
 :Laodamia rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1458,7 +1458,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Lares
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Lares
 
 :Lares rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1468,7 +1468,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Leda
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Leda
 
 :Leda rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1478,7 +1478,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Lemniades
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Lemniades
 
 :Lemniades rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1488,7 +1488,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Manes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Manes
 
 :Manes rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1498,7 +1498,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Mars
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Mars
 
 :Mars rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1508,7 +1508,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Marsyas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Marsyas
 
 :Marsyas rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1518,7 +1518,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Medea
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Medea
 
 :Medea rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1528,7 +1528,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Medusa
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Medusa
 
 :Medusa rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1538,7 +1538,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Memnon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Memnon
 
 :Memnon rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1548,7 +1548,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Mercurius
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Mercurius
 
 :Mercurius rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1558,7 +1558,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Midas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Midas
 
 :Midas rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1568,7 +1568,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Minerva
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Minerva
 
 :Minerva rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1578,7 +1578,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Minos
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Minos
 
 :Minos rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1588,7 +1588,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Minotaurus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Minotaurus
 
 :Minotaurus rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -1598,7 +1598,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Musae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Musae
 
 :Musae rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1608,7 +1608,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Myrrha
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Myrrha
 
 :Myrrha rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1618,7 +1618,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Narcissus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Narcissus
 
 :Narcissus rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1628,7 +1628,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Nemesis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Nemesis
 
 :Nemesis rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1638,7 +1638,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Neoptolemus_vel_Pyrrhus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Neoptolemus_vel_Pyrrhus
 
 :Neoptolemus_vel_Pyrrhus rdf:type :Mythological_Figures ,
                                   owl:NamedIndividual ;
@@ -1648,7 +1648,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Neptunus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Neptunus
 
 :Neptunus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1658,7 +1658,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Nereus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Nereus
 
 :Nereus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1668,7 +1668,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Nestor
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Nestor
 
 :Nestor rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1678,7 +1678,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Niobe
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Niobe
 
 :Niobe rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1688,7 +1688,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Nox
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Nox
 
 :Nox rdf:type :Mythological_Figures ,
               owl:NamedIndividual ;
@@ -1698,7 +1698,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Numa
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Numa
 
 :Numa rdf:type :Mythological_Figures ,
                owl:NamedIndividual ;
@@ -1708,7 +1708,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Nymphae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Nymphae
 
 :Nymphae rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1718,7 +1718,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Oedipus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Oedipus
 
 :Oedipus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1728,7 +1728,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Orestes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Orestes
 
 :Orestes rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1738,7 +1738,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Orpheus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Orpheus
 
 :Orpheus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1748,7 +1748,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pan
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pan
 
 :Pan rdf:type :Mythological_Figures ,
               owl:NamedIndividual ;
@@ -1758,7 +1758,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Parcae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Parcae
 
 :Parcae rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1768,7 +1768,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Paris
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Paris
 
 :Paris rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -1778,7 +1778,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pasiphae
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pasiphae
 
 :Pasiphae rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1788,7 +1788,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Peitho
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Peitho
 
 :Peitho rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1798,7 +1798,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pelias
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pelias
 
 :Pelias rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1808,7 +1808,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pelops
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pelops
 
 :Pelops rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1818,7 +1818,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Penelope
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Penelope
 
 :Penelope rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1828,7 +1828,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Penthesilea
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Penthesilea
 
 :Penthesilea rdf:type :Mythological_Figures ,
                       owl:NamedIndividual ;
@@ -1838,7 +1838,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pentheus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pentheus
 
 :Pentheus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1848,7 +1848,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Persephone
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Persephone
 
 :Persephone rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -1858,7 +1858,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Perseus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Perseus
 
 :Perseus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1868,7 +1868,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Phaedra
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Phaedra
 
 :Phaedra rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1878,7 +1878,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Phaethon
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Phaethon
 
 :Phaethon rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -1888,7 +1888,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Philomela
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Philomela
 
 :Philomela rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1898,7 +1898,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Phoebus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Phoebus
 
 :Phoebus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1908,7 +1908,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Phyllis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Phyllis
 
 :Phyllis rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1918,7 +1918,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pluton
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pluton
 
 :Pluton rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1928,7 +1928,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Polynices
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Polynices
 
 :Polynices rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -1938,7 +1938,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pomona
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pomona
 
 :Pomona rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1948,7 +1948,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Priamus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Priamus
 
 :Priamus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1958,7 +1958,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Priapus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Priapus
 
 :Priapus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -1968,7 +1968,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Progne
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Progne
 
 :Progne rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -1978,7 +1978,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Prometheus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Prometheus
 
 :Prometheus rdf:type :Mythological_Figures ,
                      owl:NamedIndividual ;
@@ -1988,7 +1988,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Protesilaus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Protesilaus
 
 :Protesilaus rdf:type :Mythological_Figures ,
                       owl:NamedIndividual ;
@@ -1998,7 +1998,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Pyramus_et_Thisbe
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Pyramus_et_Thisbe
 
 :Pyramus_et_Thisbe rdf:type :Mythological_Figures ,
                             owl:NamedIndividual ;
@@ -2008,7 +2008,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Romulus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Romulus
 
 :Romulus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2018,7 +2018,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Saturnus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Saturnus
 
 :Saturnus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -2028,7 +2028,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Satyri
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Satyri
 
 :Satyri rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2038,7 +2038,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Semones
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Semones
 
 :Semones rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2048,7 +2048,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Silvanus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Silvanus
 
 :Silvanus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -2058,7 +2058,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sirenes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sirenes
 
 :Sirenes rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2068,7 +2068,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Somnus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Somnus
 
 :Somnus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2078,7 +2078,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Sybilla
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Sybilla
 
 :Sybilla rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2088,7 +2088,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Tantalus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Tantalus
 
 :Tantalus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -2098,7 +2098,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Terra
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Terra
 
 :Terra rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -2108,7 +2108,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Themis
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Themis
 
 :Themis rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2118,7 +2118,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Thersites
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Thersites
 
 :Thersites rdf:type :Mythological_Figures ,
                     owl:NamedIndividual ;
@@ -2128,7 +2128,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Theseus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Theseus
 
 :Theseus rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2138,7 +2138,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Thethys
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Thethys
 
 :Thethys rdf:type :Mythological_Figures ,
                   owl:NamedIndividual ;
@@ -2148,7 +2148,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Thoas
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Thoas
 
 :Thoas rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -2158,7 +2158,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Tithonus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Tithonus
 
 :Tithonus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -2168,7 +2168,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Turnus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Turnus
 
 :Turnus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2178,7 +2178,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Venus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Venus
 
 :Venus rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -2188,7 +2188,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Vesta
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Vesta
 
 :Vesta rdf:type :Mythological_Figures ,
                 owl:NamedIndividual ;
@@ -2198,7 +2198,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Virtus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Virtus
 
 :Virtus rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2208,7 +2208,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Vlixes
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Vlixes
 
 :Vlixes rdf:type :Mythological_Figures ,
                  owl:NamedIndividual ;
@@ -2218,7 +2218,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Vulcanus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Vulcanus
 
 :Vulcanus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;
@@ -2228,7 +2228,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/5/Dei_et_Heroes#Zephyrus
+###  http://lari-datasets.ilc.cnr.it/Dei_et_Heroes#Zephyrus
 
 :Zephyrus rdf:type :Mythological_Figures ,
                    owl:NamedIndividual ;

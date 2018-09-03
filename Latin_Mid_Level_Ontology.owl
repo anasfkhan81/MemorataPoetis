@@ -1,12 +1,12 @@
-@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#> .
+﻿@prefix : <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> .
+@base <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology> .
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> rdf:type owl:Ontology .
+<http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology> rdf:type owl:Ontology .
 
 
 #################################################################
@@ -16,25 +16,25 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#epitaphFor
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#epitaphFor
 
 :epitaphFor rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#hasPart
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#hasPart
 
 :hasPart rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#inherent-in
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#inherent-in
 
 :inherent-in rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#isPartOf
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#isPartOf
 
 :isPartOf rdf:type owl:ObjectProperty ;
           
@@ -42,19 +42,19 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#praises
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#praises
 
 :praises rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#relates
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#relates
 
 :relates rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#uses
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#uses
 
 :uses rdf:type owl:ObjectProperty .
 
@@ -75,9 +75,9 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#(Human_Qualities)> rdf:type owl:Class ;
+<http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#(Human_Qualities)> rdf:type owl:Class ;
                                                                                                     
                                                                                                     rdfs:subClassOf :physical-quality ,
                                                                                                                     [ rdf:type owl:Restriction ;
@@ -89,7 +89,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia
 
 :Aedificia rdf:type owl:Class ;
            
@@ -100,7 +100,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones
 
 :Alimenta_et_potiones rdf:type owl:Class ;
                       
@@ -111,7 +111,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Animalia
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Animalia
 
 :Animalia rdf:type owl:Class ;
           
@@ -124,7 +124,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Arbores
 
 :Arbores rdf:type owl:Class ;
          
@@ -135,7 +135,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Arbores_et_Virentia
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Arbores_et_Virentia
 
 :Arbores_et_Virentia rdf:type owl:Class ;
                      
@@ -152,7 +152,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Artes_et_disciplinae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Artes_et_disciplinae
 
 :Artes_et_disciplinae rdf:type owl:Class ;
                       
@@ -163,7 +163,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Bellum
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Bellum
 
 :Bellum rdf:type owl:Class ;
         
@@ -174,7 +174,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Caelum
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Caelum
 
 :Caelum rdf:type owl:Class ;
         
@@ -185,14 +185,14 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Comparison
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Comparison
 
 :Comparison rdf:type owl:Class ;
 			rdfs:subClassOf :relation.
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Conjunction
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Conjunction
 
 :Conjunction rdf:type owl:Class ;
              
@@ -200,7 +200,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Corpus
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Corpus
 
 :Corpus rdf:type owl:Class ;
         
@@ -211,7 +211,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Dei_et_heroes
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Dei_et_heroes
 
 :Dei_et_heroes rdf:type owl:Class ;
                
@@ -222,7 +222,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Facultates
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Facultates
 
 :Facultates rdf:type owl:Class ;
             
@@ -233,7 +233,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Flores
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Flores
 
 :Flores rdf:type owl:Class ;
         
@@ -244,7 +244,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Fructus
 
 :Fructus rdf:type owl:Class ;
          
@@ -255,7 +255,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Genera
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Genera
 
 :Genera rdf:type owl:Class ;
         
@@ -263,7 +263,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Group
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Group
 
 :Group rdf:type owl:Class ;
        
@@ -271,7 +271,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Herbae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Herbae
 
 :Herbae rdf:type owl:Class ;
         
@@ -282,7 +282,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Homines
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Homines
 
 :Homines rdf:type owl:Class ;
          
@@ -293,7 +293,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Inferi
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Inferi
 
 :Inferi rdf:type owl:Class ;
         
@@ -304,7 +304,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Lapides_et_metalla
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Lapides_et_metalla
 
 :Lapides_et_metalla rdf:type owl:Class ;
                     
@@ -315,7 +315,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Loca
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Loca
 
 :Loca rdf:type owl:Class ;
       
@@ -326,7 +326,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Maria_et_flumina
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Maria_et_flumina
 
 :Maria_et_flumina rdf:type owl:Class ;
                   
@@ -337,7 +337,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Mulieres_clarae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Mulieres_clarae
 
 :Mulieres_clarae rdf:type owl:Class ;
                  
@@ -348,7 +348,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Plantae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Plantae
 
 :Plantae rdf:type owl:Class ;
          
@@ -359,7 +359,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Res_domesticae
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Res_domesticae
 
 :Res_domesticae rdf:type owl:Class ;
                 
@@ -370,7 +370,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Simulacra_et_signa
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Simulacra_et_signa
 
 :Simulacra_et_signa rdf:type owl:Class ;
                     
@@ -381,7 +381,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Social_Object
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Social_Object
 
 :Social_Object rdf:type owl:Class ;
                
@@ -389,7 +389,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Terra
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Terra
 
 :Terra rdf:type owl:Class ;
        
@@ -401,7 +401,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Uses_of_things
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Uses_of_things
 
 :Uses_of_things rdf:type owl:Class ;
                 
@@ -409,7 +409,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Viri_clari
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Viri_clari
 
 :Viri_clari rdf:type owl:Class ;
             
@@ -420,7 +420,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_animalium
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Vsus_animalium
 
 :Vsus_animalium rdf:type owl:Class ;
                 
@@ -431,7 +431,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Vsus_arborum_herbarum_florum_et_fructuum
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Vsus_arborum_herbarum_florum_et_fructuum
 
 :Vsus_arborum_herbarum_florum_et_fructuum rdf:type owl:Class ;
                                           
@@ -443,7 +443,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#abstract-quality
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#abstract-quality
 
 :abstract-quality rdf:type owl:Class ;
                   
@@ -451,7 +451,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#accomplishment
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#accomplishment
 
 :accomplishment rdf:type owl:Class ;
                 
@@ -459,7 +459,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#achievement
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#achievement
 
 :achievement rdf:type owl:Class ;
              
@@ -467,7 +467,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#activity
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#activity
 
 :activity rdf:type owl:Class ;
           
@@ -475,7 +475,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#agentive
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#agentive
 
 :agentive rdf:type owl:Class ;
           
@@ -483,7 +483,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#endurant
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#endurant
 
 :endurant rdf:type owl:Class ;
           
@@ -491,7 +491,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#non-physical-object
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#non-physical-object
 
 :non-physical-object rdf:type owl:Class ;
                      
@@ -499,7 +499,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#perdurant
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#perdurant
 
 :perdurant rdf:type owl:Class ;
            
@@ -507,7 +507,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#physical-quality
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#physical-quality
 
 :physical-quality rdf:type owl:Class ;
                   
@@ -515,7 +515,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#physical_and_supernatural_objects
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#physical_and_supernatural_objects
 
 :physical_and_supernatural_objects rdf:type owl:Class ;
                                    
@@ -523,7 +523,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#position_or_placement
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#position_or_placement
 
 :position_or_placement rdf:type owl:Class ;
                        
@@ -531,7 +531,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#quality
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#quality
 
 :quality rdf:type owl:Class ;
          
@@ -539,7 +539,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#relation
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#relation
 
 :relation rdf:type owl:Class ;
           
@@ -552,7 +552,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res
 
 :res rdf:type owl:Class ;
      
@@ -564,7 +564,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#space-region
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#space-region
 
 :space-region rdf:type owl:Class ;
               
@@ -572,7 +572,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#state
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#state
 
 :state rdf:type owl:Class ;
        

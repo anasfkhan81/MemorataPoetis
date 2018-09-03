@@ -1,14 +1,14 @@
-@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#> .
+﻿@prefix : <http://lari-datasets.ilc.cnr.it/res#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res> .
+@base <http://lari-datasets.ilc.cnr.it/res> .
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res> rdf:type owl:Ontology ;
+<http://lari-datasets.ilc.cnr.it/res> rdf:type owl:Ontology ;
                                                              
-                                                             owl:imports <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology> .
+                                                             owl:imports <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology> .
 
 
 #################################################################
@@ -18,13 +18,13 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus
+###  http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Fructus
 
-<http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Fructus> rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+<http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Fructus> rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aes
+###  http://lari-datasets.ilc.cnr.it/res#Aes
 
 :Aes rdf:type owl:Class ;
      
@@ -35,18 +35,18 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Amphitheatra
+###  http://lari-datasets.ilc.cnr.it/res#Amphitheatra
 
 :Amphitheatra rdf:type owl:Class ;
               
               rdfs:label "AMPHITHEATERS"@en ,
                          "Amphitheatra"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Apothecae
+###  http://lari-datasets.ilc.cnr.it/res#Apothecae
 
 :Apothecae rdf:type owl:Class ;
            
@@ -57,18 +57,18 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aqua
+###  http://lari-datasets.ilc.cnr.it/res#Aqua
 
 :Aqua rdf:type owl:Class ;
       
       rdfs:label "WATER"@en ,
                  "Aqua"@la ;
       
-      rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+      rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Arena
+###  http://lari-datasets.ilc.cnr.it/res#Arena
 
 :Arena rdf:type owl:Class ;
        
@@ -79,18 +79,18 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Arenae
+###  http://lari-datasets.ilc.cnr.it/res#Arenae
 
 :Arenae rdf:type owl:Class ;
         
         rdfs:label "ARENAS"@en ,
                    "Arenae"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Argentum
+###  http://lari-datasets.ilc.cnr.it/res#Argentum
 
 :Argentum rdf:type owl:Class ;
           
@@ -101,18 +101,18 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Assatura
+###  http://lari-datasets.ilc.cnr.it/res#Assatura
 
 :Assatura rdf:type owl:Class ;
           
           rdfs:label "roast beef"@en ,
                      "Assatura"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Aurum
+###  http://lari-datasets.ilc.cnr.it/res#Aurum
 
 :Aurum rdf:type owl:Class ;
        
@@ -123,40 +123,40 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Basilicae
+###  http://lari-datasets.ilc.cnr.it/res#Basilicae
 
 :Basilicae rdf:type owl:Class ;
            
            rdfs:label "BASILICAS"@en ,
                       "Basilicae"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Bibliothecae
+###  http://lari-datasets.ilc.cnr.it/res#Bibliothecae
 
 :Bibliothecae rdf:type owl:Class ;
               
               rdfs:label "libraries"@en ,
                          "Bibliothecae"@la ;
               
-              rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+              rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Boleti
+###  http://lari-datasets.ilc.cnr.it/res#Boleti
 
 :Boleti rdf:type owl:Class ;
         
         rdfs:label "MUSHROOMS"@en ,
                    "Boleti"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Calceamenta
+###  http://lari-datasets.ilc.cnr.it/res#Calceamenta
 
 :Calceamenta rdf:type owl:Class ;
              
@@ -167,7 +167,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Calx
+###  http://lari-datasets.ilc.cnr.it/res#Calx
 
 :Calx rdf:type owl:Class ;
       
@@ -178,73 +178,73 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Carnes
+###  http://lari-datasets.ilc.cnr.it/res#Carnes
 
 :Carnes rdf:type owl:Class ;
         
         rdfs:label "MEATS"@en ,
                    "Carnes"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Casae
+###  http://lari-datasets.ilc.cnr.it/res#Casae
 
 :Casae rdf:type owl:Class ;
        
        rdfs:label "HUTS"@en ,
                   "Casae"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cenotaphium
+###  http://lari-datasets.ilc.cnr.it/res#Cenotaphium
 
 :Cenotaphium rdf:type owl:Class ;
              
              rdfs:label "cenotaph"@en ,
                         "Cenotaphium"@la ;
              
-             rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+             rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cerealia
+###  http://lari-datasets.ilc.cnr.it/res#Cerealia
 
 :Cerealia rdf:type owl:Class ;
           
           rdfs:label "CEREALS"@en ,
                      "Cerealia"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Circi
+###  http://lari-datasets.ilc.cnr.it/res#Circi
 
 :Circi rdf:type owl:Class ;
        
        rdfs:label "CIRCUS"@en ,
                   "Circi"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Condimenta_et_pimenta
+###  http://lari-datasets.ilc.cnr.it/res#Condimenta_et_pimenta
 
 :Condimenta_et_pimenta rdf:type owl:Class ;
                        
                        rdfs:label "condiments and pimientos"@en ,
                                   "Condimenta et pimenta"@la ;
                        
-                       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+                       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Creta
+###  http://lari-datasets.ilc.cnr.it/res#Creta
 
 :Creta rdf:type owl:Class ;
        
@@ -255,7 +255,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Cubicula
+###  http://lari-datasets.ilc.cnr.it/res#Cubicula
 
 :Cubicula rdf:type owl:Class ;
           
@@ -266,40 +266,40 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Domus
+###  http://lari-datasets.ilc.cnr.it/res#Domus
 
 :Domus rdf:type owl:Class ;
        
        rdfs:label "HOUSES"@en ,
                   "Domus"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ecclesiae
+###  http://lari-datasets.ilc.cnr.it/res#Ecclesiae
 
 :Ecclesiae rdf:type owl:Class ;
            
            rdfs:label "churches"@en ,
                       "Ecclesiae"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Farta_cibaria
+###  http://lari-datasets.ilc.cnr.it/res#Farta_cibaria
 
 :Farta_cibaria rdf:type owl:Class ;
                
                rdfs:label "stuffed foods"@en ,
                           "Farta cibaria"@la ;
                
-               rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+               rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ferrum
+###  http://lari-datasets.ilc.cnr.it/res#Ferrum
 
 :Ferrum rdf:type owl:Class ;
         
@@ -310,7 +310,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Gemmae
+###  http://lari-datasets.ilc.cnr.it/res#Gemmae
 
 :Gemmae rdf:type owl:Class ;
         
@@ -321,7 +321,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Horti
+###  http://lari-datasets.ilc.cnr.it/res#Horti
 
 :Horti rdf:type owl:Class ;
        
@@ -332,7 +332,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_ad_cultum_personae
+###  http://lari-datasets.ilc.cnr.it/res#Instrumenta_ad_cultum_personae
 
 :Instrumenta_ad_cultum_personae rdf:type owl:Class ;
                                 
@@ -343,7 +343,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_ad_rem_rusticam_adhibita
+###  http://lari-datasets.ilc.cnr.it/res#Instrumenta_ad_rem_rusticam_adhibita
 
 :Instrumenta_ad_rem_rusticam_adhibita rdf:type owl:Class ;
                                       
@@ -354,7 +354,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_scriptoria
+###  http://lari-datasets.ilc.cnr.it/res#Instrumenta_scriptoria
 
 :Instrumenta_scriptoria rdf:type owl:Class ;
                         
@@ -365,7 +365,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Instrumenta_varia
+###  http://lari-datasets.ilc.cnr.it/res#Instrumenta_varia
 
 :Instrumenta_varia rdf:type owl:Class ;
                    
@@ -376,29 +376,29 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Isicia
+###  http://lari-datasets.ilc.cnr.it/res#Isicia
 
 :Isicia rdf:type owl:Class ;
         
         rdfs:label "sausages"@en ,
                    "Isicia"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lac
+###  http://lari-datasets.ilc.cnr.it/res#Lac
 
 :Lac rdf:type owl:Class ;
      
      rdfs:label "milk"@en ,
                 "Lac"@la ;
      
-     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lapides_et_metalla
+###  http://lari-datasets.ilc.cnr.it/res#Lapides_et_metalla
 
 :Lapides_et_metalla rdf:type owl:Class ;
                     
@@ -406,11 +406,11 @@
                                """Lapides et Metalla
 """@la ;
                     
-                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+                    rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Lapis
+###  http://lari-datasets.ilc.cnr.it/res#Lapis
 
 :Lapis rdf:type owl:Class ;
        
@@ -421,7 +421,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Marmor
+###  http://lari-datasets.ilc.cnr.it/res#Marmor
 
 :Marmor rdf:type owl:Class ;
         
@@ -432,29 +432,29 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Mausolea
+###  http://lari-datasets.ilc.cnr.it/res#Mausolea
 
 :Mausolea rdf:type owl:Class ;
           
           rdfs:label "mausoleums"@en ,
                      "Mausolea"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Mel
+###  http://lari-datasets.ilc.cnr.it/res#Mel
 
 :Mel rdf:type owl:Class ;
      
      rdfs:label "honey"@en ,
                 "Mel"@la ;
      
-     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Moenia
+###  http://lari-datasets.ilc.cnr.it/res#Moenia
 
 :Moenia rdf:type owl:Class ;
         
@@ -465,29 +465,29 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Olera
+###  http://lari-datasets.ilc.cnr.it/res#Olera
 
 :Olera rdf:type owl:Class ;
        
        rdfs:label "vegetables"@en ,
                   "Olera"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Oleum
+###  http://lari-datasets.ilc.cnr.it/res#Oleum
 
 :Oleum rdf:type owl:Class ;
        
        rdfs:label "OLIVE OIL"@en ,
                   "Oleum"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ornamenta
+###  http://lari-datasets.ilc.cnr.it/res#Ornamenta
 
 :Ornamenta rdf:type owl:Class ;
            
@@ -498,40 +498,40 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Ova
+###  http://lari-datasets.ilc.cnr.it/res#Ova
 
 :Ova rdf:type owl:Class ;
      
      rdfs:label "EGGS"@en ,
                 "Ova"@la ;
      
-     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Palatia
+###  http://lari-datasets.ilc.cnr.it/res#Palatia
 
 :Palatia rdf:type owl:Class ;
          
          rdfs:label "PALACES"@en ,
                     "Palatia"@la ;
          
-         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Panis_et_res_pistoriae
+###  http://lari-datasets.ilc.cnr.it/res#Panis_et_res_pistoriae
 
 :Panis_et_res_pistoriae rdf:type owl:Class ;
                         
                         rdfs:label "bread and baked products"@en ,
                                    "Panis et res pistoriae"@la ;
                         
-                        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+                        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Partes_aedificiorum_variae
+###  http://lari-datasets.ilc.cnr.it/res#Partes_aedificiorum_variae
 
 :Partes_aedificiorum_variae rdf:type owl:Class ;
                             
@@ -542,15 +542,15 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Parts_of_Buildings
+###  http://lari-datasets.ilc.cnr.it/res#Parts_of_Buildings
 
 :Parts_of_Buildings rdf:type owl:Class ;
                     
-                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+                    rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pilei_vel_petasi
+###  http://lari-datasets.ilc.cnr.it/res#Pilei_vel_petasi
 
 :Pilei_vel_petasi rdf:type owl:Class ;
                   
@@ -561,73 +561,73 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pontes
+###  http://lari-datasets.ilc.cnr.it/res#Pontes
 
 :Pontes rdf:type owl:Class ;
         
         rdfs:label "BRIDGES"@en ,
                    "Pontes"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Porticus
+###  http://lari-datasets.ilc.cnr.it/res#Porticus
 
 :Porticus rdf:type owl:Class ;
           
           rdfs:label "PORTICO"@en ,
                      "Porticus"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Putei
+###  http://lari-datasets.ilc.cnr.it/res#Putei
 
 :Putei rdf:type owl:Class ;
        
        rdfs:label "WELLS"@en ,
                   "Putei"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Pyramides
+###  http://lari-datasets.ilc.cnr.it/res#Pyramides
 
 :Pyramides rdf:type owl:Class ;
            
            rdfs:label "pyramids"@en ,
                       "Pyramides"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Res_domesticae
+###  http://lari-datasets.ilc.cnr.it/res#Res_domesticae
 
 :Res_domesticae rdf:type owl:Class ;
                 
                 rdfs:label "Domestic Things"@en ,
                            "Res Domesticae"@la ;
                 
-                rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+                rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Salutatorium_cubile
+###  http://lari-datasets.ilc.cnr.it/res#Salutatorium_cubile
 
 :Salutatorium_cubile rdf:type owl:Class ;
                      
                      rdfs:label "consultation house"@en ,
                                 "Salutatorium cubile"@la ;
                      
-                     rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+                     rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Scalae
+###  http://lari-datasets.ilc.cnr.it/res#Scalae
 
 :Scalae rdf:type owl:Class ;
         
@@ -638,7 +638,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Sigilla_varia
+###  http://lari-datasets.ilc.cnr.it/res#Sigilla_varia
 
 :Sigilla_varia rdf:type owl:Class ;
                
@@ -649,7 +649,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Signa_honorifica
+###  http://lari-datasets.ilc.cnr.it/res#Signa_honorifica
 
 :Signa_honorifica rdf:type owl:Class ;
                   
@@ -660,7 +660,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Silex
+###  http://lari-datasets.ilc.cnr.it/res#Silex
 
 :Silex rdf:type owl:Class ;
        
@@ -671,29 +671,29 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Simulacra_et_signa
+###  http://lari-datasets.ilc.cnr.it/res#Simulacra_et_signa
 
 :Simulacra_et_signa rdf:type owl:Class ;
                     
                     rdfs:label "statues and images"@en ,
                                "Simulacra et signa"@la ;
                     
-                    rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+                    rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Stadium
+###  http://lari-datasets.ilc.cnr.it/res#Stadium
 
 :Stadium rdf:type owl:Class ;
          
          rdfs:label "STADIUM"@en ,
                     "Stadium"@la ;
          
-         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_deorum
+###  http://lari-datasets.ilc.cnr.it/res#Statuae_deorum
 
 :Statuae_deorum rdf:type owl:Class ;
                 
@@ -704,7 +704,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_heroum
+###  http://lari-datasets.ilc.cnr.it/res#Statuae_heroum
 
 :Statuae_heroum rdf:type owl:Class ;
                 
@@ -715,7 +715,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Statuae_hominum
+###  http://lari-datasets.ilc.cnr.it/res#Statuae_hominum
 
 :Statuae_hominum rdf:type owl:Class ;
                  
@@ -726,7 +726,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Supellex
+###  http://lari-datasets.ilc.cnr.it/res#Supellex
 
 :Supellex rdf:type owl:Class ;
           
@@ -737,7 +737,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Tabula_picta
+###  http://lari-datasets.ilc.cnr.it/res#Tabula_picta
 
 :Tabula_picta rdf:type owl:Class ;
               
@@ -748,62 +748,62 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Templa
+###  http://lari-datasets.ilc.cnr.it/res#Templa
 
 :Templa rdf:type owl:Class ;
         
         rdfs:label "TEMPLES"@en ,
                    "Templa"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Theatra
+###  http://lari-datasets.ilc.cnr.it/res#Theatra
 
 :Theatra rdf:type owl:Class ;
          
          rdfs:label "THEATERS"@en ,
                     "Theatra"@la ;
          
-         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Thermae
+###  http://lari-datasets.ilc.cnr.it/res#Thermae
 
 :Thermae rdf:type owl:Class ;
          
          rdfs:label "thermal baths"@en ,
                     "Thermae"@la ;
          
-         rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+         rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Triclinia
+###  http://lari-datasets.ilc.cnr.it/res#Triclinia
 
 :Triclinia rdf:type owl:Class ;
            
            rdfs:label "triclinium"@en ,
                       "Triclinia"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Turres
+###  http://lari-datasets.ilc.cnr.it/res#Turres
 
 :Turres rdf:type owl:Class ;
         
         rdfs:label "TOWERS"@en ,
                    "Turres"@la ;
         
-        rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Aedificia> .
+        rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Aedificia> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vallum
+###  http://lari-datasets.ilc.cnr.it/res#Vallum
 
 :Vallum rdf:type owl:Class ;
         
@@ -814,7 +814,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vasa_coquinaria
+###  http://lari-datasets.ilc.cnr.it/res#Vasa_coquinaria
 
 :Vasa_coquinaria rdf:type owl:Class ;
                  
@@ -825,18 +825,18 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vehicula
+###  http://lari-datasets.ilc.cnr.it/res#Vehicula
 
 :Vehicula rdf:type owl:Class ;
           
           rdfs:label "vehicles"@en ,
                      "Vehicula"@la ;
           
-          rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+          rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vestimenta
+###  http://lari-datasets.ilc.cnr.it/res#Vestimenta
 
 :Vestimenta rdf:type owl:Class ;
             
@@ -847,7 +847,7 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vici
+###  http://lari-datasets.ilc.cnr.it/res#Vici
 
 :Vici rdf:type owl:Class ;
       
@@ -858,29 +858,29 @@
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vinum
+###  http://lari-datasets.ilc.cnr.it/res#Vinum
 
 :Vinum rdf:type owl:Class ;
        
        rdfs:label "Wine"@en ,
                   "Vinum"@la ;
        
-       rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
+       rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#Alimenta_et_potiones> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Viridaria
+###  http://lari-datasets.ilc.cnr.it/res#Viridaria
 
 :Viridaria rdf:type owl:Class ;
            
            rdfs:label "PARKS"@en ,
                       "Viridaria"@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vtensilia
+###  http://lari-datasets.ilc.cnr.it/res#Vtensilia
 
 :Vtensilia rdf:type owl:Class ;
            
@@ -888,11 +888,11 @@
                       """Vtensilia
 """@la ;
            
-           rdfs:subClassOf <http://www.semanticweb.org/fahadkhan/ontologies/2014/2/Latin_Mid_Level_Ontology#res> .
+           rdfs:subClassOf <http://lari-datasets.ilc.cnr.it/Latin_Mid_Level_Ontology#res> .
 
 
 
-###  http://www.semanticweb.org/fahadkhan/ontologies/2015/5/res#Vtensilia_varia
+###  http://lari-datasets.ilc.cnr.it/res#Vtensilia_varia
 
 :Vtensilia_varia rdf:type owl:Class ;
                  
